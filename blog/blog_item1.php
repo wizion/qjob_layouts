@@ -60,7 +60,7 @@ include 'header-blog.php';
 
 </section>
 <section class="blogText">
-    <div class="blogTextItem">
+    <blockquote class="blogTextItem">
         <p>Robert utolsó éves egyetemista hallgató ként, a Qjob.hu segítségével teljesít 3-4 futár megbízást naponta, hogy fedezni tudja, kiadásait,mikor a hétvégén kikapcsolodik a barátaival, vagy meglepi barátnőjét.</p>
         <p>Egyetemista ként, hogyan osszam meg az időmet a tanulmányaim és a munkám között, mire figyeljek, ha megrendelővel tárgyalok, és mivel jobb a tömegközlekedés a biciglinél – a szövegben Robert</p>
         <h2>Folyamatos mozgás</h2>
@@ -92,11 +92,11 @@ include 'header-blog.php';
         <p>
             Például tavaly a Karácsonyt megelöző időszakban, annyi megrendelést kaptam és teljesítettem, hogy minden héten volt lehetőségem barátnőmet elvinni étterembe.
         </p>
-        <div class="citation">
+        <blockquote>
             <p>
                 Persze most nem tudok annyi megrendelést vállalni elfoglaltságaim miatt, de mozizásra, kávéházakra, muzeúmokra így is elegendő.
             </p>
-        </div>
+        </blockquote>
         <p>
             Álltalában az utolsó óráimon, a qjob.hu felületén olyan megrendeléseket keresek, amelyek közel vannak az egyetem épületéhez. Így indul a munkanapom.
         </p>

@@ -780,7 +780,7 @@ body{
           border-radius: 10px !important;
         }
       }
-      .citation{
+      blockquote{
         margin: 30px 0;
         font-size: 30px;
         line-height: 34px;
@@ -818,12 +818,7 @@ body{
           line-height: 30px;
           margin: 30px -7vw 15px 0;
         }
-        &.full_width{
-          float: right;
-          font-size: 30px;
-          line-height: 30px;
-          padding: 15px 30px 15px 10px;
-        }
+
         p{
 
         }
@@ -1008,7 +1003,7 @@ $grey3: #EDE8F7;
           padding: 45px 10px;
           width: 100%;
         }
-        p,img,h2,h3,.citation{
+        p,img,h2,h3,blockquote{
           padding: 10px 10px;
           max-width: 600px;
         }
@@ -1022,7 +1017,7 @@ $grey3: #EDE8F7;
             padding: 0;
           }
         }
-        .citation{
+        blockquote{
           &.cols_right,&.cols_left{
             margin: 30px 0 15px 0;
             h3{
@@ -1200,7 +1195,7 @@ $grey3: #EDE8F7;
           padding: 10px 2%;
           width: 96%;
         }
-        p,h2,h3,.citation{
+        p,h2,h3,blockquote{
           padding: 10px 20px;
           width: 90%;
         }
@@ -1218,7 +1213,7 @@ $grey3: #EDE8F7;
         .fotorama{
           width: 100%;
         }
-        .citation{
+        blockquote{
           margin: 30px 0;
           &.cols_left{
             width: 96%;
@@ -1302,7 +1297,7 @@ $grey3: #EDE8F7;
         .advice{
 
         }
-        .citation{
+        blockquote{
           padding: 30px 20px 0;
           width: 86%;
           &.full_width, &.cols_right,&.cols_left{
