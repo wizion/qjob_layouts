@@ -4,7 +4,7 @@ include 'header-blog.php';
 <section class="progressBar">
     <div class="indicator"></div>
 </section>
-<section style="background-image: url('assets/img/posts/1/fokep.jpg');" class="blogImage">
+<section style="background-image: url('../assets/img/posts/1/fokep.jpg');" class="blogImage">
     <div class="mainImageElements">
         <div class="meta">
             <h1>Hogyan egészítheti ki keresetét egy egyetemi hallgató?</h1>
@@ -60,7 +60,7 @@ include 'header-blog.php';
 
 </section>
 <section class="blogText">
-    <blockquote class="blogTextItem">
+    <div class="blogTextItem">
         <p>Robert utolsó éves egyetemista hallgató ként, a Qjob.hu segítségével teljesít 3-4 futár megbízást naponta, hogy fedezni tudja, kiadásait,mikor a hétvégén kikapcsolodik a barátaival, vagy meglepi barátnőjét.</p>
         <p>Egyetemista ként, hogyan osszam meg az időmet a tanulmányaim és a munkám között, mire figyeljek, ha megrendelővel tárgyalok, és mivel jobb a tömegközlekedés a biciglinél – a szövegben Robert</p>
         <h2>Folyamatos mozgás</h2>

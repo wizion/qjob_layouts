@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f61564e-f5f3-40c3-803b-11b75a21fdc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/general.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog_item.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/blog_item1.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog_item1.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +59,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/blog_item1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+            <state relative-caret-position="-2211">
+              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -306,12 +301,12 @@
       <workItem from="1564500002066" duration="34147000" />
       <workItem from="1564665910295" duration="179000" />
       <workItem from="1564753651880" duration="40407000" />
-      <workItem from="1565686889599" duration="3197000" />
+      <workItem from="1565686889599" duration="3842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272095000" />
+    <option name="totallyTimeSpent" value="272740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -567,8 +562,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog_item1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        <state relative-caret-position="-2211">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
