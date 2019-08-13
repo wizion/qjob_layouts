@@ -1,0 +1,364 @@
+$black-blue: #1D1539;
+$light-grey: #9B99AA;
+$sea_color: #13C98A;
+$grey1: #9B99AA;
+$blue: #2E09B6;
+$black2: #4F4F4F;
+$black-blue: #1D1539;
+
+section.taskPage{
+  display: grid;
+  grid-template-areas: "TabBlock TabBlock "
+  "MapBlock MapBlock"
+  "AdvList sideFilter";
+  grid-template-columns: 1fr 30%;
+  .titleAndMapButton{
+    grid-area: TabBlock;
+    margin: 70px 50px 15px 70px;
+    display: flex;
+    div{
+      margin: 0 0 0 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 14px;
+      line-height: 16px;
+      color: $grey1;
+      .mapButton{
+        content: "";
+        background-size: 60px 32px;
+        width: 60px;
+        height: 32px;
+        background-repeat: no-repeat;
+        margin: 0 8px 0 0;
+        &.on{
+          background-image: url('../img/buttons/mapon.png');
+        }
+        &.off{
+          background-image: url('../img/buttons/mapoff.png');
+        }
+      }
+    }
+  }
+  .mapBlock{
+    grid-area: MapBlock;
+    margin: 20px 70px;
+    display: none;
+
+    &.show{
+      display: block;
+    }
+
+  }
+  .advList{
+    grid-area: AdvList;
+    .item{
+      background: #FFFFFF;
+      border: 1px solid #EDE8F7;
+      box-sizing: border-box;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(32, 32, 32, 0.05);
+      border-radius: 8px;
+      margin: 0 50px 15px 70px;
+      display: grid;
+      grid-template-areas: "ava desc";
+      grid-template-columns: 10% 90%;
+      padding: 24px;
+      .avatar{
+        grid-area: ava;
+        .avatarBlock{
+          border-radius: 24px;
+          width: 48px;
+          height: 48px;
+          background: #F5ACAC;
+          position: relative;
+          img{
+            position: absolute;
+          }
+        }
+      }
+      .allDesc{
+        grid-area: desc;
+        display: grid;
+        grid-template: "itemStatus itemPrice" auto
+                        "itemTitle itemPrice" auto
+                        "itemAddress itemAuthName" auto
+                        "itemDate itemLikes" auto
+                        "itemRisk itemFavButtons" auto;
+        grid-template-columns: 70% 1fr;
+
+        .status{
+          grid-area: itemStatus;
+          font-family: 'LetoSans-Bold', sans-serif;
+          font-size: 12px;
+          line-height: 14px;
+          color: $grey1;
+          margin-bottom: 5px;
+        }
+        h4.title{
+          grid-area: itemTitle;
+          font-size: 18px;
+          line-height: 21px;
+          color: $blue;
+          cursor: pointer;
+          margin-bottom: 5px;
+        }
+        .address{
+          grid-area: itemAddress;
+          font-size: 14px;
+          line-height: 22px;
+          color: $black2;
+          margin-bottom: 10px;
+        }
+        .date{
+          grid-area: itemDate;
+          font-size: 14px;
+          line-height: 22px;
+          color: $black2;
+          margin-bottom: 10px;
+          span{
+            border-radius: 4px;
+            padding: 6px 10px;
+            background: #EDE8F7;
+          }
+        }
+        .riskDeal{
+          grid-area: itemRisk;
+          font-size: 14px;
+          line-height: 22px;
+          color: $black2;
+          display: flex;
+          &:before{
+            content: "";
+            background-image: url('../img/logos/norisc.png');
+            background-size: 27px 22px;
+            width: 27px;
+            height: 22px;
+            background-repeat: no-repeat;
+            margin: 0 8px 0 0;
+          }
+        }
+        .price{
+          grid-area: itemPrice;
+          font-size: 16px;
+          line-height: 19px;
+          color: $black-blue;
+          align-self: center;
+          text-align: right;
+          span{
+            font-family: 'LetoSans-Bold',sans-serif;
+            padding: 5px 5px;
+            border-radius: 4px;
+            background: #FFDA58;
+          }
+        }
+        .authorName{
+          grid-area: itemAuthName;
+          font-size: 14px;
+          line-height: 22px;
+          color: $black2;
+          text-align: right;
+          align-self: end;
+        }
+        .likes{
+          grid-area: itemLikes;
+          font-size: 12px;
+          line-height: 14px;
+          color: #6A6976;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          .like{
+            display: inherit;
+            margin-right: 7px;
+            &:before{
+              content: "";
+              background: url('../img/logos/like.png') no-repeat;
+              background-size: 14px 15px;
+              width: 14px;
+              height: 15px;
+              margin: 0 4px 0 0;
+            }
+          }
+          .dislike{
+            display: inherit;
+            &:before{
+              content: "";
+              background: url("../img/logos/dislike.png") no-repeat;
+              background-size: 14px 15px;
+              width: 14px;
+              height: 15px;
+              margin: 0 4px 0 0;
+            }
+          }
+        }
+        .buttons{
+          grid-area: itemFavButtons;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          .favorite{
+            content: "";
+            background: url("../img/logos/favorite.png") no-repeat;
+            background-size: 32px 32px;
+            width: 32px;
+            height: 32px;
+            margin-right: 5px;
+          }
+          .dontshow{
+            content: "";
+            background: url("../img/logos/visibility.png") no-repeat;
+            background-size: 32px 32px;
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+    }
+  }
+  .sidebarFilter{
+    grid-area: sideFilter;
+    margin: 0 70px 20px 20px;
+    .searchFieldMobile{
+      display: none;
+      align-items: center;
+      border: 2px solid #EDE8F7;
+      box-sizing: border-box;
+      border-radius: 6px;
+      padding: 15px 15px;
+      height: 56px;
+      margin: 15px 15px;
+      button{
+        display: inherit;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        &:before{
+          content: "";
+          background: url("../img/buttons/search.png") no-repeat;
+          background-size: 24px 24px;
+          width: 24px;
+          height: 24px;
+        }
+      }
+
+      input{
+        height: 28px;
+        padding: 0 2px;
+        border: 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: $black-blue;
+        width: 100%;
+        margin: 0;
+      }
+
+    }
+    label{
+      font-size: 11px;
+      line-height: 13px;
+      color: $grey1;
+    }
+    input{
+      height: 28px;
+      padding: 0 2px;
+      border: 0;
+      font-size: 14px;
+      line-height: 16px;
+      color: $black-blue;
+      width: 100%;
+      margin: 0;
+    }
+
+    .filterBlock{
+      border: 1px solid #EDE8F7;
+      box-sizing: border-box;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin-bottom: 25px;
+      padding: 24px;
+      .cityField, .radiusOfSearch, .priceValue,.searchField{
+        border: 2px solid #EDE8F7;
+        box-sizing: border-box;
+        border-radius: 6px;
+        padding: 10px 15px;
+        height: 56px;
+        margin: 5px 0 8px 0;
+      }
+      .searchField{
+        display: flex;
+        align-items: center;
+        button{
+          display: inherit;
+          padding: 0;
+          border: 0;
+          margin: 0;
+          &:before{
+            content: "";
+            background: url("../img/buttons/search.png") no-repeat;
+            background-size: 24px 24px;
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+      .taskFilter{
+          label{
+            display: flex;
+            font-size: 14px;
+            line-height: 16px;
+            color: $black-blue;
+            margin: 15px 0;
+
+            &:hover input ~ .checkmark {
+              border: 1px solid #2E09B6;
+            }
+            input[type=checkbox]{
+              display: none;
+            }
+            input[type=checkbox]:checked ~ .checkmark{
+              content: "";
+              background: url("../img/buttons/check.png") no-repeat;
+              background-size: 20px 20px;
+              width: 20px;
+              height: 20px;
+              border: 0;
+            }
+
+            .checkmark{
+              height: 20px;
+              width: 20px;
+              border: 1px solid #C0BAD5;
+              box-sizing: border-box;
+              border-radius: 3px;
+              display: block;
+              margin: 0 10px 0 0;
+            }
+          }
+      }
+    }
+    .categoryFilter{
+      .selectedCategoryList{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        div{
+          margin: 5px 10px 5px 5px;
+          display: inherit;
+          span.remove{
+            content: "";
+            background: url("../img/buttons/close.png") no-repeat;
+            background-size: 24px 24px;
+            width: 24px;
+            height: 24px;
+            border: 0;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+    .categoryFilterMobile{
+      display: none;
+    }
+  }
+
+}

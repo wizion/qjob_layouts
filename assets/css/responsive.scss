@@ -1,0 +1,639 @@
+$grey1: #9B99AA;
+$grey3: #EDE8F7;
+@media screen and  (max-width: 1920px){
+
+}
+@media screen and  (max-width: 1536px){
+
+}
+@media screen and (max-width: 1200px){
+
+
+  body{
+    /*blog*/
+    section.blogImage{
+      .mainImageElements{
+        .meta{
+          padding: 0;
+            h1{
+              letter-spacing: .5px;
+              font-size: 68px;
+              line-height: 1.17;
+            }
+            .description{
+              width: 95%;
+            }
+          }
+        }
+      }
+    section.blogText{
+      grid-template: "ca bt ." 1fr/160px 630px 180px;
+      max-width: 960px;
+      .customerAvatar{
+        max-width: 150px;
+      }
+      .blogTextItem{
+        max-width: 620px;
+        p{
+          font-size: 18px;
+        }
+        iframe{
+          width: 100%;
+        }
+        h2,h3,a,p{
+          padding: 15px 0 15px 0px;
+        }
+        img{
+          padding: 0;
+          width: 100%;
+        }
+      }
+    }
+    section.taskPage{
+      .sidebarFilter{
+        margin: 0 40px 20px 10px;
+        .filterBlock{
+
+        }
+        .categoryFilter{
+          margin-bottom: 40px;
+        }
+      }
+      .advList{
+        .item{
+          margin: 0 20px 15px 50px;
+          grid-template: "desc" 1fr;
+          grid-template-columns: auto;
+        }
+        .avatar{
+          display: none;
+        }
+      }
+    }
+  }
+
+    /* blog end */
+
+  }
+
+@media screen and (max-width: 1024px){
+  body{
+    section.blogImage{
+      background-attachment: scroll;
+      min-height: 450px;
+      .mainImageElements{
+        width: 79vw;
+        .meta{
+          .description{
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+
+  /*blog*/
+  body{
+    grid-template:
+            [row1-start] "bh" auto [row1-end]
+            [row2-start] "bn" auto [row2-end]
+            [row3-start] "tb" [row3-end]
+            [row4-start] "sl" auto [row4-end]
+            [row5-start] "rp" auto [row5-end]
+            [row6-start] "ft" auto [row6-end] / 100%;
+    section.blogImage{
+      grid-auto-rows: 1fr auto;
+      min-height: 445px;
+      .mainImageElements{
+        align-self: center;
+        margin: 16vh 10vw 5vh;
+        .meta{
+          padding-bottom: 0;
+          h1{
+            font-size: 62px;
+            line-height: 62px;
+          }
+        }
+      }
+
+    }
+    section.social_links{
+      width: 95%;
+    }
+    section.blogText{
+      padding: 0 15px 0;
+      grid-template: "ca" auto "bt" auto/100%;
+      max-width: 100%;
+
+
+      .blogTextItem{
+        a.qjobPostLink{
+          padding: 45px 10px;
+          width: 100%;
+        }
+        p,img,h2,h3,.citation{
+          padding: 10px 10px;
+          max-width: 600px;
+        }
+        iframe{
+          width: 100%;
+        }
+        .advice{
+          margin: 0 0;
+          width: 100%;
+          .adviceBlock{
+            padding: 0;
+          }
+        }
+        .citation{
+          &.cols_right,&.cols_left{
+            margin: 30px 0 15px 0;
+            h3{
+              width: 100%;
+            }
+          }
+          &.full_width{
+
+          }
+        }
+      }
+
+      .customerAvatar{
+        position: relative;
+        height: auto;
+        top: initial;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 80%;
+        padding: 10% 0;
+        .Paragraph{
+          margin: 0 auto;
+          display: block;
+        }
+
+      }
+    }
+  }
+
+
+  /*end blog*/
+  header.blogBlock{
+    grid-template-areas: "logo enter nav lang mmenu";
+    grid-template-columns: auto 1fr 1fr auto auto;
+
+  }
+
+
+  header{
+    grid-template-columns: auto auto 1fr 85px auto;
+    nav.jqob-hmenu{
+      padding: 0 5%;
+      a{
+        margin: 0 auto;
+        font-size: 12px;
+        &:first-child{
+          &:before{
+            height: 12px;
+            width: 16px;
+          }
+        }
+      }
+    }
+    .enter{
+      a{
+        display: none;
+      }
+    }
+  }
+  section.taskPage{
+    .sidebarFilter{
+      margin: 0 10px 20px 10px;
+      input{
+        height: 18px;
+      }
+      .filterBlock{
+        .cityField, .radiusOfSearch, .priceValue, .searchField{
+          padding: 5px 10px;
+        }
+        .taskFilter{
+          label{
+            font-size: 10px;
+            line-height: 20px;
+          }
+        }
+      }
+      .categoryFilter{
+        margin-bottom: 40px;
+
+      }
+    }
+    .advList{
+      .item{
+        margin: 0 10px 15px 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body{
+    section.blogImage{
+      min-height: 600px;
+      .mainImageElements {
+        .meta{
+          h1{
+            font-size: 61px;
+            line-height: 61px;
+          }
+        }
+        align-self: center;
+        margin: 16% 10vw 5vh;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  header{
+    &.tasks{
+      grid-template-areas: "logo lang mmenu";
+      grid-template-columns: 25% 1fr 10%;
+    }
+
+    .logo {
+      .logo-img {
+        background: url('../img/logomobile.png') no-repeat;
+        background-size: 55px 22px;
+        width: 55px;
+        height: 22px;
+      }
+    }
+    .languages{
+      justify-content: flex-end;
+      margin-right: 20px;
+    }
+    nav.jqob-hmenu{
+      display: none;
+    }
+    .enter{
+      display: none;
+    }
+  }
+  section.taskPage{
+    grid-template-areas: "TabBlock TabBlock" "MapBlock MapBlock" "sideFilter sideFilter" "AdvList AdvList";
+    grid-template-columns: 1fr 30%;
+    .titleAndMapButton{
+      margin: 20px 15px 0;
+      h1{
+        font-size: 18px;
+        line-height: 21px;
+      }
+      div{
+        display: none;
+      }
+    }
+
+    .advList{
+      .item{
+        border: 1px solid #EDE8F7;
+        box-sizing: border-box;
+        box-shadow: 0 4px 10px rgba(32, 32, 32, 0.1);
+        border-radius: 8px;
+        margin: 15px 15px 15px;
+        display: grid;
+        grid-template: "desc" 1fr;
+        padding: 20px 15px;
+        grid-template-columns: auto;
+        .allDesc{
+          grid-template: "itemStatus itemStatus itemStatus" auto
+          "itemTitle itemTitle itemTitle" 1fr
+          "itemPrice itemRisk itemRisk" auto
+          "itemAddress itemAddress itemAddress" auto
+          "itemDate itemDate itemDate" auto
+          "itemAuthName itemLikes itemFavButtons" auto;
+          grid-template-columns:  100px 1fr 1fr;
+          .status{
+            font-size: 10px;
+            line-height: 12px;
+            color: $grey1;
+          }
+          h4.title{
+            font-size: 14px;
+            line-height: 20px;
+          }
+          .date{
+            span{
+              display: block;
+              text-align: center;
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+          .riskDeal{
+            align-items: center;
+            margin-left: 5px;
+            span{
+              display: none;
+            }
+          }
+          .price{
+            text-align: left;
+            span{
+              font-size: 14px;
+              line-height: 16px;
+              width: 80%;
+              display: flex;
+              text-align: center;
+              justify-content: center;
+              align-self: center;
+            }
+          }
+          .address{
+            margin: 10px 0;
+            font-size: 12px;
+            line-height: 22px;
+          }
+          .authorName{
+            text-align: center;
+            align-self: center;
+          }
+          .likes{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-self: center;
+          }
+          .buttons{
+            align-self: center;
+          }
+        }
+        .avatar{
+          display: none;
+        }
+      }
+    }
+    .sidebarFilter{
+      .searchFieldMobile{
+
+        display: flex;
+        input{
+          color: inherit;
+          font-size: inherit;
+          line-height: inherit;
+        }
+      }
+      .filterBlock{
+        display: none;
+      }
+      .categoryFilter{
+        display: none;
+      }
+      .categoryFilterMobile{
+        justify-items: center;
+        line-height: 24px;
+        display: -webkit-flex;
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        justify-content: flex-end;
+        margin: 15px auto;
+        .catButton{
+          align-content: flex-start;
+          display: inherit;
+          margin-right: auto;
+          &:before {
+            content: "";
+            width: 18px;
+            height: 18px;
+            background-repeat: no-repeat;
+            margin: auto 5px auto 15px;
+            background-image: url('../img/buttons/list.png');
+            display: block;
+          }
+        }
+        .filtrList{
+          align-content: flex-end;
+          display: inherit;
+          margin: 0 15px;
+          &:before{
+            display: block;
+            content: "";
+            width: 24px;
+            height: 24px;
+            background-repeat: no-repeat;
+            margin: auto 5px auto 10px;
+            background-image: url('../img/buttons/flterList.png');
+          }
+
+
+        }
+      }
+    }
+  }
+  footer{
+    border-top: 1px solid $grey3;
+    display: grid;
+    grid-template-areas: "lc";
+    grid-template-columns: 1fr;
+    margin: 40px 0 0 0;
+    .footer_menu{
+      display: none;
+    }
+  }
+
+
+  /*blog*/
+  body{
+    section.blogImage{
+      background-attachment: scroll;
+      grid-template-areas: "metaText" "imageNavBar";
+      justify-content: space-between;
+      height: 73vh;
+      .mainImageElements{
+        align-self: center;
+        margin: 20vh 5vw 5vh;
+        width: 90%;
+        .meta{
+          h1{
+            font-size: 32px;
+            line-height: 32px;
+            margin-bottom: 40px;
+          }
+          .description{
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+      }
+      .mainImageBar{
+        margin: 0 5vw 15px;
+        align-self: center;
+        .shares{
+          .qjobShareButton{
+            .shareWindow{
+              width: 95%;
+              top: initial;
+              position: fixed;
+              bottom: 30px;
+              left: 2.5%;
+              &::after{
+                display: none;
+              }
+            }
+          }
+        }
+        .arrow{
+          svg{
+            width: 26px;
+          }
+        }
+      }
+
+    }
+
+    section.blogText{
+      padding: 0;
+      margin: initial;
+      grid-template: "ca" auto "bt" auto/100%;
+      max-width: 640px;
+      .blogTextItem{
+        a.qjobPostLink{
+          padding: 10px 2%;
+          width: 96%;
+        }
+        p,h2,h3,.citation{
+          padding: 10px 20px;
+          width: 90%;
+        }
+        p{
+          font-size: 16px;
+        }
+        img{
+          margin: 30px auto;
+          padding: 0;
+          width: 100%;
+        }
+        .advice{
+
+        }
+        .fotorama{
+          width: 100%;
+        }
+        .citation{
+          margin: 30px 0;
+          &.cols_left{
+            width: 96%;
+            float: initial;
+            padding: 30px 2%;
+          }
+          &.cols_right{
+            width: 96%;
+            float: initial;
+            padding: 30px 2%;
+          }
+          &.full_width{
+            padding: 10px 20px;
+            width: 90%;
+            float: none;
+          }
+          h2,h3,h4,p{
+            margin: -10px 0 5px;
+            width: 95%;
+          }
+        }
+      }
+    }
+    section.relatedPosts{
+      padding: 40px 15px;
+      .relatedPostsList{
+        flex-flow: initial;
+        justify-content: initial;
+        overflow: auto;
+        .item{
+          width: 278px;
+          margin: 10px 8px;
+          .image{
+            img{
+              max-width: 272px;
+              width: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+  /*end blog*/
+
+}
+
+@media screen and (max-width: 480px) {
+  body{
+     section.blogImage{
+      height: 85vh;
+      .mainImageElements{
+
+      }
+    }
+
+    section.blogText{
+      padding: 0 0px 0;
+      grid-template: "ca" auto "bt" auto/100%;
+      max-width: 100%;
+      .blogTextItem{
+        padding: 0 0%;
+        width: 100%;
+        a.qjobPostLink{
+          padding: 45px 20px 45px;
+          width: 86%;
+        }
+        p{
+          padding: 10px 20px 15px;
+          width: 86%;
+        }
+        h2{
+          padding: 30px 20px 0;
+          width: 86%;
+          font-weight: 700;
+        }
+        h3{
+          padding: 30px 20px 0;
+          width: 86%;
+          font-weight: 700;
+        }
+        .advice{
+
+        }
+        .citation{
+          padding: 30px 20px 0;
+          width: 86%;
+          &.full_width, &.cols_right,&.cols_left{
+            padding: 30px 20px 0;
+            width: 86%;
+          }
+        }
+      }
+    }
+
+
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body{
+    section.blogImage{
+      height: 624px;
+      .mainImageElements{
+
+      }
+    }
+    section.blogText{
+      padding: 0 0px 0;
+      grid-template: "ca" auto "bt" auto/100%;
+      max-width: 100%;
+    }
+  }
+}

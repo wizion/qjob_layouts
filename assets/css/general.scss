@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import "reset";
+@import "elements";
+@import "headerFooter";
+@import "main";
+@import "tasks";
+@import "blog";
+@import "responsive";
+
+
+@font-face{
+  font-family: 'LetoSans';
+  src: url("fonts/LetoSans.otf")  format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'LetoSans-Bold';
+  src: url("fonts/LetoSans-Bold.otf")  format("opentype");
+}
+@font-face{
+  font-family: 'LetoSans-Thin';
+  src: url("fonts/LetoSans-Thin.otf")  format("opentype");
+}
+@font-face{
+  font-family: 'LetoSansCondensed';
+  src: url("fonts/LetoSansCondensed.otf")  format("opentype");
+}
+@font-face{
+  font-family: 'LetoSansCondensed-Bold';
+  src: url("fonts/LetoSansCondensed-Bold.otf")  format("opentype");
+}
+@font-face{
+  font-family: 'LetoSansCondensed-Thin';
+  src: url("fonts/LetoSansCondensed-Thin.otf")  format("opentype");
+}
