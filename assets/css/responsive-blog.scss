@@ -11,28 +11,28 @@ $grey3: #EDE8F7;
 
   body{
     /*blog*/
-    section.blogImage{
+    section.blog-image{
       .main-image-elements{
         .meta{
           padding: 0;
-            h1{
-              letter-spacing: .5px;
-              font-size: 68px;
-              line-height: 1.17;
-            }
-            .description{
-              width: 95%;
-            }
+          h1{
+            letter-spacing: .5px;
+            font-size: 68px;
+            line-height: 1.17;
+          }
+          .description{
+            width: 95%;
           }
         }
       }
-    section.blogText{
+    }
+    section.blog-text{
       grid-template: "ca bt ." 1fr/160px 630px 180px;
       max-width: 960px;
-      .customerAvatar{
+      .customer-avatar{
         max-width: 150px;
       }
-      .blogTextItem{
+      .blog-text-item{
         max-width: 620px;
         p{
           font-size: 18px;
@@ -49,17 +49,17 @@ $grey3: #EDE8F7;
         }
       }
     }
-    section.taskPage{
-      .sidebarFilter{
+    section.task-page{
+      .sidebar-filter{
         margin: 0 40px 20px 10px;
-        .filterBlock{
+        .filter-block{
 
         }
-        .categoryFilter{
+        .category-filter{
           margin-bottom: 40px;
         }
       }
-      .advList{
+      .adv-list{
         .item{
           margin: 0 20px 15px 50px;
           grid-template: "desc" 1fr;
@@ -71,17 +71,15 @@ $grey3: #EDE8F7;
       }
     }
   }
-
-    /* blog end */
-
-  }
+  /* blog end */
+}
 
 @media screen and (max-width: 1024px){
   body{
-    section.blogImage{
+    section.blog-image{
       background-attachment: scroll;
       min-height: 450px;
-      .mainImageElements{
+      .main-image-elements{
         width: 79vw;
         .meta{
           .description{
@@ -103,10 +101,10 @@ $grey3: #EDE8F7;
             [row4-start] "sl" auto [row4-end]
             [row5-start] "rp" auto [row5-end]
             [row6-start] "ft" auto [row6-end] / 100%;
-    section.blogImage{
+    section.blog-image{
       grid-auto-rows: 1fr auto;
       min-height: 445px;
-      .mainImageElements{
+      .main-image-elements{
         align-self: center;
         margin: 16vh 10vw 5vh;
         .meta{
@@ -117,23 +115,20 @@ $grey3: #EDE8F7;
           }
         }
       }
-
     }
     section.social_links{
       width: 95%;
     }
-    section.blogText{
+    section.blog-text{
       padding: 0 15px 0;
       grid-template: "ca" auto "bt" auto/100%;
       max-width: 100%;
-
-
-      .blogTextItem{
-        a.qjobPostLink{
+      .blog-text-item{
+        a.qjob-post-link{
           padding: 45px 10px;
           width: 100%;
         }
-        p,img,h2,h3,.citation{
+        p,img,h2,h3,blockquote{
           padding: 10px 10px;
           max-width: 600px;
         }
@@ -143,11 +138,11 @@ $grey3: #EDE8F7;
         .advice{
           margin: 0 0;
           width: 100%;
-          .adviceBlock{
+          .advice-block{
             padding: 0;
           }
         }
-        .citation{
+        blockquote{
           &.cols_right,&.cols_left{
             margin: 30px 0 15px 0;
             h3{
@@ -155,12 +150,10 @@ $grey3: #EDE8F7;
             }
           }
           &.full_width{
-
           }
         }
       }
-
-      .customerAvatar{
+      .customer-avatar{
         position: relative;
         height: auto;
         top: initial;
@@ -168,11 +161,10 @@ $grey3: #EDE8F7;
         margin: 0 auto;
         max-width: 80%;
         padding: 10% 0;
-        .Paragraph{
+        .paragraph{
           margin: 0 auto;
           display: block;
         }
-
       }
     }
   }
@@ -182,10 +174,7 @@ $grey3: #EDE8F7;
   header.blogBlock{
     grid-template-areas: "logo enter nav lang mmenu";
     grid-template-columns: auto 1fr 1fr auto auto;
-
   }
-
-
   header{
     grid-template-columns: auto auto 1fr 85px auto;
     nav.jqob-hmenu{
@@ -207,29 +196,29 @@ $grey3: #EDE8F7;
       }
     }
   }
-  section.taskPage{
-    .sidebarFilter{
+  section.task-page{
+    .sidebar-filter{
       margin: 0 10px 20px 10px;
       input{
         height: 18px;
       }
       .filterBlock{
-        .cityField, .radiusOfSearch, .priceValue, .searchField{
+        .city-field, .radius-of-search, .price-value, .search-field{
           padding: 5px 10px;
         }
-        .taskFilter{
+        .task-filter{
           label{
             font-size: 10px;
             line-height: 20px;
           }
         }
       }
-      .categoryFilter{
+      .category-filter{
         margin-bottom: 40px;
 
       }
     }
-    .advList{
+    .adv-list{
       .item{
         margin: 0 10px 15px 10px;
       }
@@ -239,9 +228,9 @@ $grey3: #EDE8F7;
 
 @media screen and (max-width: 767px) {
   body{
-    section.blogImage{
+    section.blog-image{
       min-height: 600px;
-      .mainImageElements {
+      .main-image-elements {
         .meta{
           h1{
             font-size: 61px;
@@ -253,7 +242,6 @@ $grey3: #EDE8F7;
       }
     }
   }
-
 }
 
 @media screen and (max-width: 640px) {
@@ -282,10 +270,10 @@ $grey3: #EDE8F7;
       display: none;
     }
   }
-  section.taskPage{
+  section.task-page{
     grid-template-areas: "TabBlock TabBlock" "MapBlock MapBlock" "sideFilter sideFilter" "AdvList AdvList";
     grid-template-columns: 1fr 30%;
-    .titleAndMapButton{
+    .title-and-map-button{
       margin: 20px 15px 0;
       h1{
         font-size: 18px;
@@ -296,7 +284,7 @@ $grey3: #EDE8F7;
       }
     }
 
-    .advList{
+    .adv-list{
       .item{
         border: 1px solid #EDE8F7;
         box-sizing: border-box;
@@ -307,7 +295,7 @@ $grey3: #EDE8F7;
         grid-template: "desc" 1fr;
         padding: 20px 15px;
         grid-template-columns: auto;
-        .allDesc{
+        .all-desc{
           grid-template: "itemStatus itemStatus itemStatus" auto
           "itemTitle itemTitle itemTitle" 1fr
           "itemPrice itemRisk itemRisk" auto
@@ -332,7 +320,7 @@ $grey3: #EDE8F7;
               line-height: 14px;
             }
           }
-          .riskDeal{
+          .risk-deal{
             align-items: center;
             margin-left: 5px;
             span{
@@ -356,7 +344,7 @@ $grey3: #EDE8F7;
             font-size: 12px;
             line-height: 22px;
           }
-          .authorName{
+          .author-name{
             text-align: center;
             align-self: center;
           }
@@ -375,9 +363,8 @@ $grey3: #EDE8F7;
         }
       }
     }
-    .sidebarFilter{
-      .searchFieldMobile{
-
+    .sidebar-filter{
+      .search-field-mobile{
         display: flex;
         input{
           color: inherit;
@@ -385,13 +372,13 @@ $grey3: #EDE8F7;
           line-height: inherit;
         }
       }
-      .filterBlock{
+      .filter-block{
         display: none;
       }
-      .categoryFilter{
+      .category-filter{
         display: none;
       }
-      .categoryFilterMobile{
+      .category-filter-mobile{
         justify-items: center;
         line-height: 24px;
         display: -webkit-flex;
@@ -400,7 +387,7 @@ $grey3: #EDE8F7;
         padding: 0;
         justify-content: flex-end;
         margin: 15px auto;
-        .catButton{
+        .cat-button{
           align-content: flex-start;
           display: inherit;
           margin-right: auto;
@@ -414,7 +401,7 @@ $grey3: #EDE8F7;
             display: block;
           }
         }
-        .filtrList{
+        .filtr-list{
           align-content: flex-end;
           display: inherit;
           margin: 0 15px;
@@ -427,8 +414,6 @@ $grey3: #EDE8F7;
             margin: auto 5px auto 10px;
             background-image: url('../img/buttons/flterList.png');
           }
-
-
         }
       }
     }
@@ -447,12 +432,12 @@ $grey3: #EDE8F7;
 
   /*blog*/
   body{
-    section.blogImage{
+    section.blog-image{
       background-attachment: scroll;
       grid-template-areas: "metaText" "imageNavBar";
       justify-content: space-between;
       height: 73vh;
-      .mainImageElements{
+      .main-image-elements{
         align-self: center;
         margin: 20vh 5vw 5vh;
         width: 90%;
@@ -468,12 +453,12 @@ $grey3: #EDE8F7;
           }
         }
       }
-      .mainImageBar{
+      .main-image-bar{
         margin: 0 5vw 15px;
         align-self: center;
         .shares{
-          .qjobShareButton{
-            .shareWindow{
+          .qjob-share-button{
+            .share-window{
               width: 95%;
               top: initial;
               position: fixed;
@@ -491,20 +476,19 @@ $grey3: #EDE8F7;
           }
         }
       }
-
     }
 
-    section.blogText{
+    section.blog-text{
       padding: 0;
       margin: initial;
       grid-template: "ca" auto "bt" auto/100%;
       max-width: 640px;
-      .blogTextItem{
-        a.qjobPostLink{
+      .blog-text-item{
+        a.qjob-post-link{
           padding: 10px 2%;
           width: 96%;
         }
-        p,h2,h3,.citation{
+        p,h2,h3,blockquote{
           padding: 10px 20px;
           width: 90%;
         }
@@ -521,8 +505,9 @@ $grey3: #EDE8F7;
         }
         .fotorama{
           width: 100%;
+          padding: 0 0 0 0;
         }
-        .citation{
+        blockquote{
           margin: 30px 0;
           &.cols_left{
             width: 96%;
@@ -546,9 +531,9 @@ $grey3: #EDE8F7;
         }
       }
     }
-    section.relatedPosts{
+    section.related-posts{
       padding: 40px 15px;
-      .relatedPostsList{
+      .related-posts-list{
         flex-flow: initial;
         justify-content: initial;
         overflow: auto;
@@ -571,67 +556,72 @@ $grey3: #EDE8F7;
 
 @media screen and (max-width: 480px) {
   body{
-     section.blogImage{
+    section.blog-image{
       height: 85vh;
-      .mainImageElements{
+      .main-image-elements{
 
       }
     }
 
-    section.blogText{
-      padding: 0 0px 0;
+    section.blog-text {
+      padding: 0 0 0;
       grid-template: "ca" auto "bt" auto/100%;
       max-width: 100%;
-      .blogTextItem{
-        padding: 0 0%;
+
+      .blog-text-item {
+        padding: 0 0;
         width: 100%;
-        a.qjobPostLink{
+
+        a.qjob-post-link {
           padding: 45px 20px 45px;
           width: 86%;
         }
-        p{
+
+        p {
           padding: 10px 20px 15px;
           width: 86%;
         }
-        h2{
+
+        h2 {
           padding: 30px 20px 0;
           width: 86%;
           font-weight: 700;
         }
-        h3{
+
+        h3 {
           padding: 30px 20px 0;
           width: 86%;
           font-weight: 700;
         }
-        .advice{
+
+        .advice {
 
         }
-        .citation{
+
+        .citation {
           padding: 30px 20px 0;
           width: 86%;
-          &.full_width, &.cols_right,&.cols_left{
+
+          &.full_width, &.cols_right, &.cols_left {
             padding: 30px 20px 0;
             width: 86%;
           }
         }
       }
     }
-
-
-
   }
 }
 
 @media screen and (max-width: 320px) {
   body{
-    section.blogImage{
+    section.blog-image{
       height: 624px;
-      .mainImageElements{
+      .main-image-elements{
 
       }
     }
-    section.blogText{
-      padding: 0 0px 0;
+    section.blog-text{
+      padding: 0 0 0;
       grid-template: "ca" auto "bt" auto/100%;
       max-width: 100%;
     }

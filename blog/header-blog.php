@@ -25,7 +25,7 @@
         </div>
     </div>
 </header>
-<section id="sidebarBlog">
+<section id="sidebar-blog">
     <div class="additional_layer" id="additional_layer"></div>
     <ul class="nav">
         <li><a href="/oldal/epites/">Építkezés és felújítás</a></li>

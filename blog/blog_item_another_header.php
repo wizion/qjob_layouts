@@ -1,10 +1,10 @@
 <?php
 include 'header.php';
 ?>
-<section class="progressBar">
+<section class="progress-bar">
     <div class="indicator"></div>
 </section>
-<section style="background-image: url('assets/img/posts/1/main.png');" class="blogImage">
+<section style="background-image: url('../assets/img/posts/1/main.png');" class="blogImage">
     <div class="meta">
         <h1>Как студенту зарабатывать на кино и кафешки</h1>
         <div class="description">19-летний исполнитель Кирилл о возможностях подработки для студента и доставке тортов и говяжьей ноги.</div>

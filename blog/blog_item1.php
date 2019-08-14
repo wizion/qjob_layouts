@@ -1,18 +1,18 @@
 <?php
 include 'header-blog.php';
 ?>
-<section class="progressBar">
+<section class="progress-bar">
     <div class="indicator"></div>
 </section>
-<section style="background-image: url('../assets/img/posts/1/fokep.jpg');" class="blogImage">
-    <div class="mainImageElements">
+<section style="background-image: url('../assets/img/posts/1/fokep.jpg');" class="blog-image">
+    <div class="main-image-elements">
         <div class="meta">
             <h1>Hogyan egészítheti ki keresetét egy egyetemi hallgató?</h1>
             <div class="description">A 19 éves Robert kivitelező, az egyetemi hallgatók számára elérhető kereset kiegészítésről, virág és marha comb  kiszállításról, futárkodásról. </div>
         </div>
 
     </div>
-    <div class="mainImageBar">
+    <div class="main-image-bar">
         <div class="views">
             <i class="fas fa-eye"></i> 1999
         </div>
@@ -24,7 +24,7 @@ include 'header-blog.php';
             </svg>
         </div>
         <div class="shares" onclick="return shareBlock();">
-            <i class="fas fa-share-alt"  id="shareButton"></i>
+            <i class="fas fa-share-alt"  id="share-button"></i>
             <div class="qjobShareButton">
                 <div class="share_layout"></div>
                 <div class="shareWindow">

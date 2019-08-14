@@ -2,66 +2,66 @@
   body {
     /*blog*/
   }
-  body section.blogImage .main-image-elements .meta {
+  body section.blog-image .main-image-elements .meta {
     padding: 0;
   }
-  body section.blogImage .main-image-elements .meta h1 {
+  body section.blog-image .main-image-elements .meta h1 {
     letter-spacing: 0.5px;
     font-size: 68px;
     line-height: 1.17;
   }
-  body section.blogImage .main-image-elements .meta .description {
+  body section.blog-image .main-image-elements .meta .description {
     width: 95%;
   }
-  body section.blogText {
+  body section.blog-text {
     grid-template: "ca bt ." 1fr/160px 630px 180px;
     max-width: 960px;
   }
-  body section.blogText .customerAvatar {
+  body section.blog-text .customer-avatar {
     max-width: 150px;
   }
-  body section.blogText .blogTextItem {
+  body section.blog-text .blog-text-item {
     max-width: 620px;
   }
-  body section.blogText .blogTextItem p {
+  body section.blog-text .blog-text-item p {
     font-size: 18px;
   }
-  body section.blogText .blogTextItem iframe {
+  body section.blog-text .blog-text-item iframe {
     width: 100%;
   }
-  body section.blogText .blogTextItem h2, body section.blogText .blogTextItem h3, body section.blogText .blogTextItem a, body section.blogText .blogTextItem p {
+  body section.blog-text .blog-text-item h2, body section.blog-text .blog-text-item h3, body section.blog-text .blog-text-item a, body section.blog-text .blog-text-item p {
     padding: 15px 0 15px 0px;
   }
-  body section.blogText .blogTextItem img {
+  body section.blog-text .blog-text-item img {
     padding: 0;
     width: 100%;
   }
-  body section.taskPage .sidebarFilter {
+  body section.task-page .sidebar-filter {
     margin: 0 40px 20px 10px;
   }
-  body section.taskPage .sidebarFilter .categoryFilter {
+  body section.task-page .sidebar-filter .category-filter {
     margin-bottom: 40px;
   }
-  body section.taskPage .advList .item {
+  body section.task-page .adv-list .item {
     margin: 0 20px 15px 50px;
     grid-template: "desc" 1fr;
     grid-template-columns: auto;
   }
-  body section.taskPage .advList .avatar {
+  body section.task-page .adv-list .avatar {
     display: none;
   }
 
   /* blog end */
 }
 @media screen and (max-width: 1024px) {
-  body section.blogImage {
+  body section.blog-image {
     background-attachment: scroll;
     min-height: 450px;
   }
-  body section.blogImage .mainImageElements {
+  body section.blog-image .main-image-elements {
     width: 79vw;
   }
-  body section.blogImage .mainImageElements .meta .description {
+  body section.blog-image .main-image-elements .meta .description {
     margin: 0 auto;
   }
 }
@@ -70,54 +70,54 @@
   body {
     grid-template: [row1-start] "bh" auto [row1-end] [row2-start] "bn" auto [row2-end] [row3-start] "tb" [row3-end] [row4-start] "sl" auto [row4-end] [row5-start] "rp" auto [row5-end] [row6-start] "ft" auto [row6-end]/100%;
   }
-  body section.blogImage {
+  body section.blog-image {
     grid-auto-rows: 1fr auto;
     min-height: 445px;
   }
-  body section.blogImage .mainImageElements {
+  body section.blog-image .main-image-elements {
     align-self: center;
     margin: 16vh 10vw 5vh;
   }
-  body section.blogImage .mainImageElements .meta {
+  body section.blog-image .main-image-elements .meta {
     padding-bottom: 0;
   }
-  body section.blogImage .mainImageElements .meta h1 {
+  body section.blog-image .main-image-elements .meta h1 {
     font-size: 62px;
     line-height: 62px;
   }
   body section.social_links {
     width: 95%;
   }
-  body section.blogText {
+  body section.blog-text {
     padding: 0 15px 0;
     grid-template: "ca" auto "bt" auto/100%;
     max-width: 100%;
   }
-  body section.blogText .blogTextItem a.qjobPostLink {
+  body section.blog-text .blog-text-item a.qjob-post-link {
     padding: 45px 10px;
     width: 100%;
   }
-  body section.blogText .blogTextItem p, body section.blogText .blogTextItem img, body section.blogText .blogTextItem h2, body section.blogText .blogTextItem h3, body section.blogText .blogTextItem .citation {
+  body section.blog-text .blog-text-item p, body section.blog-text .blog-text-item img, body section.blog-text .blog-text-item h2, body section.blog-text .blog-text-item h3, body section.blog-text .blog-text-item blockquote {
     padding: 10px 10px;
     max-width: 600px;
   }
-  body section.blogText .blogTextItem iframe {
+  body section.blog-text .blog-text-item iframe {
     width: 100%;
   }
-  body section.blogText .blogTextItem .advice {
+  body section.blog-text .blog-text-item .advice {
     margin: 0 0;
     width: 100%;
   }
-  body section.blogText .blogTextItem .advice .adviceBlock {
+  body section.blog-text .blog-text-item .advice .advice-block {
     padding: 0;
   }
-  body section.blogText .blogTextItem .citation.cols_right, body section.blogText .blogTextItem .citation.cols_left {
+  body section.blog-text .blog-text-item blockquote.cols_right, body section.blog-text .blog-text-item blockquote.cols_left {
     margin: 30px 0 15px 0;
   }
-  body section.blogText .blogTextItem .citation.cols_right h3, body section.blogText .blogTextItem .citation.cols_left h3 {
+  body section.blog-text .blog-text-item blockquote.cols_right h3, body section.blog-text .blog-text-item blockquote.cols_left h3 {
     width: 100%;
   }
-  body section.blogText .customerAvatar {
+  body section.blog-text .customer-avatar {
     position: relative;
     height: auto;
     top: initial;
@@ -126,7 +126,7 @@
     max-width: 80%;
     padding: 10% 0;
   }
-  body section.blogText .customerAvatar .Paragraph {
+  body section.blog-text .customer-avatar .paragraph {
     margin: 0 auto;
     display: block;
   }
@@ -155,35 +155,35 @@
     display: none;
   }
 
-  section.taskPage .sidebarFilter {
+  section.task-page .sidebar-filter {
     margin: 0 10px 20px 10px;
   }
-  section.taskPage .sidebarFilter input {
+  section.task-page .sidebar-filter input {
     height: 18px;
   }
-  section.taskPage .sidebarFilter .filterBlock .cityField, section.taskPage .sidebarFilter .filterBlock .radiusOfSearch, section.taskPage .sidebarFilter .filterBlock .priceValue, section.taskPage .sidebarFilter .filterBlock .searchField {
+  section.task-page .sidebar-filter .filterBlock .city-field, section.task-page .sidebar-filter .filterBlock .radius-of-search, section.task-page .sidebar-filter .filterBlock .price-value, section.task-page .sidebar-filter .filterBlock .search-field {
     padding: 5px 10px;
   }
-  section.taskPage .sidebarFilter .filterBlock .taskFilter label {
+  section.task-page .sidebar-filter .filterBlock .task-filter label {
     font-size: 10px;
     line-height: 20px;
   }
-  section.taskPage .sidebarFilter .categoryFilter {
+  section.task-page .sidebar-filter .category-filter {
     margin-bottom: 40px;
   }
-  section.taskPage .advList .item {
+  section.task-page .adv-list .item {
     margin: 0 10px 15px 10px;
   }
 }
 @media screen and (max-width: 767px) {
-  body section.blogImage {
+  body section.blog-image {
     min-height: 600px;
   }
-  body section.blogImage .mainImageElements {
+  body section.blog-image .main-image-elements {
     align-self: center;
     margin: 16% 10vw 5vh;
   }
-  body section.blogImage .mainImageElements .meta h1 {
+  body section.blog-image .main-image-elements .meta h1 {
     font-size: 61px;
     line-height: 61px;
   }
@@ -210,21 +210,21 @@
     display: none;
   }
 
-  section.taskPage {
+  section.task-page {
     grid-template-areas: "TabBlock TabBlock" "MapBlock MapBlock" "sideFilter sideFilter" "AdvList AdvList";
     grid-template-columns: 1fr 30%;
   }
-  section.taskPage .titleAndMapButton {
+  section.task-page .title-and-map-button {
     margin: 20px 15px 0;
   }
-  section.taskPage .titleAndMapButton h1 {
+  section.task-page .title-and-map-button h1 {
     font-size: 18px;
     line-height: 21px;
   }
-  section.taskPage .titleAndMapButton div {
+  section.task-page .title-and-map-button div {
     display: none;
   }
-  section.taskPage .advList .item {
+  section.task-page .adv-list .item {
     border: 1px solid #EDE8F7;
     box-sizing: border-box;
     box-shadow: 0 4px 10px rgba(32, 32, 32, 0.1);
@@ -235,36 +235,36 @@
     padding: 20px 15px;
     grid-template-columns: auto;
   }
-  section.taskPage .advList .item .allDesc {
+  section.task-page .adv-list .item .all-desc {
     grid-template: "itemStatus itemStatus itemStatus" auto "itemTitle itemTitle itemTitle" 1fr "itemPrice itemRisk itemRisk" auto "itemAddress itemAddress itemAddress" auto "itemDate itemDate itemDate" auto "itemAuthName itemLikes itemFavButtons" auto;
     grid-template-columns: 100px 1fr 1fr;
   }
-  section.taskPage .advList .item .allDesc .status {
+  section.task-page .adv-list .item .all-desc .status {
     font-size: 10px;
     line-height: 12px;
     color: #9B99AA;
   }
-  section.taskPage .advList .item .allDesc h4.title {
+  section.task-page .adv-list .item .all-desc h4.title {
     font-size: 14px;
     line-height: 20px;
   }
-  section.taskPage .advList .item .allDesc .date span {
+  section.task-page .adv-list .item .all-desc .date span {
     display: block;
     text-align: center;
     font-size: 12px;
     line-height: 14px;
   }
-  section.taskPage .advList .item .allDesc .riskDeal {
+  section.task-page .adv-list .item .all-desc .risk-deal {
     align-items: center;
     margin-left: 5px;
   }
-  section.taskPage .advList .item .allDesc .riskDeal span {
+  section.task-page .adv-list .item .all-desc .risk-deal span {
     display: none;
   }
-  section.taskPage .advList .item .allDesc .price {
+  section.task-page .adv-list .item .all-desc .price {
     text-align: left;
   }
-  section.taskPage .advList .item .allDesc .price span {
+  section.task-page .adv-list .item .all-desc .price span {
     font-size: 14px;
     line-height: 16px;
     width: 80%;
@@ -273,42 +273,42 @@
     justify-content: center;
     align-self: center;
   }
-  section.taskPage .advList .item .allDesc .address {
+  section.task-page .adv-list .item .all-desc .address {
     margin: 10px 0;
     font-size: 12px;
     line-height: 22px;
   }
-  section.taskPage .advList .item .allDesc .authorName {
+  section.task-page .adv-list .item .all-desc .author-name {
     text-align: center;
     align-self: center;
   }
-  section.taskPage .advList .item .allDesc .likes {
+  section.task-page .adv-list .item .all-desc .likes {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-self: center;
   }
-  section.taskPage .advList .item .allDesc .buttons {
+  section.task-page .adv-list .item .all-desc .buttons {
     align-self: center;
   }
-  section.taskPage .advList .item .avatar {
+  section.task-page .adv-list .item .avatar {
     display: none;
   }
-  section.taskPage .sidebarFilter .searchFieldMobile {
+  section.task-page .sidebar-filter .search-field-mobile {
     display: flex;
   }
-  section.taskPage .sidebarFilter .searchFieldMobile input {
+  section.task-page .sidebar-filter .search-field-mobile input {
     color: inherit;
     font-size: inherit;
     line-height: inherit;
   }
-  section.taskPage .sidebarFilter .filterBlock {
+  section.task-page .sidebar-filter .filter-block {
     display: none;
   }
-  section.taskPage .sidebarFilter .categoryFilter {
+  section.task-page .sidebar-filter .category-filter {
     display: none;
   }
-  section.taskPage .sidebarFilter .categoryFilterMobile {
+  section.task-page .sidebar-filter .category-filter-mobile {
     justify-items: center;
     line-height: 24px;
     display: -webkit-flex;
@@ -318,12 +318,12 @@
     justify-content: flex-end;
     margin: 15px auto;
   }
-  section.taskPage .sidebarFilter .categoryFilterMobile .catButton {
+  section.task-page .sidebar-filter .category-filter-mobile .cat-button {
     align-content: flex-start;
     display: inherit;
     margin-right: auto;
   }
-  section.taskPage .sidebarFilter .categoryFilterMobile .catButton:before {
+  section.task-page .sidebar-filter .category-filter-mobile .cat-button:before {
     content: "";
     width: 18px;
     height: 18px;
@@ -332,12 +332,12 @@
     background-image: url("../img/buttons/list.png");
     display: block;
   }
-  section.taskPage .sidebarFilter .categoryFilterMobile .filtrList {
+  section.task-page .sidebar-filter .category-filter-mobile .filtr-list {
     align-content: flex-end;
     display: inherit;
     margin: 0 15px;
   }
-  section.taskPage .sidebarFilter .categoryFilterMobile .filtrList:before {
+  section.task-page .sidebar-filter .category-filter-mobile .filtr-list:before {
     display: block;
     content: "";
     width: 24px;
@@ -359,103 +359,104 @@
   }
 
   /*blog*/
-  body section.blogImage {
+  body section.blog-image {
     background-attachment: scroll;
     grid-template-areas: "metaText" "imageNavBar";
     justify-content: space-between;
     height: 73vh;
   }
-  body section.blogImage .mainImageElements {
+  body section.blog-image .main-image-elements {
     align-self: center;
     margin: 20vh 5vw 5vh;
     width: 90%;
   }
-  body section.blogImage .mainImageElements .meta h1 {
+  body section.blog-image .main-image-elements .meta h1 {
     font-size: 32px;
     line-height: 32px;
     margin-bottom: 40px;
   }
-  body section.blogImage .mainImageElements .meta .description {
+  body section.blog-image .main-image-elements .meta .description {
     font-size: 14px;
     line-height: 20px;
   }
-  body section.blogImage .mainImageBar {
+  body section.blog-image .main-image-bar {
     margin: 0 5vw 15px;
     align-self: center;
   }
-  body section.blogImage .mainImageBar .shares .qjobShareButton .shareWindow {
+  body section.blog-image .main-image-bar .shares .qjob-share-button .share-window {
     width: 95%;
     top: initial;
     position: fixed;
     bottom: 30px;
     left: 2.5%;
   }
-  body section.blogImage .mainImageBar .shares .qjobShareButton .shareWindow::after {
+  body section.blog-image .main-image-bar .shares .qjob-share-button .share-window::after {
     display: none;
   }
-  body section.blogImage .mainImageBar .arrow svg {
+  body section.blog-image .main-image-bar .arrow svg {
     width: 26px;
   }
-  body section.blogText {
+  body section.blog-text {
     padding: 0;
     margin: initial;
     grid-template: "ca" auto "bt" auto/100%;
     max-width: 640px;
   }
-  body section.blogText .blogTextItem a.qjobPostLink {
+  body section.blog-text .blog-text-item a.qjob-post-link {
     padding: 10px 2%;
     width: 96%;
   }
-  body section.blogText .blogTextItem p, body section.blogText .blogTextItem h2, body section.blogText .blogTextItem h3, body section.blogText .blogTextItem .citation {
+  body section.blog-text .blog-text-item p, body section.blog-text .blog-text-item h2, body section.blog-text .blog-text-item h3, body section.blog-text .blog-text-item blockquote {
     padding: 10px 20px;
     width: 90%;
   }
-  body section.blogText .blogTextItem p {
+  body section.blog-text .blog-text-item p {
     font-size: 16px;
   }
-  body section.blogText .blogTextItem img {
+  body section.blog-text .blog-text-item img {
     margin: 30px auto;
     padding: 0;
     width: 100%;
   }
-  body section.blogText .blogTextItem .fotorama {
+  body section.blog-text .blog-text-item .fotorama {
     width: 100%;
+    padding: 0 0 0 0;
   }
-  body section.blogText .blogTextItem .citation {
+  body section.blog-text .blog-text-item blockquote {
     margin: 30px 0;
   }
-  body section.blogText .blogTextItem .citation.cols_left {
+  body section.blog-text .blog-text-item blockquote.cols_left {
     width: 96%;
     float: initial;
     padding: 30px 2%;
   }
-  body section.blogText .blogTextItem .citation.cols_right {
+  body section.blog-text .blog-text-item blockquote.cols_right {
     width: 96%;
     float: initial;
     padding: 30px 2%;
   }
-  body section.blogText .blogTextItem .citation.full_width {
+  body section.blog-text .blog-text-item blockquote.full_width {
     padding: 10px 20px;
     width: 90%;
     float: none;
   }
-  body section.blogText .blogTextItem .citation h2, body section.blogText .blogTextItem .citation h3, body section.blogText .blogTextItem .citation h4, body section.blogText .blogTextItem .citation p {
+  body section.blog-text .blog-text-item blockquote h2, body section.blog-text .blog-text-item blockquote h3, body section.blog-text .blog-text-item blockquote h4, body section.blog-text .blog-text-item blockquote p {
     margin: -10px 0 5px;
     width: 95%;
   }
-  body section.relatedPosts {
+  body section.related-posts {
     padding: 40px 15px;
   }
-  body section.relatedPosts .relatedPostsList {
+  body section.related-posts .related-posts-list {
     flex-flow: initial;
     justify-content: initial;
     overflow: auto;
   }
-  body section.relatedPosts .relatedPostsList .item {
+  body section.related-posts .related-posts-list .item {
     width: 278px;
     margin: 10px 8px;
   }
-  body section.relatedPosts .relatedPostsList .item .image img {
+  body section.related-posts .related-posts-list .item .image img {
     max-width: 272px;
     width: initial;
   }
@@ -463,54 +464,54 @@
   /*end blog*/
 }
 @media screen and (max-width: 480px) {
-  body section.blogImage {
+  body section.blog-image {
     height: 85vh;
   }
-  body section.blogText {
-    padding: 0 0px 0;
+  body section.blog-text {
+    padding: 0 0 0;
     grid-template: "ca" auto "bt" auto/100%;
     max-width: 100%;
   }
-  body section.blogText .blogTextItem {
-    padding: 0 0%;
+  body section.blog-text .blog-text-item {
+    padding: 0 0;
     width: 100%;
   }
-  body section.blogText .blogTextItem a.qjobPostLink {
+  body section.blog-text .blog-text-item a.qjob-post-link {
     padding: 45px 20px 45px;
     width: 86%;
   }
-  body section.blogText .blogTextItem p {
+  body section.blog-text .blog-text-item p {
     padding: 10px 20px 15px;
     width: 86%;
   }
-  body section.blogText .blogTextItem h2 {
+  body section.blog-text .blog-text-item h2 {
     padding: 30px 20px 0;
     width: 86%;
     font-weight: 700;
   }
-  body section.blogText .blogTextItem h3 {
+  body section.blog-text .blog-text-item h3 {
     padding: 30px 20px 0;
     width: 86%;
     font-weight: 700;
   }
-  body section.blogText .blogTextItem .citation {
+  body section.blog-text .blog-text-item .citation {
     padding: 30px 20px 0;
     width: 86%;
   }
-  body section.blogText .blogTextItem .citation.full_width, body section.blogText .blogTextItem .citation.cols_right, body section.blogText .blogTextItem .citation.cols_left {
+  body section.blog-text .blog-text-item .citation.full_width, body section.blog-text .blog-text-item .citation.cols_right, body section.blog-text .blog-text-item .citation.cols_left {
     padding: 30px 20px 0;
     width: 86%;
   }
 }
 @media screen and (max-width: 320px) {
-  body section.blogImage {
+  body section.blog-image {
     height: 624px;
   }
-  body section.blogText {
-    padding: 0 0px 0;
+  body section.blog-text {
+    padding: 0 0 0;
     grid-template: "ca" auto "bt" auto/100%;
     max-width: 100%;
   }
 }
 
-/*# sourceMappingURL=responsive.css.map */
+/*# sourceMappingURL=responsive-blog.css.map */

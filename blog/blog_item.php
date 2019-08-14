@@ -1,18 +1,18 @@
 <?php
 include 'header-blog.php';
 ?>
-<section class="progressBar">
+<section class="progress-bar">
     <div class="indicator"></div>
 </section>
-<section style="background-image: url('../assets/img/posts/1/main.png');" class="blogImage">
-    <div class="mainImageElements">
+<section style="background-image: url('../assets/img/posts/1/main.png');" class="blog-image">
+    <div class="main-image-elements">
         <div class="meta">
             <h1>Как студенту зарабатывать на кино и кафешки</h1>
             <div class="description">19-летний исполнитель Кирилл о возможностях подработки для студента и доставке тортов и говяжьей ноги.</div>
         </div>
 
     </div>
-    <div class="mainImageBar">
+    <div class="main-image-bar">
         <div class="views">
             <i class="fas fa-eye"></i> 1999
         </div>
@@ -24,10 +24,10 @@ include 'header-blog.php';
             </svg>
         </div>
         <div class="shares" onclick="return shareBlock();">
-            <i class="fas fa-share-alt"  id="shareButton"></i>
-            <div class="qjobShareButton">
-                <div class="share_layout"></div>
-                <div class="shareWindow">
+            <i class="fas fa-share-alt"  id="share-button"></i>
+            <div class="qjob-share-button">
+                <div class="share-layout"></div>
+                <div class="share-window">
                     <!--не забывать выставить ссылки на сайт-->
                     <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Facebook">
                         <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
@@ -59,13 +59,13 @@ include 'header-blog.php';
     </div>
 
 </section>
-<section class="blogText">
-    <div class="blogTextItem">
+<section class="blog-text">
+    <div class="blog-text-item">
         <p>Кирилл заканчивает колледж и подрабатывает на YouDo.com курьером. 3−5 заказов в день ему хватает на карманные расходы, прогулки с друзьями и сюрпризы любимой девушке.</p>
         <p>Как студенту выгодно совмещать работу с учёбой, на что обратить внимание в разговоре с заказчиком и чем общественный транспорт лучше велосипеда — в рассказе Кирилла.</p>
         <h2>Постоянное движение</h2>
         <p>Мне 19 лет, я в Москве родился, заканчиваю дорожный колледж по специальности «Техническая эксплуатация подвижного состава». Мне с детства нравилась техника и железная дорога, и я всегда хотел стать машинистом. Но по состоянию здоровья у меня, к сожалению, не получается работать на железной дороге. После окончания учёбы буду выбирать другую специальность, которая мне понравится, а пока в свободное время подрабатываю курьером.</p>
-        <a href="#" class="qjobPostLink" target="_blank">
+        <a href="#" class="qjob-post-link" target="_blank">
             <svg width="30px" height="30px" viewBox="0 0 30 30">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g class="svg" transform="translate(1.000000, 1.000000)">
@@ -106,7 +106,7 @@ include 'header-blog.php';
 
 
         <div class="advice">
-            <div class="adviceBlock">
+            <div class="advice-block">
                 <h3>Совет №1</h3>
                 <p>Иногда специально беру задания в Подмосковье, потому что интересно съездить в какое-нибудь новое место. Был заказ в Подольск отвезти платки. Там от станции нужно было ехать ещё на автобусе, но мне вполне было удобно.</p>
                 <p>Заказы на YouDo.com все необычные в основном, не считая документов. Торты интересно возить, потому что это чей-то праздник, кому-то дарят этот вкусный торт, и ты в этом немного участвуешь.</p>
@@ -114,11 +114,11 @@ include 'header-blog.php';
         </div>
 
     </div>
-    <div class="customerAvatar">
+    <div class="customer-avatar">
         <div class="avatar">
             <img src="../assets/img/posts/1/get1.jpg" alt="">
             <a href="#" class="name">Кирил</a>
-            <span class="Paragraph">
+            <span class="paragraph">
                 A Qjob.hu oldalon<br/>
                 2017 óta
         </span>
@@ -126,13 +126,13 @@ include 'header-blog.php';
 
     </div>
 </section>
-<section class="social_links" style="display: none;">
+<section class="social-links" style="display: none;">
     <img src="../assets/img/buttons/twiter.png" alt="">
     <img src="../assets/img/buttons/facebook.png" alt="">
 </section>
-<section class="relatedPosts">
+<section class="related-posts">
     <h2>Похожие записи</h2>
-    <div class="relatedPostsList">
+    <div class="related-posts-list">
         <?php
         $array = [
             ['name'=>'10 глупых вопросов про звукоизоляцию','image'=>'../assets/img/posts/related/1.png','date'=>'12 июля', "video"=> false],
@@ -149,10 +149,10 @@ include 'header-blog.php';
                         <div class="isVideo"></div>
                     <?php } ?>
                 </div>
-                <a href="#" class="itemTitle">
+                <a href="#" class="item-title">
                     <h3><?=$item['name']?></h3>
                 </a>
-                <p class="Paragraph">
+                <p class="paragraph">
                     <?=$item['date']?>
                 </p>
             </div>

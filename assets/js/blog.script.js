@@ -20,23 +20,23 @@ window.onscroll = ()=>{
     progressBarWidth();
 }
 function sidebarBlog() {
-    let blockHeight = $('#sidebarBlog').height() + 180;
+    let blockHeight = $('#sidebar-blog').height() + 180;
     if($('.hamburger').hasClass("is-active")){
-        $('#sidebarBlog').animate({
+        $('#sidebar-blog').animate({
             top: -blockHeight
         }, 500 );
         setTimeout(function () {
-            $('#sidebarBlog').css({
+            $('#sidebar-blog').css({
                 "display": "none",
             });
         },500);
         $('html').removeClass('noscroll');
     }else{
-        $('#sidebarBlog').css({
+        $('#sidebar-blog').css({
             "display": "block",
             "top": -blockHeight
         });
-        $('#sidebarBlog').animate({
+        $('#sidebar-blog').animate({
             top: 0
         }, 500 );
         $('html').addClass('noscroll');
@@ -44,78 +44,42 @@ function sidebarBlog() {
 }
 
 function shareBlock(){
-    if(!$('.qjobShareButton').hasClass('opened')){
-        $('.qjobShareButton').css({
+    if(!$('.qjob-share-button').hasClass('opened')){
+        $('.qjob-share-button').css({
             display: "block"
         });
-        $('.qjobShareButton').addClass('opened');
+        $('.qjob-share-button').addClass('opened');
         if(window.matchMedia('(min-width:640px)').matches){
-            $('.shareWindow').css({
-                top: 'calc(' + $('#shareButton').offset().top + 'px - (' + $('.shareWindow').height()+ 'px + 20px))',
-                left: 'calc(' + $('#shareButton').offset().left + 'px - (' + $('.shareWindow').width()+ 'px - 50px))'
+            $('.share-window').css({
+                top: 'calc(' + $('#share-button').offset().top + 'px - (' + $('.share-window').height()+ 'px + 20px))',
+                left: 'calc(' + $('#share-button').offset().left + 'px - (' + $('.share-window').width()+ 'px - 50px))'
             });
         }else{
             $('html').addClass('noscroll');
         }
     }else{
-        $('.qjobShareButton').removeClass('opened');
-        $('.qjobShareButton').removeAttr('style');
+        $('.qjob-share-button').removeClass('opened');
+        $('.qjob-share-button').removeAttr('style');
         $('html').removeClass('noscroll');
-        $('.shareWindow').css({
+        $('.share-window').css({
             top: 'initial',
             left: ' 2.5%'
         });
-        $('.shareWindow').removeAttr("style");
+        $('.share-window').removeAttr("style");
     }
-
 }
 
 
 $(document).ready(()=>{
     $('.arrow').on('click',()=>{
         $('html, body').animate({
-            scrollTop: $(".blogText").offset().top
+            scrollTop: $(".blog-text").offset().top
         }, 500);
     });
-
     fixes();
     $( window ).resize(()=>{
         fixes();
     });
-
-    /*$('#shareButton').on('click', ()=>{
-        if(!$('.qjobShareButton').hasClass('opened')){
-            $('.qjobShareButton').css({
-                display: "block"
-            });
-            $('.qjobShareButton').addClass('opened');
-        }
-
-
-        if(window.matchMedia('(min-width:640px)').matches){
-            $('.shareWindow').css({
-                top: 'calc(' + $('#shareButton').offset().top + 'px - (' + $('.shareWindow').height()+ 'px + 20px))',
-                left: 'calc(' + $('#shareButton').offset().left + 'px - (' + $('.shareWindow').width()+ 'px - 50px))'
-            });
-        }else{
-            $('html').addClass('noscroll');
-        }
-
-    });
-    $('.share_layout').on('click',()=>{
-        $('.qjobShareButton').removeClass('opened');
-        $('.qjobShareButton').removeAttr('style');
-
-        $('html').removeClass('noscroll');
-
-        $('.shareWindow').css({
-            top: 'initial',
-            left: ' 2.5%'
-        });
-        $('.shareWindow').removeAttr("style");
-    });
-
-     */
 
     const sr = ScrollReveal({
         duration: 1000,
@@ -126,8 +90,8 @@ $(document).ready(()=>{
     });
 });
 function fixes(){
-    if($('#sidebarBlog').height()<screen.height && !window.matchMedia('(min-width:640px)').matches){
-        $("#sidebarBlog").css({
+    if($('#sidebar-blog').height()<screen.height && !window.matchMedia('(min-width:640px)').matches){
+        $("#sidebar-blog").css({
             overflow: 'scroll',
             height: '59%'
         });
