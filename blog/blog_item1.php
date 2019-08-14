@@ -25,9 +25,9 @@ include 'header-blog.php';
         </div>
         <div class="shares" onclick="return shareBlock();">
             <i class="fas fa-share-alt"  id="share-button"></i>
-            <div class="qjobShareButton">
+            <div class="qjob-share-button">
                 <div class="share_layout"></div>
-                <div class="shareWindow">
+                <div class="share-window">
                     <!--не забывать выставить ссылки на сайт-->
                     <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Facebook">
                         <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
@@ -59,8 +59,8 @@ include 'header-blog.php';
     </div>
 
 </section>
-<section class="blogText">
-    <div class="blogTextItem">
+<section class="blog-text">
+    <div class="blog-text-item">
         <p>Robert utolsó éves egyetemista hallgató ként, a Qjob.hu segítségével teljesít 3-4 futár megbízást naponta, hogy fedezni tudja, kiadásait,mikor a hétvégén kikapcsolodik a barátaival, vagy meglepi barátnőjét.</p>
         <p>Egyetemista ként, hogyan osszam meg az időmet a tanulmányaim és a munkám között, mire figyeljek, ha megrendelővel tárgyalok, és mivel jobb a tömegközlekedés a biciglinél – a szövegben Robert</p>
         <h2>Folyamatos mozgás</h2>
@@ -74,7 +74,7 @@ include 'header-blog.php';
         <p>
             Nem tudok egy helyen ülni, ezért választottam ezt a munkát. Folyamatos mozgásban vagy, látod a várost, az emberek intézik az életüket, változik az időjárás,a nappal estébe fordul, esik, havazik, élvezem a szüntelen változást.
         </p>
-        <img src="assets/img/posts/1/1.jpg" alt="Hogyan egészítheti ki keresetét egy egyetemi hallgató?">
+        <img src="../assets/img/posts/1/1.jpg" alt="Hogyan egészítheti ki keresetét egy egyetemi hallgató?">
 
         <h2>Rugalmas munkabeosztás</h2>
         <p>
@@ -106,7 +106,7 @@ include 'header-blog.php';
         <p>
             Átlagosan napi 3 megrendelést tudok, így teljesíteni. Szombaton, hogy ne unatkozzak otthon, szintén vállalok megrendeléseket, a nap első felében. Délutánra sikerül is teljesítenem a megrendeléseket, ami után szabad a hétvégém és egy kis pénzt is kerestem. Win-win
         </p>
-        <img src="assets/img/posts/1/2.jpg" alt="Előzékenység és pontosság">
+        <img src="../assets/img/posts/1/2.jpg" alt="Előzékenység és pontosság">
         <h2>
             Előzékenység és pontosság
         </h2>
@@ -116,7 +116,7 @@ include 'header-blog.php';
         <p>
             Igyekszek udvariasan kommunikálni a megrendelőkkel. Előfordul, hogy nehéz kiszámítani mikor érek oda a hozzájuk, ha a város egyik részéből a másikba kell eljutni. Törekszek az időmet megfelelően beosztani, de előfordul, hogy a közlekedés miatt ez nem sikerül. Ilyenkor nagyon fontos az előzékenység és udvariasság.
         </p>
-        <img src="assets/img/posts/1/3.jpg">
+        <img src="../assets/img/posts/1/3.jpg">
         <h2>
             Érdekes megrendelések
         </h2>
@@ -129,19 +129,19 @@ include 'header-blog.php';
         <p>
             Előfordul, hogy Budapesthez közeli városokban veszek fel megrendelést, hogy megnézzek valamilyen új helyet. Volt hogy Budapestről kellett Vácra szállítani egy tortát, de a vasutállomástól még busszal kellett a pontos címre menni. Teljesen rendben volt.
         </p>
-        <img src="assets/img/posts/1/4.jpg">
+        <img src="../assets/img/posts/1/4.jpg">
         <p>
             A Qjob.hu érdekes megrendeléssekkel lehet találkozni. Szerintem a torta szállítás egy közölük. Jó érzés valakinek a különleges napjának, ha csak egy kicsit is, de részese lenni.
         </p>
-        <div class="citation cols_right">
+        <blockquote class="cols_right">
             <p>
                 Volt olyan is, hogy virágcsokrot kellett szállítanom egy virágboltból. Annyira szimpatikus lett a kiskereskedés, hogy azóta is ott vásárolok.
             </p>
-        </div>
+        </blockquote>
         <p>
             Egyszer az is megtörtént, hogy egyedi ajándéktárgyakat gyártó cégtől kellet elszállítani fém kitűzöket, egy kávéházba.
         </p>
-        <img src="assets/img/posts/1/5.jpg">
+        <img src="../assets/img/posts/1/5.jpg">
         <p>
             A hétvége után láttam egy facebook csoportban, amire felvoltam iratkozva, hogy a profilképet az álltalam szállított  kitüzőkre váltosztatták. Utánna olvasva kiderült, egy jótékonysági fesztiválon osztoggaták őket a résztvevőknek. Jó érzés volt hozzájárulni a rendezvényhez, még ugy is, hogy nem tudtam róla
         </p>
@@ -168,11 +168,11 @@ include 'header-blog.php';
         -->
 
     </div>
-    <div class="customerAvatar">
+    <div class="customer-avatar">
         <div class="avatar">
-            <img src="assets/img/posts/1/get.jpg" alt="">
+            <img src="../assets/img/posts/1/get.jpg" alt="">
             <a href="#" class="name">Robert</a>
-            <span class="Paragraph">
+            <span class="paragraph">
                 A Qjob.hu oldalon<br/>
                 2017 óta
         </span>
@@ -181,17 +181,17 @@ include 'header-blog.php';
     </div>
 </section>
 <section class="social_links" style="display: none;">
-    <img src="assets/img/buttons/twiter.png" alt="">
-    <img src="assets/img/buttons/facebook.png" alt="">
+    <img src="../assets/img/buttons/twiter.png" alt="">
+    <img src="../assets/img/buttons/facebook.png" alt="">
 </section>
-<section class="relatedPosts">
+<section class="related-posts">
     <h2>Похожие записи</h2>
-    <div class="relatedPostsList">
+    <div class="related-posts-list">
         <?php
         $array = [
-            ['name'=>'10 глупых вопросов про звукоизоляцию','image'=>'assets/img/posts/related/1.png','date'=>'12 июля', "video"=> false],
-            ['name'=>'О чем молчат фрилансеры','image'=>'assets/img/posts/related/2.png','date'=>'12 июля',"video"=> true],
-            ['name'=>'Самые необычные задания. Выпуск 43','image'=>'assets/img/posts/related/3.png','date'=>'12 июля','video'=> false],
+            ['name'=>'10 глупых вопросов про звукоизоляцию','image'=>'../assets/img/posts/related/1.png','date'=>'12 июля', "video"=> false],
+            ['name'=>'О чем молчат фрилансеры','image'=>'../assets/img/posts/related/2.png','date'=>'12 июля',"video"=> true],
+            ['name'=>'Самые необычные задания. Выпуск 43','image'=>'../assets/img/posts/related/3.png','date'=>'12 июля','video'=> false],
         ];
 
         foreach ($array as $item){
@@ -200,13 +200,13 @@ include 'header-blog.php';
                 <div class="image ">
                     <img src="<?=$item['image']?>" alt="">
                     <?php if($item['video']){ ?>
-                        <div class="isVideo"></div>
+                        <div class="is-video"></div>
                     <?php } ?>
                 </div>
-                <a href="#" class="itemTitle">
+                <a href="#" class="item-title">
                     <h3><?=$item['name']?></h3>
                 </a>
-                <p class="Paragraph">
+                <p class="paragraph">
                     <?=$item['date']?>
                 </p>
             </div>
