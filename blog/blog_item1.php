@@ -1,5 +1,6 @@
 <?php
 include 'header-blog.php';
+$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
 ?>
 <section class="progress-bar">
     <div class="indicator"></div>
@@ -29,7 +30,7 @@ include 'header-blog.php';
                 <div class="share_layout"></div>
                 <div class="share-window">
                     <!--не забывать выставить ссылки на сайт-->
-                    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Facebook">
+                    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=<?=$actual_link?>" target="_blank" rel="noopener" aria-label="Facebook">
                         <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
                             Facebook
                             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -37,7 +38,7 @@ include 'header-blog.php';
                             </div>
                         </div>
                     </a>
-                    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Twitter">
+                    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url=<?=$actual_link?>" target="_blank" rel="noopener" aria-label="Twitter">
                         <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
                             Twitter
                             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -45,7 +46,7 @@ include 'header-blog.php';
                             </div>
                         </div>
                     </a>
-                    <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fsharingbuttons.io&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;summary=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;source=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<?=$actual_link?>&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;summary=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;source=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="LinkedIn">
                         <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
                             LinkedIn
                             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">

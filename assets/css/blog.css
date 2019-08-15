@@ -682,10 +682,10 @@ body section.blog-text .blog-text-item h3 + p {
   padding-top: 30px;
 }
 body section.blog-text .blog-text-item img {
-  margin: 45px 0;
-  padding-top: 8px;
-  padding-bottom: 9px;
+  margin: 53px 0;
   border-radius: 10px;
+  width: 100%;
+  padding: 0;
 }
 body section.blog-text .blog-text-item iframe {
   width: 95%;
