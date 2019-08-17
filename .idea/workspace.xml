@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f61564e-f5f3-40c3-803b-11b75a21fdc9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/general.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive-blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive-blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive-blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive-blog.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive-blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive-blog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/blog_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog_item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog_item1.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog_item1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qjob_layouts.rar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,63 +34,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/header-blog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/blog_item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="136" selection-start-line="48" selection-start-column="136" selection-end-line="48" selection-end-column="136" />
-              <folding>
-                <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/blog-footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/blog_item1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="48" column="136" selection-start-line="48" selection-start-column="136" selection-end-line="48" selection-end-column="136" />
-              <folding>
-                <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/emails/1/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/general.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -96,35 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="731" column="19" selection-start-line="731" selection-start-column="19" selection-end-line="731" selection-end-column="19" />
+            <state relative-caret-position="278">
+              <caret line="743" column="30" lean-forward="true" selection-start-line="743" selection-start-column="30" selection-end-line="743" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/responsive.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/responsive-blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="507" column="26" lean-forward="true" selection-start-line="507" selection-start-column="26" selection-end-line="507" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/blog.script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="545">
+              <caret line="505" column="26" selection-start-line="505" selection-start-column="26" selection-end-line="505" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -141,7 +74,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>480</find>
       <find>h2,h3,h4,p</find>
       <find>h2,h3</find>
       <find>Вежливость и пунктуальность — главное</find>
@@ -171,6 +103,7 @@
       <find>relatedpostslist</find>
       <find>sidebar</find>
       <find>customer-avatar</find>
+      <find>advi</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\qjob_layouts</dir>
@@ -209,10 +142,10 @@
         <option value="$PROJECT_DIR$/blog/header-blog.php" />
         <option value="$PROJECT_DIR$/assets/js/blog.script.js" />
         <option value="$PROJECT_DIR$/assets/css/responsive.scss" />
-        <option value="$PROJECT_DIR$/assets/css/responsive-blog.scss" />
-        <option value="$PROJECT_DIR$/assets/css/blog.scss" />
-        <option value="$PROJECT_DIR$/blog/blog_item.php" />
         <option value="$PROJECT_DIR$/blog/blog_item1.php" />
+        <option value="$PROJECT_DIR$/blog/blog_item.php" />
+        <option value="$PROJECT_DIR$/assets/css/blog.scss" />
+        <option value="$PROJECT_DIR$/assets/css/responsive-blog.scss" />
       </list>
     </option>
   </component>
@@ -331,12 +264,13 @@
       <workItem from="1565686889599" duration="4947000" />
       <workItem from="1565707988779" duration="36000" />
       <workItem from="1565713681041" duration="584000" />
-      <workItem from="1565769761152" duration="8036000" />
+      <workItem from="1565769761152" duration="8745000" />
+      <workItem from="1566022808842" duration="264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282501000" />
+    <option name="totallyTimeSpent" value="283474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,7 +285,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26963747" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2734139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -525,15 +459,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/blog.script.js">
+    <entry file="file://$PROJECT_DIR$/assets/responsive-blog.scss" />
+    <entry file="file://$PROJECT_DIR$/blog/blog_item_another_header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/responsive-blog.scss">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/blog/blog-footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/blog_item1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emails/1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/general.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -549,58 +505,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog_item_another_header.php">
+    <entry file="file://$PROJECT_DIR$/assets/js/blog.script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog-footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emails/1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/responsive-blog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="507" column="26" lean-forward="true" selection-start-line="507" selection-start-column="26" selection-end-line="507" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/blog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="731" column="19" selection-start-line="731" selection-start-column="19" selection-end-line="731" selection-end-column="19" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog_item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="136" selection-start-line="48" selection-start-column="136" selection-end-line="48" selection-end-column="136" />
-          <folding>
-            <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog_item1.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="48" column="136" selection-start-line="48" selection-start-column="136" selection-end-line="48" selection-end-column="136" />
-          <folding>
-            <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="278">
+          <caret line="743" column="30" lean-forward="true" selection-start-line="743" selection-start-column="30" selection-end-line="743" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/responsive-blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="505" column="26" selection-start-line="505" selection-start-column="26" selection-end-line="505" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -107,8 +107,6 @@
   body section.blog-text .blog-text-item .advice {
     margin: 0 0;
     width: 100%;
-  }
-  body section.blog-text .blog-text-item .advice .advice-block {
     padding: 0;
   }
   body section.blog-text .blog-text-item blockquote.cols_right, body section.blog-text .blog-text-item blockquote.cols_left {
@@ -494,11 +492,11 @@
     width: 86%;
     font-weight: 700;
   }
-  body section.blog-text .blog-text-item .citation {
+  body section.blog-text .blog-text-item blockquote {
     padding: 30px 20px 0;
     width: 86%;
   }
-  body section.blog-text .blog-text-item .citation.full_width, body section.blog-text .blog-text-item .citation.cols_right, body section.blog-text .blog-text-item .citation.cols_left {
+  body section.blog-text .blog-text-item blockquote.full_width, body section.blog-text .blog-text-item blockquote.cols_right, body section.blog-text .blog-text-item blockquote.cols_left {
     padding: 30px 20px 0;
     width: 86%;
   }

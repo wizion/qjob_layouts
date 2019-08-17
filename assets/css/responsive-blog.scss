@@ -138,9 +138,7 @@ $grey3: #EDE8F7;
         .advice{
           margin: 0 0;
           width: 100%;
-          .advice-block{
-            padding: 0;
-          }
+          padding: 0;
         }
         blockquote{
           &.cols_right,&.cols_left{
@@ -598,7 +596,7 @@ $grey3: #EDE8F7;
 
         }
 
-        .citation {
+        blockquote{
           padding: 30px 20px 0;
           width: 86%;
 
