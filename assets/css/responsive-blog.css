@@ -29,12 +29,18 @@
   body section.blog-text .blog-text-item iframe {
     width: 100%;
   }
+  body section.blog-text .blog-text-item iframe + .image_description {
+    padding: 15px 0 15px 0;
+  }
   body section.blog-text .blog-text-item h2, body section.blog-text .blog-text-item h3, body section.blog-text .blog-text-item a, body section.blog-text .blog-text-item p {
-    padding: 15px 0 15px 0px;
+    padding: 15px 0 15px 0;
   }
   body section.blog-text .blog-text-item img {
     padding: 0;
     width: 100%;
+  }
+  body section.blog-text .blog-text-item img + .image_description {
+    padding: 15px 0 15px 0;
   }
   body section.task-page .sidebar-filter {
     margin: 0 40px 20px 10px;
@@ -101,8 +107,16 @@
     padding: 10px 10px;
     max-width: 600px;
   }
+  body section.blog-text .blog-text-item img + .image_description {
+    padding: 10px 10px;
+    max-width: 600px;
+  }
   body section.blog-text .blog-text-item iframe {
     width: 100%;
+  }
+  body section.blog-text .blog-text-item iframe + .image_description {
+    padding: 10px 10px;
+    max-width: 600px;
   }
   body section.blog-text .blog-text-item .advice {
     margin: 0 0;
@@ -411,10 +425,18 @@
   body section.blog-text .blog-text-item p {
     font-size: 16px;
   }
+  body section.blog-text .blog-text-item iframe + .image_description {
+    padding: 10px 20px;
+    width: 90%;
+  }
   body section.blog-text .blog-text-item img {
     margin: 30px auto;
     padding: 0;
     width: 100%;
+  }
+  body section.blog-text .blog-text-item img + .image_description {
+    padding: 10px 20px;
+    width: 90%;
   }
   body section.blog-text .blog-text-item .fotorama {
     width: 100%;
@@ -481,6 +503,20 @@
   body section.blog-text .blog-text-item p {
     padding: 10px 20px 15px;
     width: 86%;
+  }
+  body section.blog-text .blog-text-item img + .image_description {
+    padding: 10px 20px 15px;
+    width: 86%;
+  }
+  body section.blog-text .blog-text-item img + p, body section.blog-text .blog-text-item img h2, body section.blog-text .blog-text-item img blockquote, body section.blog-text .blog-text-item img .fotorama, body section.blog-text .blog-text-item img iframe, body section.blog-text .blog-text-item img img, body section.blog-text .blog-text-item img .advice {
+    margin-top: 25px;
+  }
+  body section.blog-text .blog-text-item iframe + .image_description {
+    padding: 10px 20px 15px;
+    width: 86%;
+  }
+  body section.blog-text .blog-text-item iframe + p, body section.blog-text .blog-text-item iframe h2, body section.blog-text .blog-text-item iframe blockquote, body section.blog-text .blog-text-item iframe .fotorama, body section.blog-text .blog-text-item iframe iframe, body section.blog-text .blog-text-item iframe img, body section.blog-text .blog-text-item iframe .advice {
+    margin-top: 25px;
   }
   body section.blog-text .blog-text-item h2 {
     padding: 30px 20px 0;

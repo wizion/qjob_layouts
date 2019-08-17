@@ -39,13 +39,19 @@ $grey3: #EDE8F7;
         }
         iframe{
           width: 100%;
+          & + .image_description{
+            padding: 15px 0 15px 0;
+          }
         }
         h2,h3,a,p{
-          padding: 15px 0 15px 0px;
+          padding: 15px 0 15px 0;
         }
         img{
           padding: 0;
           width: 100%;
+          & + .image_description{
+            padding: 15px 0 15px 0;
+          }
         }
       }
     }
@@ -132,8 +138,18 @@ $grey3: #EDE8F7;
           padding: 10px 10px;
           max-width: 600px;
         }
+        img{
+          & + .image_description{
+            padding: 10px 10px;
+            max-width: 600px;
+          }
+        }
         iframe{
           width: 100%;
+          & + .image_description{
+            padding: 10px 10px;
+            max-width: 600px;
+          }
         }
         .advice{
           margin: 0 0;
@@ -493,10 +509,20 @@ $grey3: #EDE8F7;
         p{
           font-size: 16px;
         }
+        iframe{
+          & + .image_description{
+            padding: 10px 20px;
+            width: 90%;
+          }
+        }
         img{
           margin: 30px auto;
           padding: 0;
           width: 100%;
+          & + .image_description{
+            padding: 10px 20px;
+            width: 90%;
+          }
         }
         .advice{
 
@@ -579,7 +605,24 @@ $grey3: #EDE8F7;
           padding: 10px 20px 15px;
           width: 86%;
         }
-
+        img{
+          & + .image_description{
+            padding: 10px 20px 15px;
+            width: 86%;
+          }
+          & + p,h2,blockquote,.fotorama,iframe,img,.advice{
+            margin-top: 25px;
+          }
+        }
+        iframe{
+          & + .image_description{
+            padding: 10px 20px 15px;
+            width: 86%;
+          }
+          & + p,h2,blockquote,.fotorama,iframe,img,.advice{
+            margin-top: 25px;
+          }
+        }
         h2 {
           padding: 30px 20px 0;
           width: 86%;

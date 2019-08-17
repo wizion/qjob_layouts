@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f61564e-f5f3-40c3-803b-11b75a21fdc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.scss" afterDir="false" />
@@ -38,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/blog_item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+            <state relative-caret-position="391">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -47,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="743" column="30" lean-forward="true" selection-start-line="743" selection-start-column="30" selection-end-line="743" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="712" column="8" selection-start-line="712" selection-start-column="8" selection-end-line="714" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -56,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/responsive-blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="505" column="26" selection-start-line="505" selection-start-column="26" selection-end-line="505" selection-end-column="26" />
+            <state relative-caret-position="527">
+              <caret line="622" column="13" selection-start-line="622" selection-start-column="13" selection-end-line="622" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -74,7 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h2,h3,h4,p</find>
       <find>h2,h3</find>
       <find>Вежливость и пунктуальность — главное</find>
       <find>blogTextI</find>
@@ -104,6 +102,7 @@
       <find>sidebar</find>
       <find>customer-avatar</find>
       <find>advi</find>
+      <find>description</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\qjob_layouts</dir>
@@ -265,12 +264,12 @@
       <workItem from="1565707988779" duration="36000" />
       <workItem from="1565713681041" duration="584000" />
       <workItem from="1565769761152" duration="8745000" />
-      <workItem from="1566022808842" duration="264000" />
+      <workItem from="1566022808842" duration="2929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283474000" />
+    <option name="totallyTimeSpent" value="286139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,22 +513,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/blog_item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+        <state relative-caret-position="391">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="743" column="30" lean-forward="true" selection-start-line="743" selection-start-column="30" selection-end-line="743" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="712" column="8" selection-start-line="712" selection-start-column="8" selection-end-line="714" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/responsive-blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="505" column="26" selection-start-line="505" selection-start-column="26" selection-end-line="505" selection-end-column="26" />
+        <state relative-caret-position="527">
+          <caret line="622" column="13" selection-start-line="622" selection-start-column="13" selection-end-line="622" selection-end-column="13" />
         </state>
       </provider>
     </entry>
