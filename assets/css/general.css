@@ -1351,6 +1351,18 @@ body section.blog-text .blog-text-item img {
   width: 100%;
   padding: 0;
 }
+body section.blog-text .blog-text-item img[style*="float: right"] {
+  margin: 15px 0 15px 15px;
+}
+body section.blog-text .blog-text-item img[style*="float: right"] + p {
+  margin-top: 0;
+}
+body section.blog-text .blog-text-item img[style*="float: left"] {
+  margin: 15px 15px 15px 0;
+}
+body section.blog-text .blog-text-item img[style*="float: left"] + p {
+  margin-top: 0;
+}
 body section.blog-text .blog-text-item img + h3 {
   margin: 0;
 }

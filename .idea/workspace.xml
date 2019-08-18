@@ -7,9 +7,6 @@
       <change beforePath="$PROJECT_DIR$/assets/css/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/general.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive-blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive-blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive-blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive-blog.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive-blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive-blog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/blog_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog_item.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/blog_item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="289">
+              <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -46,13 +43,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="712" column="8" selection-start-line="712" selection-start-column="8" selection-end-line="714" selection-end-column="9" />
+            <state relative-caret-position="363">
+              <caret line="711" column="33" selection-start-line="711" selection-start-column="33" selection-end-line="711" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/responsive-blog.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
@@ -142,9 +139,9 @@
         <option value="$PROJECT_DIR$/assets/js/blog.script.js" />
         <option value="$PROJECT_DIR$/assets/css/responsive.scss" />
         <option value="$PROJECT_DIR$/blog/blog_item1.php" />
-        <option value="$PROJECT_DIR$/blog/blog_item.php" />
-        <option value="$PROJECT_DIR$/assets/css/blog.scss" />
         <option value="$PROJECT_DIR$/assets/css/responsive-blog.scss" />
+        <option value="$PROJECT_DIR$/assets/css/blog.scss" />
+        <option value="$PROJECT_DIR$/blog/blog_item.php" />
       </list>
     </option>
   </component>
@@ -177,6 +174,13 @@
               <item name="qjob_layouts" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qjob_layouts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qjob_layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="responsive-blog.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="qjob_layouts" type="b2602c69:ProjectViewProjectNode" />
@@ -264,12 +268,12 @@
       <workItem from="1565707988779" duration="36000" />
       <workItem from="1565713681041" duration="584000" />
       <workItem from="1565769761152" duration="8745000" />
-      <workItem from="1566022808842" duration="2929000" />
+      <workItem from="1566022808842" duration="4498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286139000" />
+    <option name="totallyTimeSpent" value="287708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,24 +515,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog_item.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/responsive-blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="527">
+          <caret line="622" column="13" selection-start-line="622" selection-start-column="13" selection-end-line="622" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="712" column="8" selection-start-line="712" selection-start-column="8" selection-end-line="714" selection-end-column="9" />
+        <state relative-caret-position="363">
+          <caret line="711" column="33" selection-start-line="711" selection-start-column="33" selection-end-line="711" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/responsive-blog.scss">
+    <entry file="file://$PROJECT_DIR$/blog/blog_item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="622" column="13" selection-start-line="622" selection-start-column="13" selection-end-line="622" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -702,6 +702,18 @@ body{
         border-radius: 10px;
         width: 100%;
         padding: 0;
+        &[style*="float: right"]{
+          margin: 15px 0 15px 15px;
+          & + p{
+            margin-top: 0;
+          }
+        }
+        &[style*="float: left"]{
+          margin: 15px 15px 15px 0;
+          & + p{
+            margin-top: 0;
+          }
+        }
         & + h3{
           margin: 0;
         }
