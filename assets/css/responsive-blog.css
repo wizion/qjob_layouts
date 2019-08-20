@@ -37,6 +37,7 @@
   }
   body section.blog-text .blog-text-item img {
     padding: 0;
+    margin: 53px 0 5px 0;
     width: 100%;
   }
   body section.blog-text .blog-text-item img + .image_description {
@@ -106,6 +107,8 @@
   body section.blog-text .blog-text-item p, body section.blog-text .blog-text-item img, body section.blog-text .blog-text-item h2, body section.blog-text .blog-text-item h3, body section.blog-text .blog-text-item blockquote {
     padding: 10px 10px;
     max-width: 600px;
+    margin: 53px 0 0;
+    border-radius: 20px;
   }
   body section.blog-text .blog-text-item img + .image_description {
     padding: 10px 10px;
@@ -419,14 +422,14 @@
     width: 96%;
   }
   body section.blog-text .blog-text-item p, body section.blog-text .blog-text-item h2, body section.blog-text .blog-text-item h3, body section.blog-text .blog-text-item blockquote {
-    padding: 10px 20px;
+    padding: 10px 5%;
     width: 90%;
   }
   body section.blog-text .blog-text-item p {
     font-size: 16px;
   }
   body section.blog-text .blog-text-item iframe + .image_description {
-    padding: 10px 20px;
+    padding: 10px 5%;
     width: 90%;
   }
   body section.blog-text .blog-text-item img {
@@ -435,7 +438,7 @@
     width: 100%;
   }
   body section.blog-text .blog-text-item img + .image_description {
-    padding: 10px 20px;
+    padding: 10px 5%;
     width: 90%;
   }
   body section.blog-text .blog-text-item .fotorama {
@@ -456,7 +459,7 @@
     padding: 30px 2%;
   }
   body section.blog-text .blog-text-item blockquote.full_width {
-    padding: 10px 20px;
+    padding: 10px 5%;
     width: 90%;
     float: none;
   }
@@ -497,44 +500,44 @@
     width: 100%;
   }
   body section.blog-text .blog-text-item a.qjob-post-link {
-    padding: 45px 20px 45px;
-    width: 86%;
+    padding: 45px 5% 45px;
+    width: 90%;
   }
   body section.blog-text .blog-text-item p {
-    padding: 10px 20px 15px;
-    width: 86%;
+    padding: 10px 5% 15px;
+    width: 90%;
   }
   body section.blog-text .blog-text-item img + .image_description {
-    padding: 10px 20px 15px;
-    width: 86%;
+    padding: 10px 5% 15px;
+    width: 90%;
   }
   body section.blog-text .blog-text-item img + p, body section.blog-text .blog-text-item img h2, body section.blog-text .blog-text-item img blockquote, body section.blog-text .blog-text-item img .fotorama, body section.blog-text .blog-text-item img iframe, body section.blog-text .blog-text-item img img, body section.blog-text .blog-text-item img .advice {
     margin-top: 25px;
   }
   body section.blog-text .blog-text-item iframe + .image_description {
-    padding: 10px 20px 15px;
-    width: 86%;
+    padding: 10px 5% 15px;
+    width: 90%;
   }
   body section.blog-text .blog-text-item iframe + p, body section.blog-text .blog-text-item iframe h2, body section.blog-text .blog-text-item iframe blockquote, body section.blog-text .blog-text-item iframe .fotorama, body section.blog-text .blog-text-item iframe iframe, body section.blog-text .blog-text-item iframe img, body section.blog-text .blog-text-item iframe .advice {
     margin-top: 25px;
   }
   body section.blog-text .blog-text-item h2 {
-    padding: 30px 20px 0;
-    width: 86%;
+    padding: 30px 5% 0;
+    width: 90%;
     font-weight: 700;
   }
   body section.blog-text .blog-text-item h3 {
-    padding: 30px 20px 0;
-    width: 86%;
+    padding: 30px 5% 0;
+    width: 90%;
     font-weight: 700;
   }
   body section.blog-text .blog-text-item blockquote {
-    padding: 30px 20px 0;
-    width: 86%;
+    padding: 30px 5% 0;
+    width: 90%;
   }
   body section.blog-text .blog-text-item blockquote.full_width, body section.blog-text .blog-text-item blockquote.cols_right, body section.blog-text .blog-text-item blockquote.cols_left {
-    padding: 30px 20px 0;
-    width: 86%;
+    padding: 30px 5% 0;
+    width: 90%;
   }
 }
 @media screen and (max-width: 320px) {

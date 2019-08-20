@@ -48,6 +48,7 @@ $grey3: #EDE8F7;
         }
         img{
           padding: 0;
+          margin: 53px 0 5px 0;
           width: 100%;
           & + .image_description{
             padding: 15px 0 15px 0;
@@ -137,6 +138,8 @@ $grey3: #EDE8F7;
         p,img,h2,h3,blockquote{
           padding: 10px 10px;
           max-width: 600px;
+          margin: 53px 0 0;
+          border-radius: 20px;
         }
         img{
           & + .image_description{
@@ -503,7 +506,7 @@ $grey3: #EDE8F7;
           width: 96%;
         }
         p,h2,h3,blockquote{
-          padding: 10px 20px;
+          padding: 10px 5%;
           width: 90%;
         }
         p{
@@ -511,7 +514,7 @@ $grey3: #EDE8F7;
         }
         iframe{
           & + .image_description{
-            padding: 10px 20px;
+            padding: 10px 5%;
             width: 90%;
           }
         }
@@ -520,7 +523,7 @@ $grey3: #EDE8F7;
           padding: 0;
           width: 100%;
           & + .image_description{
-            padding: 10px 20px;
+            padding: 10px 5%;
             width: 90%;
           }
         }
@@ -544,7 +547,7 @@ $grey3: #EDE8F7;
             padding: 30px 2%;
           }
           &.full_width{
-            padding: 10px 20px;
+            padding: 10px 5%;
             width: 90%;
             float: none;
           }
@@ -597,18 +600,18 @@ $grey3: #EDE8F7;
         width: 100%;
 
         a.qjob-post-link {
-          padding: 45px 20px 45px;
-          width: 86%;
+          padding: 45px 5% 45px;
+          width: 90%;
         }
 
         p {
-          padding: 10px 20px 15px;
-          width: 86%;
+          padding: 10px 5% 15px;
+          width: 90%;
         }
         img{
           & + .image_description{
-            padding: 10px 20px 15px;
-            width: 86%;
+            padding: 10px 5% 15px;
+            width: 90%;
           }
           & + p,h2,blockquote,.fotorama,iframe,img,.advice{
             margin-top: 25px;
@@ -616,22 +619,22 @@ $grey3: #EDE8F7;
         }
         iframe{
           & + .image_description{
-            padding: 10px 20px 15px;
-            width: 86%;
+            padding: 10px 5% 15px;
+            width: 90%;
           }
           & + p,h2,blockquote,.fotorama,iframe,img,.advice{
             margin-top: 25px;
           }
         }
         h2 {
-          padding: 30px 20px 0;
-          width: 86%;
+          padding: 30px 5% 0;
+          width: 90%;
           font-weight: 700;
         }
 
         h3 {
-          padding: 30px 20px 0;
-          width: 86%;
+          padding: 30px 5% 0;
+          width: 90%;
           font-weight: 700;
         }
 
@@ -640,12 +643,12 @@ $grey3: #EDE8F7;
         }
 
         blockquote{
-          padding: 30px 20px 0;
-          width: 86%;
+          padding: 30px 5% 0;
+          width: 90%;
 
           &.full_width, &.cols_right, &.cols_left {
-            padding: 30px 20px 0;
-            width: 86%;
+            padding: 30px 5% 0;
+            width: 90%;
           }
         }
       }

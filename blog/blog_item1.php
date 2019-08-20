@@ -75,8 +75,9 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         <p>
             Nem tudok egy helyen ülni, ezért választottam ezt a munkát. Folyamatos mozgásban vagy, látod a várost, az emberek intézik az életüket, változik az időjárás,a nappal estébe fordul, esik, havazik, élvezem a szüntelen változást.
         </p>
-        <img src="../assets/img/posts/1/1.jpg" alt="Hogyan egészítheti ki keresetét egy egyetemi hallgató?">
-
+        <p>
+            <img src="../assets/img/posts/1/1.jpg" alt="Hogyan egészítheti ki keresetét egy egyetemi hallgató?">
+        </p>
         <h2>Rugalmas munkabeosztás</h2>
         <p>
             14-15 éves koromban kezdtem el dolgozni futárként egy fotós szaküzletben. Műszaki termékeket és előhívott képeket szállítottam ki a megrendelőkhöz. Később egy építész tervező iroda hivatalos dokumentációit szállítottam ki, de ez csak nyári munka volt, mivel teljesmunkaidőben alkalmaztak, és ezt nem tudtam összehangolni tanulmányaimmal.
@@ -130,7 +131,9 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         <p>
             Előfordul, hogy Budapesthez közeli városokban veszek fel megrendelést, hogy megnézzek valamilyen új helyet. Volt hogy Budapestről kellett Vácra szállítani egy tortát, de a vasutállomástól még busszal kellett a pontos címre menni. Teljesen rendben volt.
         </p>
-        <img src="../assets/img/posts/1/4.jpg">
+        <p>
+            <img src="../assets/img/posts/1/4.jpg">
+        </p>
         <p>
             A Qjob.hu érdekes megrendeléssekkel lehet találkozni. Szerintem a torta szállítás egy közölük. Jó érzés valakinek a különleges napjának, ha csak egy kicsit is, de részese lenni.
         </p>
@@ -142,7 +145,10 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         <p>
             Egyszer az is megtörtént, hogy egyedi ajándéktárgyakat gyártó cégtől kellet elszállítani fém kitűzöket, egy kávéházba.
         </p>
-        <img src="../assets/img/posts/1/5.jpg">
+        <p>
+            <img src="../assets/img/posts/1/5.jpg">
+        </p>
+
         <p>
             A hétvége után láttam egy facebook csoportban, amire felvoltam iratkozva, hogy a profilképet az álltalam szállított  kitüzőkre váltosztatták. Utánna olvasva kiderült, egy jótékonysági fesztiválon osztoggaták őket a résztvevőknek. Jó érzés volt hozzájárulni a rendezvényhez, még ugy is, hogy nem tudtam róla
         </p>
