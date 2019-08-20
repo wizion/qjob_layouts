@@ -681,6 +681,13 @@ body{
       width: 100%;
       margin: 0 auto 40px;
       a.qjob-post-link{
+        &:before{
+          content: "";
+          background: url(../img/blog_item-arrow.png) no-repeat;
+          width: 30px;
+          height: 30px;
+          margin: 0px 10px 0px 0px;
+        }
         padding: 45px 0 45px 0;
         width: 100%;
         display: flex;
@@ -780,7 +787,7 @@ body{
       .fotorama{
         width: 100%;
         margin: 0 auto 30px;
-        padding: 0 0 0 10px;
+        padding: 0;
         .fotorama__stage__frame.fotorama__active{
           border-radius: 10px;
         }
