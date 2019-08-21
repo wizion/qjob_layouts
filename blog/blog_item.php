@@ -67,16 +67,16 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         <h2>Постоянное движение</h2>
         <p>Мне 19 лет, я в Москве родился, заканчиваю дорожный колледж по специальности «Техническая эксплуатация подвижного состава». Мне с детства нравилась техника и железная дорога, и я всегда хотел стать машинистом. Но по состоянию здоровья у меня, к сожалению, не получается работать на железной дороге. После окончания учёбы буду выбирать другую специальность, которая мне понравится, а пока в свободное время подрабатываю курьером.</p>
         <a href="#" class="qjob-post-link" target="_blank">
-      
+
             Один день из жизни топового курьера
         </a>
         <p>Я не могу сидеть на месте, наверное поэтому выбрал эту работу. Ты постоянно куда-то движешься, видишь улицу, кто-то куда-то едет, погода меняется, день сменяется ночью, летом распускаются деревья, а зимой снег идёт. Вокруг постоянно что-то происходит — по-моему, это очень интересно. </p>
         <p>
             <img src="../assets/img/posts/1/first.png" alt="Как студенту зарабатывать на кино и кафешки">
+            <span class="image_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ex nam quo recusandae ullam vero? Accusantium ipsa minus porro! Cupiditate explicabo ipsa iusto laboriosam laborum magni mollitia quis quod voluptatum?
+            </span>
         </p>
-        <div class="image_description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ex nam quo recusandae ullam vero? Accusantium ipsa minus porro! Cupiditate explicabo ipsa iusto laboriosam laborum magni mollitia quis quod voluptatum?
-        </div>
+
         <h2>Карманные деньги</h2>
         <p>Как таковой мотивации не было, просто хотелось получать деньги, чтобы можно было потом их свободно тратить на себя. Всё-таки я ещё молодой, хочется себе что-то купить, но тех денег, которые мне дают, не хватает. А мне хотелось хотя бы копеечку получать, чтобы после учёбы купить себе какую-нибудь вкусняшку, накопить деньги на выходные, чтобы с друзьями поехать гулять. </p>
         <blockquote>
@@ -84,7 +84,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         </blockquote>
         <p>Было хорошее время в конце прошлого года: перед Новым годом поступало очень много заказов, и даже получалось раз в неделю ходить в ресторан с девушкой. Это было вполне возможно. Сейчас, конечно, не так из-за занятости, но на кино и кафешки вполне хватает. </p>
         <h2>Вежливость и пунктуальность — главное</h2>
-        <div class="fotorama" data-width="100%" data-ratio="800/600">
+        <div class="fotorama" data-width="100%" >
             <img src="https://s.fotorama.io/1.jpg">
             <img src="https://s.fotorama.io/2.jpg">
         </div>

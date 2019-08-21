@@ -705,9 +705,9 @@ body{
         }
       }
       img{
-        margin: 53px 4.5% 5px 1.5%;
+        margin: 38px 0 5px 0;
         border-radius: 10px;
-        width: 94%;
+        width: 100%;
         padding: 0;
         &[style*="float: right"]{
           margin: 15px 0 15px 15px;
@@ -725,7 +725,8 @@ body{
           margin: 0;
         }
         & + .image_description{
-          padding: 20px 30px 20px 10px;
+          margin: 20px 0;
+          display: block;
           font-size: 14px;
           line-height: 28px;
         }
@@ -763,7 +764,8 @@ body{
         border-radius: 10px;
         margin: 45px 0 5px;
         & + .image_description{
-          padding: 20px 30px 20px 10px;
+          margin: 20px 0;
+          display: block;
           font-size: 14px;
           line-height: 28px;
         }
@@ -785,13 +787,13 @@ body{
           }
         }
       .fotorama{
-        width: 100%;
         margin: 0 auto 30px;
-        padding: 0;
-        .fotorama__stage__frame.fotorama__active{
-          border-radius: 10px;
+        padding: 15px 30px 15px 10px;
+        .fotorama__stage__frame{
+          border-radius: 10px !important;
         }
         img{
+          width: 100%;
           border-radius: 10px !important;
         }
       }
