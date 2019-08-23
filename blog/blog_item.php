@@ -25,7 +25,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
             </svg>
         </div>
         <div class="shares" onclick="return shareBlock();">
-            <i class="fas fa-share-alt"  id="share-button"></i>
+            <i id="share-button"></i>
             <div class="qjob-share-button">
                 <div class="share-layout"></div>
                 <div class="share-window">

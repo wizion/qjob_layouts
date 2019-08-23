@@ -86,6 +86,7 @@
   body section.blog-image .main-image-elements {
     align-self: center;
     margin: 16vh 10vw 5vh;
+    width: 80vw;
   }
   body section.blog-image .main-image-elements .meta {
     padding-bottom: 0;
@@ -103,17 +104,17 @@
     max-width: 100%;
   }
   body section.blog-text .blog-text-item a.qjob-post-link {
-    padding: 45px 0px;
+    padding: 45px 0;
     width: 100%;
   }
   body section.blog-text .blog-text-item img, body section.blog-text .blog-text-item h2, body section.blog-text .blog-text-item h3, body section.blog-text .blog-text-item blockquote {
-    padding: 10px 0px;
+    padding: 10px 0;
     max-width: 600px;
     margin: 53px 0 0;
     border-radius: 20px;
   }
   body section.blog-text .blog-text-item img {
-    margin: 38px 0px 15px;
+    margin: 38px 0 15px;
     max-width: 600px;
     border-radius: 10px;
     padding: 0;
@@ -129,14 +130,14 @@
     margin: 0 0 30px;
   }
   body section.blog-text .blog-text-item .fotorama img {
-    margin: 38px 0px 15px !important;
+    margin: 38px 0 15px !important;
   }
   body section.blog-text .blog-text-item .fotorama .fotorama__stage__shaft {
     width: initial !important;
   }
   body section.blog-text .blog-text-item iframe {
     width: 100%;
-    padding: 0px 0px;
+    padding: 0;
     max-width: 600px;
     margin: 0;
     border-radius: 10px;
@@ -220,7 +221,8 @@
   }
   body section.blog-image .main-image-elements {
     align-self: center;
-    margin: 16% 10vw 5vh;
+    margin: 16% 5vw 5vh;
+    width: 90vw;
   }
   body section.blog-image .main-image-elements .meta h1 {
     font-size: 61px;
@@ -406,8 +408,8 @@
   }
   body section.blog-image .main-image-elements {
     align-self: center;
-    margin: 20vh 5vw 5vh;
-    width: 90%;
+    margin: 20vh 12.5vw 5vh;
+    width: 75%;
   }
   body section.blog-image .main-image-elements .meta h1 {
     font-size: 32px;
@@ -456,7 +458,6 @@
     font-size: 16px;
   }
   body section.blog-text .blog-text-item iframe {
-    width: 100%;
     width: 100vw;
     margin: 0 -5vw;
   }
@@ -467,7 +468,6 @@
   body section.blog-text .blog-text-item img {
     margin: 30px auto;
     padding: 0;
-    width: 100%;
     width: 100vw;
     margin: 0 -5vw;
   }
