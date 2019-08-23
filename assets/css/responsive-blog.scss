@@ -523,7 +523,6 @@ $grey3: #EDE8F7;
         }
       }
     }
-
     section.blog-text{
       padding: 0;
       margin: initial;
@@ -540,6 +539,12 @@ $grey3: #EDE8F7;
         p,h2,h3,blockquote{
           padding: 10px 5%;
           width: 90%;
+          margin: 30px 0 0;
+        }
+        h2,h3{
+          & + p{
+            padding-top: 25px;
+          }
         }
         p{
           font-size: 16px;

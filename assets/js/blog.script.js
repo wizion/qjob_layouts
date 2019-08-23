@@ -71,6 +71,12 @@ function shareBlock(){
 
 
 $(document).ready(()=>{
+    $('.fotorama').fotorama({
+        allowfullscreen: true,
+        click: true,
+        swipe: true,
+
+    });
     $('.arrow').on('click',()=>{
         $('html, body').animate({
             scrollTop: $(".blog-text").offset().top
@@ -81,14 +87,15 @@ $(document).ready(()=>{
         fixes();
     });
 
-    const sr = ScrollReveal({
+    ScrollReveal({
         duration: 1000,
         reset: false
-    });
-    sr.reveal('.blogTextItem>p,.blogTextItem>h2,.blogTextItem>h3,.blogTextItem>img,.blogTextItem>a,.blogTextItem>.citation,.blogTextItem>.fotorama', {
+    }).reveal('.blog-text-item>p,.blog-text-item>h2,.blog-text-item>h3,.blog-text-item>img,.blog-text-item>blockquote,.blog-text-item>a,.blog-text-item>.fotorama', {
         delay: 300
     });
+
 });
+
 function fixes(){
     if($('#sidebar-blog').height()<screen.height && !window.matchMedia('(min-width:640px)').matches){
         $("#sidebar-blog").css({

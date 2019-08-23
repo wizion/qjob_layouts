@@ -453,6 +453,10 @@
   body section.blog-text .blog-text-item p, body section.blog-text .blog-text-item h2, body section.blog-text .blog-text-item h3, body section.blog-text .blog-text-item blockquote {
     padding: 10px 5%;
     width: 90%;
+    margin: 30px 0 0;
+  }
+  body section.blog-text .blog-text-item h2 + p, body section.blog-text .blog-text-item h3 + p {
+    padding-top: 25px;
   }
   body section.blog-text .blog-text-item p {
     font-size: 16px;
