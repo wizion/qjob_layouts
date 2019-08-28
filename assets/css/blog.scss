@@ -777,13 +777,24 @@ body{
           margin-top: 40px;
         }
       }
+
       .advice{
         background-color: #f5f5f5;
         margin: 0px -20px;
         color: #1D1539;
-        padding: 15px 30px 15px 30px;
+        padding: 7px 30px 0 30px;
         font-size: 18px;
-        white-space: pre-line;
+          & ~ .advice {
+            background-color: #f5f5f5;
+            margin: 0px -20px;
+            color: #1D1539;
+            padding: 15px 30px 5px 30px;
+            font-size: 18px;
+          }
+          &:last-child{
+            display: block;
+            padding: 15px 30px 30px 30px;
+          }
           span{
             margin: 0;
             clear: both;

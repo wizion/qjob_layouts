@@ -185,6 +185,16 @@ $grey3: #EDE8F7;
           margin: 0 -5%;
           width: 100%;
           padding: 0 5%;
+          & ~ .advice {
+            margin: 0 -5%;
+            width: 100%;
+            padding:10px 5% 10px;
+          }
+          &:last-child{
+            margin: 0 -5%;
+            width: 100%;
+            padding: 15px 5% 30px;
+          }
         }
         blockquote{
           &.cols_right,&.cols_left{
@@ -573,6 +583,16 @@ $grey3: #EDE8F7;
           padding: 10px 5%;
           width: 90%;
           margin: 30px 0 0;
+          & ~ .advice {
+            padding: 10px 5%;
+            width: 90%;
+            margin: 0;
+          }
+          &:last-child{
+            padding: 10px 5%;
+            width: 90%;
+            margin: 0;
+          }
         }
         .fotorama{
           width: 100%;
