@@ -14,11 +14,11 @@ function progressBarWidth(){
         docHeight=document.documentElement.offsetHeight,
         winHeight=window.innerHeight;
     let scrollPercent = (windowScrollTop / (docHeight - winHeight))*100;
-
     document.getElementsByClassName('indicator')[0].style.width = scrollPercent + '%';
 }
 window.onscroll = ()=>{
     progressBarWidth();
+    document.getElementsByTagName('body')[0].style.height = "";
 }
 function sidebarBlog() {
     let blockHeight = $('#sidebar-blog').height() + 180;
