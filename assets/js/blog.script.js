@@ -72,12 +72,15 @@ function shareBlock(){
 
 
 $(document).ready(()=>{
-    $('.fotorama').fotorama({
-        allowfullscreen: true,
-        click: true,
-        swipe: true,
 
-    });
+    if($(".blog-text-item").hasClass("fotorama")){
+        $('.fotorama').fotorama({
+            allowfullscreen: true,
+            click: true,
+            swipe: true,
+        });
+    }
+
     $('.arrow').on('click',()=>{
         $('html, body').animate({
             scrollTop: $(".blog-text").offset().top
