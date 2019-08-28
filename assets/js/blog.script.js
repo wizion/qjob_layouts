@@ -14,6 +14,7 @@ function progressBarWidth(){
         docHeight=document.documentElement.offsetHeight,
         winHeight=window.innerHeight;
     let scrollPercent = (windowScrollTop / (docHeight - winHeight))*100;
+
     document.getElementsByClassName('indicator')[0].style.width = scrollPercent + '%';
 }
 window.onscroll = ()=>{

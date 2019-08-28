@@ -1008,9 +1008,9 @@ body section.related-posts .related-posts-list .item .image img {
     display: block;
   }
   body section.blog-text .blog-text-item .advice {
-    margin: 0 0;
+    margin: 0 -5%;
     width: 100%;
-    padding: 0;
+    padding: 0 5%;
   }
   body section.blog-text .blog-text-item blockquote.cols_right, body section.blog-text .blog-text-item blockquote.cols_left {
     margin: 30px 0 15px 0;
@@ -1321,10 +1321,11 @@ body section.related-posts .related-posts-list .item .image img {
   }
   body section.blog-text .blog-text-item p {
     font-size: 16px;
+    margin: 0;
   }
   body section.blog-text .blog-text-item iframe {
-    width: 100vw;
-    margin: 0 -5vw;
+    width: 110%;
+    margin: 0 -5%;
   }
   body section.blog-text .blog-text-item iframe + .image_description {
     margin: 10px 0;
@@ -1333,29 +1334,40 @@ body section.related-posts .related-posts-list .item .image img {
   body section.blog-text .blog-text-item img {
     margin: 30px auto;
     padding: 0;
-    width: 100vw;
-    margin: 0 -5vw;
+    width: 110%;
+    margin: 0 -5%;
   }
   body section.blog-text .blog-text-item img + .image_description {
     margin: 10px 0;
     display: block;
   }
+  body section.blog-text .blog-text-item .advice {
+    padding: 10px 5%;
+    width: 90%;
+    margin: 30px 0 0;
+  }
   body section.blog-text .blog-text-item .fotorama {
     width: 100%;
     padding: 0 0 0 0;
+  }
+  body section.blog-text .blog-text-item .fotorama img {
+    margin: 30px auto;
+    padding: 0;
+    width: 110%;
+    margin: 0 -5%;
   }
   body section.blog-text .blog-text-item blockquote {
     margin: 30px 0;
   }
   body section.blog-text .blog-text-item blockquote.cols_left {
-    width: 96%;
+    width: 90%;
     float: initial;
-    padding: 30px 2%;
+    padding: 30px 5%;
   }
   body section.blog-text .blog-text-item blockquote.cols_right {
-    width: 96%;
+    width: 90%;
     float: initial;
-    padding: 30px 2%;
+    padding: 30px 5%;
   }
   body section.blog-text .blog-text-item blockquote.full_width {
     padding: 10px 5%;
