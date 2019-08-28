@@ -108,7 +108,9 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         <p>
             Átlagosan napi 3 megrendelést tudok, így teljesíteni. Szombaton, hogy ne unatkozzak otthon, szintén vállalok megrendeléseket, a nap első felében. Délutánra sikerül is teljesítenem a megrendeléseket, ami után szabad a hétvégém és egy kis pénzt is kerestem. Win-win
         </p>
-        <img src="../assets/img/posts/1/2.jpg" alt="Előzékenység és pontosság">
+        <p>
+            <img src="../assets/img/posts/1/2.jpg" alt="Előzékenység és pontosság">            
+        </p>
         <h2>
             Előzékenység és pontosság
         </h2>
@@ -118,7 +120,9 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         <p>
             Igyekszek udvariasan kommunikálni a megrendelőkkel. Előfordul, hogy nehéz kiszámítani mikor érek oda a hozzájuk, ha a város egyik részéből a másikba kell eljutni. Törekszek az időmet megfelelően beosztani, de előfordul, hogy a közlekedés miatt ez nem sikerül. Ilyenkor nagyon fontos az előzékenység és udvariasság.
         </p>
-        <img src="../assets/img/posts/1/3.jpg">
+        <p>
+            <img src="../assets/img/posts/1/3.jpg">
+        </p>
         <h2>
             Érdekes megrendelések
         </h2>
