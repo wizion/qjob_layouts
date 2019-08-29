@@ -149,7 +149,7 @@
   body section.blog-text .blog-text-item .advice {
     margin: 0 -5%;
     width: 100%;
-    padding: 0 5%;
+    padding: 5px 5% 0;
   }
   body section.blog-text .blog-text-item .advice ~ .advice {
     margin: 0 -5%;
@@ -493,7 +493,7 @@
     display: block;
   }
   body section.blog-text .blog-text-item .advice {
-    padding: 20px 5% 0;
+    padding: 10px 5% 0;
     width: 90%;
     margin: 30px 0 0;
   }
