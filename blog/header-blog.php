@@ -1,3 +1,23 @@
+<?php
+function getCurrentClass(){
+    $link = $_SERVER['REQUEST_URI'];
+
+    $array = [
+        'blog-main'  => 'main',
+        'blog_item' => 'blog',
+        'blog_item1' => 'blog',
+    ];
+    $class = "";
+    foreach ($array as $item=>$value){
+        if (strpos($link, $item) !== false) {
+            $class = $value;
+        }
+    }
+    return $class;
+}
+
+?>
+
 <html>
 <head>
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -8,14 +28,20 @@
 
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/skeleton.css">
-    <link rel="stylesheet" href="../assets/css/blog.css" />
+    <?php
+        if(getCurrentClass() === "main"){
+            echo '<link rel="stylesheet" href="../assets/css/mainblog.css" />';
+        }else{
+            echo '<link rel="stylesheet" href="../assets/css/blog.css" />';
+        }
+    ?>
     <link rel="stylesheet" href="../assets/css/all.css" />
     <link rel="stylesheet"  href="../assets/css/hamburger/hamburgers.css" />
 </head>
 <body>
-<header class="blog">
+<header class="<?=getCurrentClass()?>">
     <div class="logo">
-        <a href="http://blog.qjob.hu"><img src="../assets/img/bloglogo.png" alt=""></a>
+        <a href="http://blog.qjob.hu"><img src="../assets/img/<?=getCurrentClass()?>logo.png" alt=""></a>
     </div>
     <div class="mobilemenu">
         <div class="hamburger hamburger--3dx" onclick="sidebarBlog()">
@@ -24,7 +50,7 @@
         </div>
     </div>
 </header>
-<section id="sidebar-blog">
+<section id="sidebar-blog" class="<?=getCurrentClass()?>">
     <div class="additional_layer" id="additional_layer"></div>
     <ul class="nav">
         <li><a href="/oldal/epites/">Építkezés és felújítás</a></li>

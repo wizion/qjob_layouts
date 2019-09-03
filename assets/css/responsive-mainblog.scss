@@ -1,0 +1,157 @@
+$grey1: #9B99AA;
+$grey3: #EDE8F7;
+$blue: #2E09B6;
+@media screen and  (max-width: 1920px){
+  body{
+    section.main-news{
+      max-width: 1280px;
+    }
+  }
+}
+@media screen and  (max-width: 1536px){
+
+}
+@media screen and (max-width: 1280px){
+  body{
+    section.main-news{
+      max-width: 984px;
+      .big-item{
+        width: 60%;
+        margin: 0 20px 30px 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  body{
+    section.main-news{
+      max-width: 920px;
+      .big-item{
+
+      }
+      .item{
+
+      }
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+  body{
+    section.main-news{
+      max-width: 727px;
+      .big-item{
+        width: 100%;
+        margin: 0 0 30px 0;
+      }
+      .item{
+
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  body{
+    section.main-news{
+      max-width: 600px;
+
+    .big-item{
+        h2{
+          font-size: 20px;
+          line-height: 26px;
+        }
+        .paragraph{
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+      .item{
+        width: 45%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 640px) {
+  body{
+    section.main-news{
+      margin: 60px 15px 30px;
+      .big-item{
+        margin: 0 0 20px 0;
+      }
+      .item{
+        width: 100%;
+        a{
+          text-decoration: none;
+          h3{
+            font-size: 16px;
+            line-height: 22px;
+            color: $blue;
+            margin-bottom: 8px;
+          }
+        }
+
+        .paragraph{
+          font-size: 12px;
+          line-height: 14px;
+        }
+
+      }
+    }
+    section.pagination{
+      .arrow{
+        display: none;
+      }
+    }
+    footer{
+      border-top: 1px solid $grey3;
+      display: grid;
+      grid-template-areas: "lc";
+      grid-template-columns: 1fr;
+      margin: 40px 0 0 0;
+      .footer_menu{
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  body{
+    section.pagination{
+
+
+      .nav_ext{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        line-height: 35px;
+        text-align: center;
+        cursor: default;
+      }
+      a{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin: 2px;
+        &:hover{
+          width: 28px;
+          height: 28px;
+          line-height: 28px;
+        }
+      }
+      span{
+
+        &.active{
+          width: 30px;
+          height: 30px;
+          margin: 2px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  body{
+
+  }
+}
