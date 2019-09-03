@@ -843,16 +843,20 @@ body section.related-posts .related-posts-list {
   justify-content: space-between;
 }
 body section.related-posts .related-posts-list .item {
-  margin: 10px 0;
+  margin: 0 0 20px;
   width: 32%;
+  flex-grow: 0;
 }
-body section.related-posts .related-posts-list .item .Paragraph {
-  color: #9B99AA;
+body section.related-posts .related-posts-list .item a.item-title {
+  display: grid;
+  grid-template: "image" auto "name" 70px/100%;
+  text-decoration: none;
 }
-body section.related-posts .related-posts-list .item .image {
+body section.related-posts .related-posts-list .item a.item-title .image {
   position: relative;
+  grid-area: image;
 }
-body section.related-posts .related-posts-list .item .image .isVideo {
+body section.related-posts .related-posts-list .item a.item-title .image .is-video {
   content: "";
   background: url("../img/buttons/play.png");
   width: 40px;
@@ -863,10 +867,21 @@ body section.related-posts .related-posts-list .item .image .isVideo {
   z-index: 2;
   cursor: pointer;
 }
-body section.related-posts .related-posts-list .item .image img {
+body section.related-posts .related-posts-list .item a.item-title .image img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 16px;
+}
+body section.related-posts .related-posts-list .item a.item-title h2, body section.related-posts .related-posts-list .item a.item-title h3 {
+  grid-area: name;
+  border-bottom: 0px;
+  margin: 0;
+}
+body section.related-posts .related-posts-list .item .paragraph {
+  grid-area: date;
+  color: #9B99AA;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 @media screen and (max-width: 1200px) {

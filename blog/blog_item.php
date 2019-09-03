@@ -142,13 +142,13 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         foreach ($array as $item){
             ?>
             <div class="item">
-                <div class="image ">
-                    <img src="<?=$item['image']?>" alt="">
-                    <?php if($item['video']){ ?>
-                        <div class="isVideo"></div>
-                    <?php } ?>
-                </div>
                 <a href="#" class="item-title">
+                    <div class="image ">
+                        <img src="<?=$item['image']?>" alt="">
+                        <?php if($item['video']){ ?>
+                            <div class="is-video"></div>
+                        <?php } ?>
+                    </div>
                     <h3><?=$item['name']?></h3>
                 </a>
                 <p class="paragraph">

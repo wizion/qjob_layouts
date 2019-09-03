@@ -33,7 +33,7 @@ include 'header-blog.php';
                 ?>
                     <div class="item">
                         <a href="#" class="item-title">
-                            <div class="image ">
+                            <div class="image">
                                 <img src="<?=$array[$i]['image']?>" alt="">
                                 <?php if($array[$i]['is_video']){ ?>
                                     <div class="is-video"></div>

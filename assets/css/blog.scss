@@ -895,29 +895,44 @@ body{
       flex-flow: wrap;
       justify-content: space-between;
       .item{
-        margin: 10px 0;
+        margin: 0 0 20px;
         width: 32%;
-        .Paragraph{
-          color: $grey1;
+        flex-grow: 0;
+        a.item-title{
+          display: grid;
+          grid-template: "image" auto "name" 70px/100%;
+          text-decoration: none;
+          .image{
+            position: relative;
+            grid-area: image;
+            .is-video{
+              content: "";
+              background: url('../img/buttons/play.png');
+              width: 40px;
+              height: 40px;
+              position: absolute;
+              bottom: 30px;
+              left: 15px;
+              z-index: 2;
+              cursor: pointer;
+            }
+            img{
+              width: 100%;
+              border-radius: 8px;
+              margin-bottom: 16px;
+            }
+          }
+          h2,h3{
+            grid-area: name;
+            border-bottom: 0px;
+            margin: 0;
+          }
         }
-        .image{
-          position: relative;
-          .isVideo{
-            content: "";
-            background: url('../img/buttons/play.png');
-            width: 40px;
-            height: 40px;
-            position: absolute;
-            bottom: 30px;
-            left: 15px;
-            z-index: 2;
-            cursor: pointer;
-          }
-          img{
-            width: 100%;
-            border-radius: 8px;
-            margin-bottom: 16px;
-          }
+        .paragraph{
+          grid-area: date;
+          color: $grey1;
+          font-size: 14px;
+          line-height: 22px;
         }
       }
     }
