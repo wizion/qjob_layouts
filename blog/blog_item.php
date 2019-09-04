@@ -5,7 +5,9 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 <section class="progress-bar">
     <div class="indicator"></div>
 </section>
-<section style="background-image: url('../assets/img/posts/1/main.png');" class="blog-image">
+<input type="hidden" id="image-for-mobile" value="../assets/img/posts/1/main.png">
+<input type="hidden" id="image-for-desctop" value="../assets/img/posts/1/main.png">
+<section class="blog-image">
     <div class="main-image-elements">
         <div class="meta">
             <h1>Как студенту зарабатывать на кино и кафешки</h1>

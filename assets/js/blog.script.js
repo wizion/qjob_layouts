@@ -16,9 +16,24 @@ function progressBarWidth(){
     let scrollPercent = (windowScrollTop / (docHeight - winHeight))*100;
     document.getElementsByClassName('indicator')[0].style.width = scrollPercent + '%';
 }
+function imageDeterminant(){
+    let mobile = window.matchMedia('(max-width: 680px)').matches;
+    let desktop = window.matchMedia('(min-width: 681px)').matches;
+    if(desktop){
+        document.getElementById('image-for-desctop').value;
+        document.getElementsByClassName('blog-image')[0].style.backgroundImage = "url("+document.getElementById('image-for-mobile').value+")";
+    }else if(mobile){
+        document.getElementById('image-for-mobile').value;
+        document.getElementsByClassName('blog-image')[0].style.backgroundImage = "url("+document.getElementById('image-for-desctop').value+")";
+    }
+}
 window.onscroll = ()=>{
     progressBarWidth();
+    imageDeterminant();
     document.getElementsByTagName('body')[0].style.height = "";
+}
+window.onresize =()=>{
+    imageDeterminant();
 }
 function sidebarBlog() {
     let blockHeight = $('#sidebar-blog').height() + 180;
@@ -72,7 +87,7 @@ function shareBlock(){
 
 
 $(document).ready(()=>{
-
+    imageDeterminant();
     if($(".blog-text-item").hasClass("fotorama")){
         $('.fotorama').fotorama({
             allowfullscreen: true,
