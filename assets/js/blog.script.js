@@ -17,8 +17,8 @@ function progressBarWidth(){
     document.getElementsByClassName('indicator')[0].style.width = scrollPercent + '%';
 }
 function imageDeterminant(){
-    let mobile = window.matchMedia('(max-width: 680px)').matches;
-    let desktop = window.matchMedia('(min-width: 681px)').matches;
+    let desktop = window.matchMedia('(max-width: 680px)').matches;
+    let mobile = window.matchMedia('(min-width: 681px)').matches;
     if(desktop){
         document.getElementById('image-for-desctop').value;
         document.getElementsByClassName('blog-image')[0].style.backgroundImage = "url("+document.getElementById('image-for-mobile').value+")";

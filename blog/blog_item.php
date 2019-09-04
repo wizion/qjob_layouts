@@ -6,7 +6,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
     <div class="indicator"></div>
 </section>
 <input type="hidden" id="image-for-mobile" value="../assets/img/posts/1/main.png">
-<input type="hidden" id="image-for-desctop" value="../assets/img/posts/1/main.png">
+<input type="hidden" id="image-for-desctop" value="../assets/img/posts/1/fokep.jpg">
 <section class="blog-image">
     <div class="main-image-elements">
         <div class="meta">
