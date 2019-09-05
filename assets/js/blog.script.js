@@ -16,16 +16,27 @@ function progressBarWidth(){
     let scrollPercent = (windowScrollTop / (docHeight - winHeight))*100;
     document.getElementsByClassName('indicator')[0].style.width = scrollPercent + '%';
 }
+function hasClass(id,className) {
+    var id = document.getElementById(id);
+    var cN = document.getElementsByClassName(className)[0];
+    if (id){
+        return id != null;
+    }
+    return cN != null;
+}
 function imageDeterminant(){
     let desktop = window.matchMedia('(max-width: 680px)').matches;
     let mobile = window.matchMedia('(min-width: 681px)').matches;
-    if(desktop){
-        document.getElementById('image-for-desctop').value;
-        document.getElementsByClassName('blog-image')[0].style.backgroundImage = "url("+document.getElementById('image-for-mobile').value+")";
-    }else if(mobile){
-        document.getElementById('image-for-mobile').value;
-        document.getElementsByClassName('blog-image')[0].style.backgroundImage = "url("+document.getElementById('image-for-desctop').value+")";
+    if(hasClass('image-for-mobile','') || hasClass('image-for-desctop')){
+        if(desktop){
+            document.getElementById('image-for-desctop').value;
+            document.getElementsByClassName('blog-image')[0].style.backgroundImage = "url("+document.getElementById('image-for-mobile').value+")";
+        }else if(mobile){
+            document.getElementById('image-for-mobile').value;
+            document.getElementsByClassName('blog-image')[0].style.backgroundImage = "url("+document.getElementById('image-for-desctop').value+")";
+        }
     }
+
 }
 window.onscroll = ()=>{
     progressBarWidth();

@@ -28,17 +28,11 @@ function getCurrentClass(){
 
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/skeleton.css">
-    <?php
-        if(getCurrentClass() === "main"){
-            echo '<link rel="stylesheet" href="../assets/css/mainblog.css" />';
-        }else{
-            echo '<link rel="stylesheet" href="../assets/css/blog.css" />';
-        }
-    ?>
+    <link rel="stylesheet" href="../assets/css/blog.css" />
     <link rel="stylesheet" href="../assets/css/all.css" />
     <link rel="stylesheet"  href="../assets/css/hamburger/hamburgers.css" />
 </head>
-<body>
+<body class="<?=getCurrentClass()?>">
 <header class="<?=getCurrentClass()?>">
     <div class="logo">
         <a href="http://blog.qjob.hu"><img src="../assets/img/<?=getCurrentClass()?>logo.png" alt=""></a>
