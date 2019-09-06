@@ -488,6 +488,7 @@ body section.main-news .item a .image .is-video {
 body section.main-news .item a .image img {
   width: 100%;
   max-height: 277px;
+  max-width: 410px;
   border-radius: 8px;
   margin-bottom: 16px;
 }
