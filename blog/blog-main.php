@@ -15,16 +15,20 @@ include 'header-blog.php';
             ['title'=>'10 глупых вопросов про звукоизоляцию','image'=>'../assets/img/posts/main/6.png','is_video'=>false,'date'=>'12 июля'],
             ['title'=>'О чем молчат фрилансеры','image'=>'../assets/img/posts/main/7.png','is_video'=>true,'date'=>'12 июля'],
             ['title'=>'Самые необычные задания. Выпуск 43','image'=>'../assets/img/posts/main/8.png','is_video'=>false,'date'=>'12 июля'],
+            ['title'=>'10 глупых вопросов про звукоизоляцию','image'=>'../assets/img/posts/main/6.png','is_video'=>false,'date'=>'12 июля'],
+            ['title'=>'О чем молчат фрилансеры','image'=>'../assets/img/posts/main/7.png','is_video'=>true,'date'=>'12 июля'],
+            ['title'=>'Самые необычные задания. Выпуск 43','image'=>'../assets/img/posts/main/8.png','is_video'=>false,'date'=>'12 июля'],
         ];
 
-        for($i=0;$i<8;$i++){
+        $i = 0;
+        foreach($array as $item){
             if($i === 0){
                 ?>
-                    <div class="big-item" style="background-image: url('<?=$array[$i]['image']?>')">
+                    <div class="big-item" style="background-image: url('<?=$item['image']?>')">
                         <div>
-                            <h2><?=$array[$i]['title']?></h2>
+                            <h2><?=$item['title']?></h2>
                             <p class="paragraph">
-                                <?=$array[$i]['date']?>
+                                <?=$item['date']?>
                             </p>
                         </div>
                     </div>
@@ -34,20 +38,21 @@ include 'header-blog.php';
                     <div class="item">
                         <a href="#" class="item-title">
                             <div class="image">
-                                <img src="<?=$array[$i]['image']?>" alt="">
-                                <?php if($array[$i]['is_video']){ ?>
+                                <img src="<?=$item['image']?>" alt="">
+                                <?php if($item['is_video']){ ?>
                                     <div class="is-video"></div>
                                 <?php } ?>
                             </div>
-                            <h3><?=$array[$i]['title']?></h3>
+                            <h3><?=$item['title']?></h3>
                         </a>
                             <p class="paragraph">
-                                <?=$array[$i]['date']?>
+                                <?=$item['date']?>
                             </p>
 
                     </div>
                 <?php
             }
+            $i++;
         }
     ?>
 </section>
