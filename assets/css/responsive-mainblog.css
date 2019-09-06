@@ -23,7 +23,7 @@
 @media screen and (max-width: 960px) {
   body section.main-news {
     max-width: 727px;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 50%);
   }
   body section.main-news .big-item {
     grid-column: 1/span 2;

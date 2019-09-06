@@ -7,17 +7,11 @@ include 'header-blog.php';
 <section class="main-news">
     <?php
         $array = [
-            ['title'=>'Как студенту зарабатывать на кино и кафешки','image'=>'../assets/img/posts/main/1.png','is_video'=>true,'date'=>'12 июля'],
-            ['title'=>'Заработать на новую камеру за два месяца','image'=>'../assets/img/posts/main/2.png','is_video'=>false,'date'=>'12 июля'],
-            ['title'=>'Коллекторы, нечестный вуз, авто со скрученным пробегом','image'=>'../assets/img/posts/main/3.png','is_video'=>true,'date'=>'12 июля'],
-            ['title'=>'8 признаков, что в квартире пора делать ремонт','image'=>'../assets/img/posts/main/4.png','is_video'=>false,'date'=>'12 июля'],
-            ['title'=>'15 полезных заданий на лето','image'=>'../assets/img/posts/main/5.png','is_video'=>true,'date'=>'12 июля'],
-            ['title'=>'10 глупых вопросов про звукоизоляцию','image'=>'../assets/img/posts/main/6.png','is_video'=>false,'date'=>'12 июля'],
-            ['title'=>'О чем молчат фрилансеры','image'=>'../assets/img/posts/main/7.png','is_video'=>true,'date'=>'12 июля'],
+
             ['title'=>'Самые необычные задания. Выпуск 43','image'=>'../assets/img/posts/main/8.png','is_video'=>false,'date'=>'12 июля'],
-            ['title'=>'10 глупых вопросов про звукоизоляцию','image'=>'../assets/img/posts/main/6.png','is_video'=>false,'date'=>'12 июля'],
-            ['title'=>'О чем молчат фрилансеры','image'=>'../assets/img/posts/main/7.png','is_video'=>true,'date'=>'12 июля'],
-            ['title'=>'Самые необычные задания. Выпуск 43','image'=>'../assets/img/posts/main/8.png','is_video'=>false,'date'=>'12 июля'],
+            ['title'=>'Самые необычные задания. Выпуск 43','image'=>'../assets/img/posts/main/rel__bg.png','is_video'=>false,'date'=>'12 июля'],
+            ['title'=>'О чем молчат фрилансеры','image'=>'../assets/img/posts/main/rel_bg.jpeg','is_video'=>true,'date'=>'12 июля'],
+            ['title'=>'10 глупых вопросов про звукоизоляцию','image'=>'../assets/img/posts/main/rel_slide2.jpg','is_video'=>false,'date'=>'12 июля'],
         ];
 
         $i = 0;

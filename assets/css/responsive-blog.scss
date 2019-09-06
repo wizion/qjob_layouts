@@ -6,7 +6,7 @@ $grey3: #EDE8F7;
 @media screen and  (max-width: 1536px){
 
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1280px){
 
 
   body{
@@ -22,6 +22,18 @@ $grey3: #EDE8F7;
           }
           .description{
             width: 95%;
+          }
+        }
+      }
+    }
+    section.related-posts{
+      .related-posts-list{
+        .item{
+          a.item-title{
+            .image{
+              img{
+              }
+            }
           }
         }
       }
@@ -97,6 +109,7 @@ $grey3: #EDE8F7;
         }
       }
     }
+
   }
 }
 @media screen and (max-width: 960px) {
@@ -128,6 +141,19 @@ $grey3: #EDE8F7;
     }
     section.social_links{
       width: 95%;
+    }
+    section.related-posts{
+      .related-posts-list{
+        .item{
+          a.item-title{
+            .image{
+              img{
+                min-height: initial;
+              }
+            }
+          }
+        }
+      }
     }
     section.blog-text{
       padding: 0 15px 0;
@@ -282,6 +308,26 @@ $grey3: #EDE8F7;
 
 @media screen and (max-width: 767px) {
   body{
+    section.related-posts{
+      padding: 40px 15px;
+      .related-posts-list{
+        flex-flow: initial;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 10px;
+        justify-content: initial;
+        overflow: auto;
+        .item{
+          width: 278px;
+          min-height: 300px;
+          .image{
+            img{
+              max-width: 272px;
+              width: initial;
+            }
+          }
+        }
+      }
+    }
     section.blog-image{
       min-height: 600px;
       .main-image-elements {
@@ -297,6 +343,7 @@ $grey3: #EDE8F7;
         width: 90vw;
       }
     }
+
   }
 }
 
@@ -435,7 +482,6 @@ $grey3: #EDE8F7;
         display: none;
       }
       .category-filter-mobile{
-        justify-items: center;
         line-height: 24px;
         display: -webkit-flex;
         display: flex;
@@ -624,24 +670,6 @@ $grey3: #EDE8F7;
           h2,h3,h4,p{
             margin: -10px 0 5px;
             width: 95%;
-          }
-        }
-      }
-    }
-    section.related-posts{
-      padding: 40px 15px;
-      .related-posts-list{
-        flex-flow: initial;
-        justify-content: initial;
-        overflow: auto;
-        .item{
-          width: 278px;
-          margin: 10px 8px;
-          .image{
-            img{
-              max-width: 272px;
-              width: initial;
-            }
           }
         }
       }

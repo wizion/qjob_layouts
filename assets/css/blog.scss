@@ -453,7 +453,7 @@ body{
     grid-area: tb;
 
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 33%);
     grid-template-rows: repeat(auto-fill, auto);
     grid-gap: 20px;
 
@@ -505,7 +505,6 @@ body{
       }
     }
     .item{
-      min-height: 412px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -516,7 +515,6 @@ body{
         text-decoration: none;
         .image{
           position: relative;
-          grid-area: image;
           .is-video{
             content: "";
             background: url('../img/buttons/play.png');
@@ -530,15 +528,12 @@ body{
           }
           img{
             width: 100%;
-            max-height: 277px;
-            max-width: 410px;
             border-radius: 8px;
             margin-bottom: 16px;
           }
         }
         h2,h3{
-          grid-area: name;
-          border-bottom: 0px;
+          border-bottom: 0;
           margin: 0;
           font-size: 20px;
           line-height: 26px;
@@ -1072,11 +1067,10 @@ body{
     padding: 40px 70px;
     .related-posts-list{
       display: grid;
-      grid-template-columns: repeat(3, auto);
+      grid-template-columns: repeat(3, 33%);
       grid-template-rows: repeat(1, auto);
       grid-gap: 20px;
       .item{
-        min-height: 412px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1087,6 +1081,8 @@ body{
           text-decoration: none;
           .image{
             position: relative;
+            display: grid;
+            grid-template: "imgrel" 1fr "ttl" auto / auto;
             grid-area: image;
             .is-video{
               content: "";
@@ -1100,8 +1096,8 @@ body{
               cursor: pointer;
             }
             img{
+              grid-area: imgrel;
               width: 100%;
-              max-height: 270px;
               border-radius: 8px;
               margin-bottom: 16px;
             }
@@ -1109,6 +1105,7 @@ body{
           h2,h3{
             border-bottom: 0px;
             margin: 0;
+            grid-area: ttl;
             font-size: 20px;
             line-height: 26px;
             color: #2E09B6;

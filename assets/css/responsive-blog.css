@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   body {
     /*blog*/
   }
@@ -97,6 +97,9 @@
   }
   body section.social_links {
     width: 95%;
+  }
+  body section.related-posts .related-posts-list .item a.item-title .image img {
+    min-height: initial;
   }
   body section.blog-text {
     padding: 0 15px 0;
@@ -226,6 +229,24 @@
   }
 }
 @media screen and (max-width: 767px) {
+  body section.related-posts {
+    padding: 40px 15px;
+  }
+  body section.related-posts .related-posts-list {
+    flex-flow: initial;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    justify-content: initial;
+    overflow: auto;
+  }
+  body section.related-posts .related-posts-list .item {
+    width: 278px;
+    min-height: 300px;
+  }
+  body section.related-posts .related-posts-list .item .image img {
+    max-width: 272px;
+    width: initial;
+  }
   body section.blog-image {
     min-height: 600px;
   }
@@ -360,7 +381,6 @@
     display: none;
   }
   section.task-page .sidebar-filter .category-filter-mobile {
-    justify-items: center;
     line-height: 24px;
     display: -webkit-flex;
     display: flex;
@@ -538,22 +558,6 @@
   body section.blog-text .blog-text-item blockquote h2, body section.blog-text .blog-text-item blockquote h3, body section.blog-text .blog-text-item blockquote h4, body section.blog-text .blog-text-item blockquote p {
     margin: -10px 0 5px;
     width: 95%;
-  }
-  body section.related-posts {
-    padding: 40px 15px;
-  }
-  body section.related-posts .related-posts-list {
-    flex-flow: initial;
-    justify-content: initial;
-    overflow: auto;
-  }
-  body section.related-posts .related-posts-list .item {
-    width: 278px;
-    margin: 10px 8px;
-  }
-  body section.related-posts .related-posts-list .item .image img {
-    max-width: 272px;
-    width: initial;
   }
 
   /*end blog*/
