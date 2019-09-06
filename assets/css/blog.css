@@ -146,7 +146,7 @@ header.main .logo {
 }
 header.main .logo a {
   color: white;
-  font-size: 28px;
+  font-size: 22px;
   text-decoration: none;
 }
 header.main .logo a img {
@@ -157,6 +157,9 @@ header.main .logo a:hover, header.main .logo a:hover {
 }
 header.main .mobilemenu {
   grid-area: hamburger;
+}
+header.main .mobilemenu .hamburger {
+  padding: 3px 10px;
 }
 header.main .mobilemenu .hamburger.is-active .hamburger-inner::after {
   bottom: -8px;
