@@ -414,6 +414,7 @@ body section.main-news .big-item {
   min-height: 412px;
   grid-column: 1/span 2;
   grid-row: 1/span 1;
+  text-decoration: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -464,6 +465,7 @@ body section.main-news .item a {
   align-items: center;
   justify-content: flex-start;
   justify-items: center;
+  text-decoration: none;
 }
 body section.main-news .item a .image {
   position: relative;

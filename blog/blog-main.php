@@ -24,14 +24,14 @@ include 'header-blog.php';
         foreach($array as $item){
             if($i === 0){
                 ?>
-                    <div class="big-item" style="background-image: url('<?=$item['image']?>')">
+                    <a href="#" class="big-item" style="background-image: url('<?=$item['image']?>')">
                         <div>
                             <h2><?=$item['title']?></h2>
                             <p class="paragraph">
                                 <?=$item['date']?>
                             </p>
                         </div>
-                    </div>
+                    </a>
                 <?php
             }else{
                 ?>
