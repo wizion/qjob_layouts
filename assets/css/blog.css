@@ -1002,18 +1002,21 @@ body section.related-posts {
   padding: 40px 70px;
 }
 body section.related-posts .related-posts-list {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-gap: 20px;
 }
 body section.related-posts .related-posts-list .item {
-  margin: 0 0 20px;
-  width: 32%;
-  flex-grow: 0;
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 body section.related-posts .related-posts-list .item a.item-title {
-  display: grid;
-  grid-template: "image" auto "name" 70px/100%;
+  align-items: center;
+  justify-content: flex-start;
+  justify-items: center;
   text-decoration: none;
 }
 body section.related-posts .related-posts-list .item a.item-title .image {
@@ -1033,19 +1036,24 @@ body section.related-posts .related-posts-list .item a.item-title .image .is-vid
 }
 body section.related-posts .related-posts-list .item a.item-title .image img {
   width: 100%;
+  max-height: 270px;
   border-radius: 8px;
   margin-bottom: 16px;
 }
 body section.related-posts .related-posts-list .item a.item-title h2, body section.related-posts .related-posts-list .item a.item-title h3 {
-  grid-area: name;
   border-bottom: 0px;
   margin: 0;
+  font-size: 20px;
+  line-height: 26px;
+  color: #2E09B6;
 }
 body section.related-posts .related-posts-list .item .paragraph {
-  grid-area: date;
   color: #9B99AA;
   font-size: 14px;
   line-height: 22px;
+  margin: 0;
+  align-self: end;
+  display: flex;
 }
 
 section.pagination {
@@ -1146,6 +1154,9 @@ section.pagination span.active {
   body section.main-news {
     max-width: 984px;
   }
+  body section.main-news .item a .image img {
+    max-height: 205px;
+  }
 }
 @media screen and (max-width: 1024px) {
   body section.main-news {
@@ -1164,6 +1175,9 @@ section.pagination span.active {
   body section.main-news .big-item {
     grid-column: 1/span 2;
   }
+  body section.main-news .item a .image img {
+    max-height: 245px;
+  }
 }
 @media screen and (max-width: 767px) {
   body section.main-news {
@@ -1176,6 +1190,9 @@ section.pagination span.active {
   body section.main-news .big-item .paragraph {
     font-size: 12px;
     line-height: 14px;
+  }
+  body section.main-news .item {
+    min-height: 320px;
   }
 }
 @media screen and (max-width: 640px) {

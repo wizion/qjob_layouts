@@ -18,6 +18,15 @@ $blue: #2E09B6;
       .big-item{
 
       }
+      .item{
+        a{
+          .image{
+            img{
+              max-height: 205px;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -45,7 +54,13 @@ $blue: #2E09B6;
         grid-column: 1/span 2;
       }
       .item{
-
+        a{
+          .image{
+            img{
+              max-height: 245px;
+            }
+          }
+        }
       }
     }
   }
@@ -66,7 +81,7 @@ $blue: #2E09B6;
         }
       }
       .item{
-
+        min-height: 320px;
       }
     }
   }
