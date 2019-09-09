@@ -1020,7 +1020,7 @@ body section.related-posts .related-posts-list .item a.item-title {
 body section.related-posts .related-posts-list .item a.item-title .image {
   position: relative;
   margin-bottom: 16px;
-  padding-top: 60%;
+  padding-top: 70%;
   overflow: hidden;
   border-radius: 8px;
 }
