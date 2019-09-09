@@ -411,10 +411,10 @@ body section.main-news {
   grid-template-rows: repeat(auto-fill, auto);
   grid-gap: 20px;
   margin: 70px auto 70px auto;
-  max-width: 1150px;
 }
 body section.main-news .big-item {
-  min-height: 412px;
+  min-height: 320px;
+  max-height: 60vh;
   grid-column: 1/span 2;
   grid-row: 1/span 1;
   text-decoration: none;
@@ -500,7 +500,7 @@ body section.main-news .item .paragraph {
   font-size: 14px;
   line-height: 22px;
   margin: 0;
-  align-self: end;
+  align-self: auto;
   display: flex;
 }
 body section.blog-image {
@@ -1019,9 +1019,10 @@ body section.related-posts .related-posts-list .item a.item-title {
 }
 body section.related-posts .related-posts-list .item a.item-title .image {
   position: relative;
-  display: grid;
-  grid-template: "imgrel" 1fr "ttl" auto/auto;
-  grid-area: image;
+  margin-bottom: 16px;
+  padding-top: 60%;
+  overflow: hidden;
+  border-radius: 8px;
 }
 body section.related-posts .related-posts-list .item a.item-title .image .is-video {
   content: "";
@@ -1035,10 +1036,13 @@ body section.related-posts .related-posts-list .item a.item-title .image .is-vid
   cursor: pointer;
 }
 body section.related-posts .related-posts-list .item a.item-title .image img {
-  grid-area: imgrel;
-  width: 100%;
   border-radius: 8px;
   margin-bottom: 16px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
 body section.related-posts .related-posts-list .item a.item-title h2, body section.related-posts .related-posts-list .item a.item-title h3 {
   border-bottom: 0px;
@@ -1053,7 +1057,7 @@ body section.related-posts .related-posts-list .item .paragraph {
   font-size: 14px;
   line-height: 22px;
   margin: 0;
-  align-self: end;
+  align-self: auto;
   display: flex;
 }
 
@@ -1155,6 +1159,10 @@ section.pagination span.active {
   body section.main-news {
     max-width: 984px;
   }
+  body section.main-news .big-item {
+    grid-column: 1/span 2;
+    grid-row: 1/span 1;
+  }
   body section.main-news .item a .image img {
     max-height: 205px;
   }
@@ -1162,9 +1170,10 @@ section.pagination span.active {
 @media screen and (max-width: 1024px) {
   body section.main-news {
     max-width: 920px;
+    grid-gap: 10px;
   }
   body section.main-news .big-item {
-    grid-column: 1/span 3;
+    grid-column: 1/span 2;
     grid-row: 1/span 1;
   }
 }
