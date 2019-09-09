@@ -39,7 +39,9 @@ function imageDeterminant(){
 
 }
 window.onscroll = ()=>{
-    progressBarWidth();
+    if (hasClass('','progress-bar')){
+        progressBarWidth();
+    }
     imageDeterminant();
     document.getElementsByTagName('body')[0].style.height = "";
 }

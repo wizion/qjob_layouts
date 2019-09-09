@@ -1,9 +1,7 @@
 <?php
 include 'header-blog.php';
 ?>
-<section class="progress-bar">
-    <div class="indicator"></div>
-</section>
+
 <section class="main-news">
     <?php
         $array = [
