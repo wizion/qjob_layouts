@@ -159,10 +159,9 @@ header.main{
   padding: 10px 5% 10px;
   .logo{
     grid-area: logo;
+    line-height: 0px;
     a{
-      color: white;
-      font-size: 22px;
-      text-decoration: none;
+      display: block;
       img{
         max-width: 122px;
       }
@@ -459,7 +458,7 @@ body{
 
     margin: 70px auto 70px auto;
     .big-item{
-      min-height: 320px;
+      min-height: 400px;
       max-height: 60vh;
       grid-column: 1/span 2;
       grid-row: 1/span 1;
