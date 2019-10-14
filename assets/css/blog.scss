@@ -413,8 +413,10 @@ body{
           [row2-start] "bn bn bn" auto [row2-end]
           [row3-start] "tb tb tb" auto [row3-end]
           [row4-start] ". sl ." auto [row4-end]
-          [row5-start] "rp rp rp" auto [row5-end]
-          [row6-start] "ft ft ft" auto [row6-end] / 20% 60% 20%;
+          [row6-start] ". captions ." auto [row6-end]
+          [row7-start] "rp rp rp" auto [row7-end]
+          [row8-start] "subscribe subscribe subscribe" auto [row8-end]
+          [row9-start] "ft ft ft" auto [row9-end] / 20% 60% 20%;
 
   &.main{
     grid-template:
@@ -950,12 +952,43 @@ body{
           margin-top: 40px;
         }
       }
+      .captions {
+          grid-area: captions;
+          background-color: #f5f5f5;
+          margin: 0px -20px;
+          color: #1D1539;
+          display: block;
+          padding: 15px 30px 30px 30px;
+        h3{
+          display: block;
+          font-size: 24px ;
+          line-height: 36px ;
+          padding: 0;
+          margin: 0px 0px 10px 0;
+          color: #1D1539;
+          font-weight: 600;
+        }
+        .captions_textblock {
+          p{
+            padding: 0px 0px 5px 0px;
+            a{
+              color: #2E09B6;
+            }
+          }
+          .captions_textblock__desc {
+            padding-top: 30px;
+            a{
+              color: #2E09B6;
+            }
+          }
+        }
 
+      }
       .advice{
         background-color: #f5f5f5;
         margin: 0px -20px;
         color: #1D1539;
-        padding: 10px 30px 0 30px;
+        padding: 10px 30px 20px 30px;
         font-size: 18px;
           & ~ .advice {
             background-color: #f5f5f5;
@@ -1219,5 +1252,81 @@ section.pagination{
     }
   }
 }
-@import "responsive-mainblog";
-@import "responsive-blog";
+div.stores-block {
+  display: grid;
+  text-align: center;
+  margin: 30px auto 60px;
+  max-width: 550px;
+  .stores-block_title {
+    display: block;
+    font-family: "LetoSans", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1D1539;
+    font-weight: 600;
+  }
+  .stores-block_description {
+    color: #9B99AA;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .stores-block_images {
+    img{
+      width: initial !important;
+      margin: 7px !important;
+    }
+  }
+}
+.subscribe-on-post {
+  display: grid;
+  grid-area: subscribe;
+  background: #ffffff;
+  padding: 70px 0 50px;
+  justify-content: center;
+  .subscribe-on-post__title {
+      font-size: 24px;
+      line-height: 28px;
+      color: #1D1539;
+    }
+  .suscribe-on-post__description{
+      color: #9B99AA;
+      font-size: 18px;
+      line-height: 21px;
+  }
+  .subscribe-on-post__form {
+    .row {
+      .columns {
+        margin-left: 0px;
+        .u-full-width {
+          background: #EDE8F7;
+          border: 2px solid #EDE8F7;
+          box-sizing: border-box;
+          border-radius: 100px;
+          height: 56px;
+          &::placeholder{
+            font-size: 16px;
+            line-height: 22px;
+            color: #1D1539;
+            margin-left: 20px;
+          }
+        }
+        .button-primary {
+          background: #F8478D;
+          border-radius: 56px;
+          color: #ffffff;
+          height: 56px;
+          margin: 0 0 0 -45px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+@import "responsive-mainblog.scss";
+@import "responsive-blog.scss";

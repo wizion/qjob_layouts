@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
-@import "reset";
-@import "elements";
-@import "headerFooter";
-@import "main";
-@import "tasks";
-@import "blog";
-@import "responsive";
+@import "reset.scss";
+@import "elements.scss";
+@import "headerFooter.scss";
+@import "main.scss";
+@import "tasks.scss";
+
+@import "responsive.scss";
 
 
 @font-face{

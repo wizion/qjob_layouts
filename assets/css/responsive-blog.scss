@@ -121,8 +121,11 @@ $grey3: #EDE8F7;
             [row2-start] "bn" auto [row2-end]
             [row3-start] "tb" [row3-end]
             [row4-start] "sl" auto [row4-end]
-            [row5-start] "rp" auto [row5-end]
-            [row6-start] "ft" auto [row6-end] / 100%;
+            [row5-start] "socblock" [row5-end]
+            [row6-start] "captions" auto [row8-end]
+            [row7-start] "rp" auto [row6-end]
+            [row8-start] "subscribe" [row7-end]
+            [row9-start] "ft" auto [row9-end] / 100%;
     section.blog-image{
       grid-auto-rows: 1fr auto;
       min-height: 445px;
@@ -206,6 +209,11 @@ $grey3: #EDE8F7;
             margin: 10px 0;
             display: block;
           }
+        }
+        .captions {
+         margin: 0 -5%;
+          width: 100%;
+          padding: 5px 5% 0;
         }
         .advice{
           margin: 0 -5%;
@@ -520,6 +528,53 @@ $grey3: #EDE8F7;
       }
     }
   }
+  section.stores-block {
+
+  .stores-block_title {
+    padding: 0px 5%;
+  }
+  .stores-block_description {
+    padding: 0px 5%;
+  }
+  .stores-block_images {
+    display: flex;
+    flex-direction: column;
+    img{
+      margin: 7px;
+    }
+  }
+}
+.subscribe-on-post {
+  padding: 70px 5% 50px;;
+  .subscribe-on-post__title {
+      font-size: 24px;
+      line-height: 28px;
+      color: #1D1539;
+    }
+  .suscribe-on-post__description{
+      color: #9B99AA;
+      font-size: 18px;
+      line-height: 21px;
+  }
+  .subscribe-on-post__form {
+    .row {
+      .columns {
+        margin-left: 0px;
+        .u-full-width {
+          background: #EDE8F7;
+          border: 2px solid #EDE8F7;
+          box-sizing: border-box;
+          border-radius: 100px;
+          height: 56px;
+        }
+        .button-primary {
+          margin:0;
+          width: 100%
+        }
+      }
+    }
+  }
+}
   footer{
     border-top: 1px solid $grey3;
     display: grid;
@@ -625,10 +680,15 @@ $grey3: #EDE8F7;
             display: block;
           }
         }
-        .advice{
-          padding: 10px 5% 0;
+        .captions {
+         padding: 10px 5% 20px;
           width: 90%;
-          margin: 30px 0 0;
+          margin: 30px 0 0px;
+        }
+        .advice{
+          padding: 10px 5% 20px;
+          width: 90%;
+          margin: 30px 0 0px;
           & ~ .advice {
             padding: 10px 5%;
             width: 90%;

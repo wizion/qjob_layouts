@@ -113,6 +113,30 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 
                 Заказы на YouDo.com все необычные в основном, не считая документов. Торты интересно возить, потому что это чей-то праздник, кому-то дарят этот вкусный торт, и ты в этом немного участвуешь.
         </div>
+        <div class="stores-block">
+            <h3 class="stores-block_title">
+                Хотите найти новых клиентов и зарабатывать больше?
+            </h3>
+            <p class="stores-block_description">
+                Скачайте приложение Qjob.hu и получите первый заказ уже сегодня
+            </p>
+            <div class="stores-block_images">
+                <a href="#">
+                    <img src="../assets/img/applestore.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="../assets/img/googleplay.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="captions">
+            <h3>Титры</h3>
+            <div class="captions_textblock">
+                <p>Герой интервью - <a href="#">Ali Baba</a></p>
+                <p>Фотограф - <a href="#">Jony Depp</a></p>
+                <p class="captions_textblock__desc">Хотите поделиться своей историей? Напишите нам: <a href="mailto:blog@youdo.com">blog@youdo.com</a></p>
+            </div>
+        </div>
 
     </div>
     <div class="customer-avatar">
@@ -126,7 +150,11 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         </div>
 
     </div>
+
 </section>
+
+
+
 <section class="social-links" style="display: none;">
     <img src="../assets/img/buttons/twiter.png" alt="">
     <img src="../assets/img/buttons/facebook.png" alt="">
@@ -160,6 +188,26 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
             <?php
         }
         ?>
+    </div>
+</section>
+<section class="subscribe-on-post">
+    <h3 class="subscribe-on-post__title">
+        Подпишитесь на новые посты
+    </h3>
+    <p class="suscribe-on-post__description">
+        Раз в неделю присылаем свежие истории, видео, анонсы спецпроектов или полезные подборки
+    </p>
+    <div class="subscribe-on-post__form">
+       <form>
+          <div class="row">
+            <div class="ten columns">
+              <input class="u-full-width" placeholder="Укажите ваш email" type="email" id="exampleEmailInput">
+            </div>
+            <div class="two columns">
+               <input class="button-primary" type="submit" value="Подписаться">
+            </div>
+          </div>
+        </form>
     </div>
 </section>
 <?php
