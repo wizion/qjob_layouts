@@ -974,12 +974,26 @@ body{
             padding: 0px 0px 5px 0px;
             a{
               color: #2E09B6;
+              text-decoration: none;
+              &:hover{
+                  -webkit-transition: all 300ms ease-in-out;
+                  -o-transition: all 300ms ease-in-out;
+                  transition: all 300ms ease-in-out;
+                  color: #1D1539;
+              }
             }
           }
           .captions_textblock__desc {
             padding-top: 30px;
             a{
               color: #2E09B6;
+              text-decoration: none;
+              &:hover{
+                    -webkit-transition: all 300ms ease-in-out;
+                    -o-transition: all 300ms ease-in-out;
+                    transition: all 300ms ease-in-out;
+                    color: #1D1539;
+              }
             }
           }
         }
@@ -1264,8 +1278,26 @@ div.you-wants-to {
   span{
     a{
       color: #2E09B6;
+      text-decoration: none;
       &:hover{
-        text-decoration: none;
+            -webkit-transition: all 300ms ease-in-out;
+            -o-transition: all 300ms ease-in-out;
+            transition: all 300ms ease-in-out;
+            color: #1D1539;
+      }
+    }
+  }
+}
+.who-make-main-photo {
+  p{
+    a{
+      color: #2E09B6;
+      text-decoration: none;
+      &:hover{
+            -webkit-transition: all 300ms ease-in-out;
+            -o-transition: all 300ms ease-in-out;
+            transition: all 300ms ease-in-out;
+            color: #1D1539;
       }
     }
   }
