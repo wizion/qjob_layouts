@@ -908,10 +908,11 @@ body {
         body section.blog-text .blog-text-item img + h3 {
           margin: 0; }
         body section.blog-text .blog-text-item img + .image_description {
-          margin: 20px 0;
-          display: block;
           font-size: 14px;
-          line-height: 28px; }
+          line-height: 28px;
+          margin: 28px auto;
+          display: block;
+          width: 80%; }
         body section.blog-text .blog-text-item img + p, body section.blog-text .blog-text-item img h2, body section.blog-text .blog-text-item img blockquote, body section.blog-text .blog-text-item img .fotorama, body section.blog-text .blog-text-item img iframe, body section.blog-text .blog-text-item img img, body section.blog-text .blog-text-item img .advice {
           margin-top: 48px; }
       body section.blog-text .blog-text-item p {
@@ -1226,6 +1227,59 @@ section.pagination {
       line-height: 40px;
       text-align: center; }
 
+div.you-wants-to {
+  margin: 30px 0 0;
+  padding: 8px 30px 9px 10px;
+  font-weight: 600;
+  font-family: 'LetoSans', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1D1539; }
+  div.you-wants-to span a {
+    color: #2E09B6; }
+    div.you-wants-to span a:hover {
+      text-decoration: none; }
+
+.prices-from-masters {
+  margin: 30px -20px; }
+  .prices-from-masters .title {
+    margin: 0;
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    display: block;
+    font-family: "LetoSans", sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    color: #1D1539;
+    letter-spacing: -.1rem; }
+  .prices-from-masters .prices-from-masters__list .prices-from-masters__link {
+    margin: 30px 0 20px;
+    vertical-align: top;
+    padding: 10px 10px 10px 0px; }
+    .prices-from-masters .prices-from-masters__list .prices-from-masters__link:before {
+      content: " ";
+      width: 30px;
+      white-space: pre;
+      background: url(../img/blog_done_icon.png) no-repeat;
+      margin: 10px 20px 10px 0px;
+      display: inline-block;
+      color: #0c4cb6;
+      vertical-align: middle;
+      font-weight: 900;
+      line-height: 30px; }
+    .prices-from-masters .prices-from-masters__list .prices-from-masters__link p {
+      line-height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      width: 80%;
+      font-size: 16px;
+      padding: 0; }
+  .prices-from-masters .prices-from-masters__list .column_6 {
+    width: 48%;
+    display: inline-block; }
+
 div.stores-block {
   display: -ms-grid;
   display: grid;
@@ -1266,7 +1320,8 @@ div.stores-block {
   .subscribe-on-post .suscribe-on-post__description {
     color: #9B99AA;
     font-size: 18px;
-    line-height: 21px; }
+    line-height: 21px;
+    width: 90%; }
   .subscribe-on-post .subscribe-on-post__form .row .columns {
     margin-left: 0px; }
     .subscribe-on-post .subscribe-on-post__form .row .columns .u-full-width {
@@ -1482,7 +1537,10 @@ div.stores-block {
     body section.blog-image .main-image-elements {
       width: 79vw; }
       body section.blog-image .main-image-elements .meta .description {
-        margin: 0 auto; } }
+        margin: 0 auto; }
+  .subscribe-on-post {
+    -ms-grid-columns: 75%;
+    grid-template-columns: 75%; } }
 
 @media screen and (max-width: 960px) {
   /*blog*/
@@ -1579,51 +1637,23 @@ div.stores-block {
         body section.blog-text .customer-avatar .paragraph {
           margin: 0 auto;
           display: block; }
-  /*end blog*/
-  header.blogBlock {
-    grid-template-areas: "logo enter nav lang mmenu";
-    -ms-grid-columns: auto 1fr 1fr auto auto;
-    grid-template-columns: auto 1fr 1fr auto auto; }
-  header {
-    -ms-grid-columns: auto auto 1fr 85px auto;
-    grid-template-columns: auto auto 1fr 85px auto; }
-    header nav.jqob-hmenu {
-      padding: 0 5%; }
-      header nav.jqob-hmenu a {
-        margin: 0 auto;
-        font-size: 12px; }
-        header nav.jqob-hmenu a:first-child:before {
-          height: 12px;
-          width: 16px; }
-    header .enter a {
-      display: none; }
-  section.task-page .sidebar-filter {
-    margin: 0 10px 20px 10px; }
-    section.task-page .sidebar-filter input {
-      height: 18px; }
-    section.task-page .sidebar-filter .filterBlock .city-field, section.task-page .sidebar-filter .filterBlock .radius-of-search, section.task-page .sidebar-filter .filterBlock .price-value, section.task-page .sidebar-filter .filterBlock .search-field {
-      padding: 5px 10px; }
-    section.task-page .sidebar-filter .filterBlock .task-filter label {
-      font-size: 10px;
-      line-height: 20px; }
-    section.task-page .sidebar-filter .category-filter {
-      margin-bottom: 40px; }
-  section.task-page .adv-list .item {
-    margin: 0 10px 15px 10px; }
+    body .prices-from-masters {
+      margin: 30px 0; }
+      body .prices-from-masters .prices-from-masters__list .prices-from-masters__link {
+        margin: 10px 0 10px; }
+        body .prices-from-masters .prices-from-masters__list .prices-from-masters__link p {
+          width: 80%; }
+      body .prices-from-masters .prices-from-masters__list .column_6 {
+        width: 48%;
+        display: inline-block; }
   header.main {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1; }
-  header.blogBlock > .logo {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1; }
   header.blog {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1; }
-  header.blogBlock > .logo {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1; }
   footer {
     -ms-grid-row: 9;
     -ms-grid-column: 1;
@@ -1660,6 +1690,41 @@ div.stores-block {
     -ms-grid-row: 8;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1; } }
+
+/*end blog*/
+header.blogBlock {
+  grid-template-areas: "logo enter nav lang mmenu";
+  -ms-grid-columns: auto 1fr 1fr auto auto;
+  grid-template-columns: auto 1fr 1fr auto auto; }
+
+header {
+  -ms-grid-columns: auto auto 1fr 85px auto;
+  grid-template-columns: auto auto 1fr 85px auto; }
+  header nav.jqob-hmenu {
+    padding: 0 5%; }
+    header nav.jqob-hmenu a {
+      margin: 0 auto;
+      font-size: 12px; }
+      header nav.jqob-hmenu a:first-child:before {
+        height: 12px;
+        width: 16px; }
+  header .enter a {
+    display: none; }
+
+section.task-page .sidebar-filter {
+  margin: 0 10px 20px 10px; }
+  section.task-page .sidebar-filter input {
+    height: 18px; }
+  section.task-page .sidebar-filter .filterBlock .city-field, section.task-page .sidebar-filter .filterBlock .radius-of-search, section.task-page .sidebar-filter .filterBlock .price-value, section.task-page .sidebar-filter .filterBlock .search-field {
+    padding: 5px 10px; }
+  section.task-page .sidebar-filter .filterBlock .task-filter label {
+    font-size: 10px;
+    line-height: 20px; }
+  section.task-page .sidebar-filter .category-filter {
+    margin-bottom: 40px; }
+
+section.task-page .adv-list .item {
+  margin: 0 10px 15px 10px; }
 
 @media screen and (max-width: 767px) {
   body section.related-posts {
@@ -1856,11 +1921,17 @@ div.stores-block {
           background-repeat: no-repeat;
           margin: auto 5px auto 10px;
           background-image: url("../img/buttons/flterList.png"); }
-  section.stores-block .stores-block_title {
+  div.you-wants-to {
+    padding: 10px 5% 9px; }
+    div.you-wants-to span a {
+      color: #2E09B6; }
+      div.you-wants-to span a:hover {
+        text-decoration: none; }
+  div.stores-block .stores-block_title {
     padding: 0px 5%; }
-  section.stores-block .stores-block_description {
+  div.stores-block .stores-block_description {
     padding: 0px 5%; }
-  section.stores-block .stores-block_images {
+  div.stores-block .stores-block_images {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1868,10 +1939,12 @@ div.stores-block {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; }
-    section.stores-block .stores-block_images img {
+    div.stores-block .stores-block_images img {
       margin: 7px; }
   .subscribe-on-post {
-    padding: 70px 5% 50px; }
+    padding: 70px 5% 50px;
+    -ms-grid-columns: 95%;
+    grid-template-columns: 95%; }
     .subscribe-on-post .subscribe-on-post__title {
       font-size: 24px;
       line-height: 28px;
@@ -2015,6 +2088,15 @@ div.stores-block {
       body section.blog-text .blog-text-item blockquote h2, body section.blog-text .blog-text-item blockquote h3, body section.blog-text .blog-text-item blockquote h4, body section.blog-text .blog-text-item blockquote p {
         margin: -10px 0 5px;
         width: 95%; }
+  body .prices-from-masters {
+    margin: 30px 5%; }
+    body .prices-from-masters .prices-from-masters__list .prices-from-masters__link {
+      margin: 10px 0 10px; }
+      body .prices-from-masters .prices-from-masters__list .prices-from-masters__link p {
+        width: 80%; }
+    body .prices-from-masters .prices-from-masters__list .column_6 {
+      width: 100%;
+      display: inline-block; }
   /*end blog*/
   header.tasks > .logo {
     -ms-grid-row: 1;

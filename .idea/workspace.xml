@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f61564e-f5f3-40c3-803b-11b75a21fdc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/blog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/general.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.php" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog_item.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +35,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/emails/qjobEmails/src/assets/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="39" selection-start-line="39" selection-end-line="42" selection-end-column="3" />
+            <state relative-caret-position="663">
+              <caret line="39" selection-start-line="39" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/card/css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2193">
+              <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/card/css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/css/general.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -159,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,6 +224,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,11 +305,12 @@
       <workItem from="1567770877507" duration="13637000" />
       <workItem from="1568114794185" duration="1040000" />
       <workItem from="1568123879307" duration="2180000" />
+      <workItem from="1570710808250" duration="614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376474000" />
+    <option name="totallyTimeSpent" value="377088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,7 +324,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.35120845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.35649547" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" weight="0.3021148" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -481,9 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/general.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -588,8 +594,8 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/emails/qjobEmails/src/assets/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="39" selection-start-line="39" selection-end-line="42" selection-end-column="3" />
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -602,10 +608,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/card/css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="2193">
           <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/general.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

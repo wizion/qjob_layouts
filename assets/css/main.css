@@ -1,29 +1,33 @@
 section.talisman_fb {
   height: 464px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  flex-direction: column;
-}
-section.talisman_fb h1 {
-  width: 50%;
-  text-align: left;
-}
-section.talisman_fb .search-field {
-  border: 2px solid #9B99AA;
-  box-sizing: border-box;
-  border-radius: 100px;
-  width: 50%;
-  padding: 2px;
-}
-section.talisman_fb .search-field button {
-  background: #13C98A;
-  border-radius: 44px;
-  padding: 24px 15px;
-  color: white;
-  float: right;
-  margin: 0;
-  line-height: 0;
-}
-
-/*# sourceMappingURL=main.css.map */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  section.talisman_fb h1 {
+    width: 50%;
+    text-align: left; }
+  section.talisman_fb .search-field {
+    border: 2px solid #9B99AA;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 50%;
+    padding: 2px; }
+    section.talisman_fb .search-field button {
+      background: #13C98A;
+      border-radius: 44px;
+      padding: 24px 15px;
+      color: white;
+      float: right;
+      margin: 0;
+      line-height: 0; }

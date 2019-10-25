@@ -1,0 +1,1472 @@
+﻿countries = [
+		{
+			name_ru: 'Афганистан',
+			name_en: 'Afghanistan',
+			name_hu: 'Afganisztán',
+			code 'af'
+},
+		{
+			name_ru: 'Аландские Острова',
+			name_en: 'Åland Islands',
+			name_hu: 'Åland-Szigetek',
+			code 'ax'
+},
+		{
+			name_ru: 'Албания',
+			name_en: 'Albania',
+			name_hu: 'Albánia',
+			code 'al'
+},
+		{
+			name_ru: 'Алжир',
+			name_en: 'Algeria',
+			name_hu: 'Algéria',
+			code 'dz'
+},
+		{
+			name_ru: 'Американское Самоа',
+			name_en: 'American Samoa',
+			name_hu: 'Amerikai Szamoa',
+			code 'as'
+},
+		{
+			name_ru: 'Андорра',
+			name_en: 'Andorra',
+			name_hu: 'Andorra',
+			code 'ad'
+},
+		{
+			name_ru: 'Ангола',
+			name_en: 'Angola',
+			name_hu: 'Angola',
+			code 'ao'
+},
+		{
+			name_ru: 'Ангилья',
+			name_en: 'Anguilla',
+			name_hu: 'Anguilla',
+			code 'ai'
+},
+		{
+			name_ru: 'Антарктида',
+			name_en: 'Antarctica',
+			name_hu: 'Az antarktisz',
+			code 'aq'
+},
+		{
+			name_ru: 'Антигуа и Барбуда',
+			name_en: 'Antigua and Barbuda',
+			name_hu: 'Antigua and Barbuda',
+			code 'ag'
+},
+		{
+			name_ru: 'Аргентина',
+			name_en: 'Argentina',
+			name_hu: 'Argentína',
+			code 'ar'
+},
+		{
+			name_ru: 'Армения',
+			name_en: 'Armenia',
+			name_hu: 'Örményország',
+			code 'am'
+},
+		{
+			name_ru: 'Аруба',
+			name_en: 'Aruba',
+			name_hu: 'Aruba',
+			code 'aw'
+},
+		{
+			name_ru: 'Австралия',
+			name_en: 'Australia',
+			name_hu: 'Ausztrália',
+			code 'au'
+},
+		{
+			name_ru: 'Австрия',
+			name_en: 'Austria',
+			name_hu: 'Ausztria',
+			code 'at'
+},
+		{
+			name_ru: 'Азербайджан',
+			name_en: 'Azerbaijan',
+			name_hu: 'Azerbajdzsán',
+			code 'az'
+},
+		{
+			name_ru: 'Багамские острова',
+			name_en: 'Bahamas',
+			name_hu: 'Bahama-szigetek',
+			code 'bs'
+},
+		{
+			name_ru: 'Бахрейн',
+			name_en: 'Bahrain',
+			name_hu: 'Bahrein',
+			code 'bh'
+},
+		{
+			name_ru: 'Бангладеш',
+			name_en: 'Bangladesh',
+			name_hu: 'Banglades',
+			code 'bd'
+},
+		{
+			name_ru: 'Барбадос',
+			name_en: 'Barbados',
+			name_hu: 'Barbados',
+			code 'bb'
+},
+		{
+			name_ru: 'Беларусь',
+			name_en: 'Belarus',
+			name_hu: 'Fehéroroszország',
+			code 'by'
+},
+		{
+			name_ru: 'Бельгия',
+			name_en: 'Belgium',
+			name_hu: 'Belgium',
+			code 'be'
+},
+		{
+			name_ru: 'Белиз',
+			name_en: 'Belize',
+			name_hu: 'Belize',
+			code 'bz'
+},
+		{
+			name_ru: 'Бенин',
+			name_en: 'Benin',
+			name_hu: 'Benin',
+			code 'bj'
+},
+		{
+			name_ru: 'Бермуды',
+			name_en: 'Bermuda',
+			name_hu: 'Bermuda',
+			code 'bm'
+},
+		{
+			name_ru: 'Бутан',
+			name_en: 'Bhutan',
+			name_hu: 'Bhután',
+			code 'bt'
+},
+		{
+			name_ru: 'Боливия',
+			name_en: 'Bolivia',
+			name_hu: 'Bolívia',
+			code 'bo'
+},
+		{
+			name_ru: 'Босния и Герцеговина',
+			name_en: 'Bosnia and Herzegovina',
+			name_hu: 'Bosznia-Hercegovina',
+			code 'ba'
+},
+		{
+			name_ru: 'Ботсвана',
+			name_en: 'Botswana',
+			name_hu: 'Botswana',
+			code 'bw'
+},
+		{
+			name_ru: 'Остров Буве ',
+			name_en: 'Bouvet Island',
+			name_hu: 'Bouvet-Sziget',
+			code 'bv'
+},
+		{
+			name_ru: 'Бразилия',
+			name_en: 'Brazil',
+			name_hu: 'Brazília',
+			code 'br'
+},
+		{
+			name_ru: 'Британская Территория В Индийском Океане ',
+			name_en: 'British Indian Ocean Territory',
+			name_hu: 'Brit Indiai-Óceáni Terület',
+			code 'io'
+},
+		{
+			name_ru: 'Бруней-Даруссалам',
+			name_en: 'Brunei Darussalam',
+			name_hu: 'Brunei Darussalam',
+			code 'bn'
+},
+		{
+			name_ru: 'Болгария',
+			name_en: 'Bulgaria',
+			name_hu: 'Bulgária',
+			code 'bg'
+},
+		{
+			name_ru: 'Буркина-Фасо',
+			name_en: 'Burkina Faso',
+			name_hu: 'Burkina Faso',
+			code 'bf'
+},
+		{
+			name_ru: 'Бурунди',
+			name_en: 'Burundi',
+			name_hu: 'Burundi',
+			code 'bi'
+},
+		{
+			name_ru: 'Камбоджа',
+			name_en: 'Cambodia',
+			name_hu: 'Kambodzsa',
+			code 'kh'
+},
+		{
+			name_ru: 'Камерун',
+			name_en: 'Cameroon',
+			name_hu: 'Kamerun',
+			code 'cm'
+},
+		{
+			name_ru: 'Канада',
+			name_en: 'Canada',
+			name_hu: 'Kanada',
+			code 'ca'
+},
+		{
+			name_ru: 'Кабо-Верде',
+			name_en: 'Cape Verde',
+			name_hu: 'Zöld-Foki-Szigetek',
+			code 'cv'
+},
+		{
+			name_ru: 'Каймановы Острова',
+			name_en: 'Cayman Islands',
+			name_hu: 'Kajmán-Szigetek',
+			code 'ky'
+},
+		{
+			name_ru: 'Центрально-Африканская Республика',
+			name_en: 'Central African Republic',
+			name_hu: 'Közép-Afrikai Köztársaság',
+			code 'cf'
+},
+		{
+			name_ru: 'Чад',
+			name_en: 'Chad',
+			name_hu: 'Chad',
+			code 'td'
+},
+		{
+			name_ru: 'Чили',
+			name_en: 'Chile',
+			name_hu: 'Chile',
+			code 'cl'
+},
+		{
+			name_ru: 'Китай',
+			name_en: 'China',
+			name_hu: 'Kína',
+			code 'cn'
+},
+		{
+			name_ru: 'Остров Рождества',
+			name_en: 'Christmas Island',
+			name_hu: 'Karácsony-Sziget',
+			code 'cx'
+},
+		{
+			name_ru: 'Кокосовые (Килинг) Острова',
+			name_en: 'Cocos (Keeling) Islands',
+			name_hu: 'Cocos (Keeling) - Szigetek',
+			code 'cc'
+},
+		{
+			name_ru: 'Колумбия',
+			name_en: 'Colombia',
+			name_hu: 'Kolumbia',
+			code 'co'
+},
+		{
+			name_ru: 'Коморские острова',
+			name_en: 'Comoros',
+			name_hu: 'Comore-szigetek',
+			code 'km'
+},
+		{
+			name_ru: 'Конго',
+			name_en: 'Congo',
+			name_hu: 'Kongó',
+			code 'cg'
+},
+		{
+			name_ru: 'Конго, Демократическая Республика',
+			name_en: 'Congo, The Democratic Republic of the',
+			name_hu: 'Kongói Demokratikus Köztársaság',
+			code 'cd'
+},
+		{
+			name_ru: 'Острова Кука ',
+			name_en: 'Cook Islands',
+			name_hu: 'Cook-Szigetek',
+			code 'ck'
+},
+		{
+			name_ru: 'Коста-Рика',
+			name_en: 'Costa Rica',
+			name_hu: 'Costa Rica',
+			code 'cr'
+},
+		{
+			name_ru: 'Кот-Д'Ивуар',
+			name_en: 'Cote D'Ivoire',
+			name_hu: 'Cote Elefántcsontparti',
+			code 'ci'
+},
+		{
+			name_ru: 'Хорватия',
+			name_en: 'Croatia',
+			name_hu: 'Horvátország',
+			code 'hr'
+},
+		{
+			name_ru: 'Куба',
+			name_en: 'Cuba',
+			name_hu: 'Kuba',
+			code 'cu'
+},
+		{
+			name_ru: 'Кипр',
+			name_en: 'Cyprus',
+			name_hu: 'Ciprus',
+			code 'cy'
+},
+		{
+			name_ru: 'Чехия',
+			name_en: 'Czech Republic',
+			name_hu: 'Cseh Köztársaság',
+			code 'cz'
+},
+		{
+			name_ru: 'Дания',
+			name_en: 'Denmark',
+			name_hu: 'Dánia',
+			code 'dk'
+},
+		{
+			name_ru: 'Джибути',
+			name_en: 'Djibouti',
+			name_hu: 'Dzsibuti',
+			code 'dj'
+},
+		{
+			name_ru: 'Доминика',
+			name_en: 'Dominica',
+			name_hu: 'Dominica',
+			code 'dm'
+},
+		{
+			name_ru: 'Доминиканская Республика',
+			name_en: 'Dominican Republic',
+			name_hu: 'Dominikai Köztársaság',
+			code 'do'
+},
+		{
+			name_ru: 'Эквадор',
+			name_en: 'Ecuador',
+			name_hu: 'Ecuador',
+			code 'ec'
+},
+		{
+			name_ru: 'Египет',
+			name_en: 'Egypt',
+			name_hu: 'Egyiptom',
+			code 'eg'
+},
+		{
+			name_ru: 'Сальвадор',
+			name_en: 'El Salvador',
+			name_hu: 'El Salvador',
+			code 'sv'
+},
+		{
+			name_ru: 'Экваториальная Гвинея',
+			name_en: 'Equatorial Guinea',
+			name_hu: 'Egyenlítői-Guinea',
+			code 'gq'
+},
+		{
+			name_ru: 'Эритрея',
+			name_en: 'Eritrea',
+			name_hu: 'Eritrea',
+			code 'er'
+},
+		{
+			name_ru: 'Эстония',
+			name_en: 'Estonia',
+			name_hu: 'Észtország',
+			code 'ee'
+},
+		{
+			name_ru: 'Эфиопия',
+			name_en: 'Ethiopia',
+			name_hu: 'Etiópia',
+			code 'et'
+},
+		{
+			name_ru: 'Фолклендские Острова (Мальвинские)',
+			name_en: 'Falkland Islands (Malvinas)',
+			name_hu: 'Falkland-Szigetek (Malvinas)',
+			code 'fk'
+},
+		{
+			name_ru: 'Фарерские Острова',
+			name_en: 'Faroe Islands',
+			name_hu: 'Feröer-Szigetek',
+			code 'fo'
+},
+		{
+			name_ru: 'Фиджи',
+			name_en: 'Fiji',
+			name_hu: 'Fidzsi-szigetek',
+			code 'fj'
+},
+		{
+			name_ru: 'Финляндия',
+			name_en: 'Finland',
+			name_hu: 'Finnország',
+			code 'fi'
+},
+		{
+			name_ru: 'Франция',
+			name_en: 'France',
+			name_hu: 'Franciaország',
+			code 'fr'
+},
+		{
+			name_ru: 'Французская Гвиана',
+			name_en: 'French Guiana',
+			name_hu: 'Francia Guyana',
+			code 'gf'
+},
+		{
+			name_ru: 'Французская Полинезия',
+			name_en: 'French Polynesia',
+			name_hu: 'Francia Polinézia',
+			code 'pf'
+},
+		{
+			name_ru: 'Французские Южные Территории',
+			name_en: 'French Southern Territories',
+			name_hu: 'Francia Déli Területek',
+			code 'tf'
+},
+		{
+			name_ru: 'Габон',
+			name_en: 'Gabon',
+			name_hu: 'Gabon',
+			code 'ga'
+},
+		{
+			name_ru: 'Гамбия',
+			name_en: 'Gambia',
+			name_hu: 'Gambia',
+			code 'gm'
+},
+		{
+			name_ru: 'Грузия',
+			name_en: 'Georgia',
+			name_hu: 'Grúzia',
+			code 'ge'
+},
+		{
+			name_ru: 'Германия',
+			name_en: 'Germany',
+			name_hu: 'Németország',
+			code 'de'
+},
+		{
+			name_ru: 'Гана',
+			name_en: 'Ghana',
+			name_hu: 'Ghána',
+			code 'gh'
+},
+		{
+			name_ru: 'Гибралтар',
+			name_en: 'Gibraltar',
+			name_hu: 'Gibraltári',
+			code 'gi'
+},
+		{
+			name_ru: 'Греция',
+			name_en: 'Greece',
+			name_hu: 'Görögország',
+			code 'gr'
+},
+		{
+			name_ru: 'Гренландия',
+			name_en: 'Greenland',
+			name_hu: 'Grönlandi',
+			code 'gl'
+},
+		{
+			name_ru: 'Гренада',
+			name_en: 'Grenada',
+			name_hu: 'Grenada',
+			code 'gd'
+},
+		{
+			name_ru: 'Гваделупа',
+			name_en: 'Guadeloupe',
+			name_hu: 'Guadeloupe',
+			code 'gp'
+},
+		{
+			name_ru: 'Гуам',
+			name_en: 'Guam',
+			name_hu: 'Guam',
+			code 'gu'
+},
+		{
+			name_ru: 'Гватемала',
+			name_en: 'Guatemala',
+			name_hu: 'Guatemala',
+			code 'gt'
+},
+		{
+			name_ru: 'Гернси',
+			name_en: 'Guernsey',
+			name_hu: 'Guernsey',
+			code 'gg'
+},
+		{
+			name_ru: 'Гвинея',
+			name_en: 'Guinea',
+			name_hu: '- Guinea',
+			code 'gn'
+},
+		{
+			name_ru: 'Гвинея-Бисау',
+			name_en: 'Guinea-Bissau',
+			name_hu: 'Bissau-Guinea',
+			code 'gw'
+},
+		{
+			name_ru: 'Гайана',
+			name_en: 'Guyana',
+			name_hu: 'Guyana',
+			code 'gy'
+},
+		{
+			name_ru: 'Гаити',
+			name_en: 'Haiti',
+			name_hu: 'Haiti',
+			code 'ht'
+},
+		{
+			name_ru: 'Остров Херд и острова Макдональд',
+			name_en: 'Heard Island and Mcdonald Islands',
+			name_hu: 'Hallottam, Sziget Mcdonald-Szigetek',
+			code 'hm'
+},
+		{
+			name_ru: 'Святой Престол (Государство-Город Ватикан)',
+			name_en: 'Holy See (Vatican City State)',
+			name_hu: 'Szentszék (Vatikán Állam)',
+			code 'va'
+},
+		{
+			name_ru: 'Гондурас',
+			name_en: 'Honduras',
+			name_hu: 'Honduras',
+			code 'hn'
+},
+		{
+			name_ru: 'Гонконг',
+			name_en: 'Hong Kong',
+			name_hu: 'Hong Kong',
+			code 'hk'
+},
+		{
+			name_ru: 'Венгрия',
+			name_en: 'Hungary',
+			name_hu: 'Magyarország',
+			code 'hu'
+},
+		{
+			name_ru: 'Исландия',
+			name_en: 'Iceland',
+			name_hu: 'Izland',
+			code 'is'
+},
+		{
+			name_ru: 'Индия',
+			name_en: 'India',
+			name_hu: 'India',
+			code 'in'
+},
+		{
+			name_ru: 'Индонезия',
+			name_en: 'Indonesia',
+			name_hu: 'Indonézia',
+			code 'id'
+},
+		{
+			name_ru: 'Иран, Исламская Республика',
+			name_en: 'Iran, Islamic Republic Of',
+			name_hu: 'Iráni Iszlám Köztársaság',
+			code 'ir'
+},
+		{
+			name_ru: 'Ирак',
+			name_en: 'Iraq',
+			name_hu: 'Irak',
+			code 'iq'
+},
+		{
+			name_ru: 'Ирландия',
+			name_en: 'Ireland',
+			name_hu: 'Írország',
+			code 'ie'
+},
+		{
+			name_ru: 'Остров Мэн',
+			name_en: 'Isle of Man',
+			name_hu: 'Man-sziget',
+			code 'im'
+},
+		{
+			name_ru: 'Израиль',
+			name_en: 'Israel',
+			name_hu: 'Izrael',
+			code 'il'
+},
+		{
+			name_ru: 'Италия',
+			name_en: 'Italy',
+			name_hu: 'Olaszország',
+			code 'it'
+},
+		{
+			name_ru: 'Ямайка',
+			name_en: 'Jamaica',
+			name_hu: 'Jamaica',
+			code 'jm'
+},
+		{
+			name_ru: 'Япония',
+			name_en: 'Japan',
+			name_hu: 'Japán',
+			code 'jp'
+},
+		{
+			name_ru: 'Джерси',
+			name_en: 'Jersey',
+			name_hu: 'Jersey',
+			code 'je'
+},
+		{
+			name_ru: 'Иордания',
+			name_en: 'Jordan',
+			name_hu: 'Jordan',
+			code 'jo'
+},
+		{
+			name_ru: 'Казахстан',
+			name_en: 'Kazakhstan',
+			name_hu: 'Kazahsztán',
+			code 'kz'
+},
+		{
+			name_ru: 'Кения',
+			name_en: 'Kenya',
+			name_hu: 'Kenya',
+			code 'ke'
+},
+		{
+			name_ru: 'Кирибати',
+			name_en: 'Kiribati',
+			name_hu: 'Kiribati',
+			code 'ki'
+},
+		{
+			name_ru: 'Корейская Народно-Демократическая Республика Корея',
+			name_en: 'Democratic People's Republic of Korea',
+			name_hu: 'Demokratikus Koreai Köztársaság',
+			code 'kp'
+},
+		{
+			name_ru: 'Корея, Республика',
+			name_en: 'Korea, Republic of',
+			name_hu: 'Koreai Köztársaság',
+			code 'kr'
+},
+		{
+			name_ru: 'Косово',
+			name_en: 'Kosovo',
+			name_hu: 'Koszovó',
+			code 'xk'
+},
+		{
+			name_ru: 'Кувейт',
+			name_en: 'Kuwait',
+			name_hu: 'Kuvait',
+			code 'kw'
+},
+		{
+			name_ru: 'Кыргызстан',
+			name_en: 'Kyrgyzstan',
+			name_hu: 'Kirgizisztán',
+			code 'kg'
+},
+		{
+			name_ru: 'Лаосская Народно-Демократическая Республика',
+			name_en: 'Lao People's Democratic Republic',
+			name_hu: 'Laoszi népi Demokratikus Köztársaság',
+			code 'la'
+},
+		{
+			name_ru: 'Латвия',
+			name_en: 'Latvia',
+			name_hu: 'Lettország',
+			code 'lv'
+},
+		{
+			name_ru: 'Ливан',
+			name_en: 'Lebanon',
+			name_hu: 'Libanon',
+			code 'lb'
+},
+		{
+			name_ru: 'Лесото',
+			name_en: 'Lesotho',
+			name_hu: 'Lesotho',
+			code 'ls'
+},
+		{
+			name_ru: 'Либерия',
+			name_en: 'Liberia',
+			name_hu: 'Libéria',
+			code 'lr'
+},
+		{
+			name_ru: 'Ливийская Арабская Джамахирия',
+			name_en: 'Libyan Arab Jamahiriya',
+			name_hu: 'Líbiai Arab Szocialista Nagy Népi Közösség',
+			code 'ly'
+},
+		{
+			name_ru: 'Лихтенштейн',
+			name_en: 'Liechtenstein',
+			name_hu: 'Liechtenstein',
+			code 'li'
+},
+		{
+			name_ru: 'Литва',
+			name_en: 'Lithuania',
+			name_hu: 'Litvánia',
+			code 'lt'
+},
+		{
+			name_ru: 'Люксембург',
+			name_en: 'Luxembourg',
+			name_hu: 'Luxemburgi',
+			code 'lu'
+},
+		{
+			name_ru: 'Словения',
+			name_en: 'Macao',
+			name_hu: 'Makaó',
+			code 'mo'
+},
+		{
+			name_ru: 'Македония, Бывшая Югославская Республика',
+			name_en: 'Macedonia, The Former Yugoslav Republic of',
+			name_hu: 'Macedónia Volt Jugoszláv Köztársaság',
+			code 'mk'
+},
+		{
+			name_ru: 'Мадагаскар',
+			name_en: 'Madagascar',
+			name_hu: 'Madagaszkár',
+			code 'mg'
+},
+		{
+			name_ru: 'Малави',
+			name_en: 'Malawi',
+			name_hu: 'Malawi',
+			code 'mw'
+},
+		{
+			name_ru: 'Малайзия',
+			name_en: 'Malaysia',
+			name_hu: 'Malajzia',
+			code 'my'
+},
+		{
+			name_ru: 'Мальдивы',
+			name_en: 'Maldives',
+			name_hu: 'Maldív-szigetek',
+			code 'mv'
+},
+		{
+			name_ru: 'Мали',
+			name_en: 'Mali',
+			name_hu: 'Mali',
+			code 'ml'
+},
+		{
+			name_ru: 'Мальта',
+			name_en: 'Malta',
+			name_hu: 'Málta',
+			code 'mt'
+},
+		{
+			name_ru: 'Маршалловы Острова',
+			name_en: 'Marshall Islands',
+			name_hu: 'Marshall-Szigetek',
+			code 'mh'
+},
+		{
+			name_ru: 'Мартиника',
+			name_en: 'Martinique',
+			name_hu: 'Martinique',
+			code 'mq'
+},
+		{
+			name_ru: 'Мавритания',
+			name_en: 'Mauritania',
+			name_hu: 'Mauritánia',
+			code 'mr'
+},
+		{
+			name_ru: 'Маврикий',
+			name_en: 'Mauritius',
+			name_hu: 'Mauritius',
+			code 'mu'
+},
+		{
+			name_ru: 'Майотта',
+			name_en: 'Mayotte',
+			name_hu: 'Mayotte',
+			code 'yt'
+},
+		{
+			name_ru: 'Мексика',
+			name_en: 'Mexico',
+			name_hu: 'Mexikó',
+			code 'mx'
+},
+		{
+			name_ru: 'Микронезия, Федеративные Штаты',
+			name_en: 'Micronesia, Federated States of',
+			name_hu: 'Mikronéziai szövetségi Államok',
+			code 'fm'
+},
+		{
+			name_ru: 'Молдова, Республика',
+			name_en: 'Moldova, Republic of',
+			name_hu: 'Moldovai Köztársaság',
+			code 'md'
+},
+		{
+			name_ru: 'Монако',
+			name_en: 'Monaco',
+			name_hu: 'Monaco',
+			code 'mc'
+},
+		{
+			name_ru: 'Монголия',
+			name_en: 'Mongolia',
+			name_hu: 'Mongólia',
+			code 'mn'
+},
+		{
+			name_ru: 'Черногория',
+			name_en: 'Montenegro',
+			name_hu: 'Montenegró',
+			code 'me'
+},
+		{
+			name_ru: 'Монсеррат',
+			name_en: 'Montserrat',
+			name_hu: 'Montserrat',
+			code 'ms'
+},
+		{
+			name_ru: 'Марокко',
+			name_en: 'Morocco',
+			name_hu: 'Marokkó',
+			code 'ma'
+},
+		{
+			name_ru: 'Мозамбик',
+			name_en: 'Mozambique',
+			name_hu: 'Mozambik',
+			code 'mz'
+},
+		{
+			name_ru: 'Мьянма',
+			name_en: 'Myanmar',
+			name_hu: 'Mianmarban',
+			code 'mm'
+},
+		{
+			name_ru: 'Намибия',
+			name_en: 'Namibia',
+			name_hu: 'Namíbia',
+			code 'na'
+},
+		{
+			name_ru: 'Науру',
+			name_en: 'Nauru',
+			name_hu: 'Nauru',
+			code 'nr'
+},
+		{
+			name_ru: 'Непал',
+			name_en: 'Nepal',
+			name_hu: 'Nepál',
+			code 'np'
+},
+		{
+			name_ru: 'Нидерланды',
+			name_en: 'Netherlands',
+			name_hu: 'Hollandia',
+			code 'nl'
+},
+		{
+			name_ru: 'Нидерландские Антильские Острова',
+			name_en: 'Netherlands Antilles',
+			name_hu: 'Holland Antillák',
+			code 'an'
+},
+		{
+			name_ru: 'Новая Каледония',
+			name_en: 'New Caledonia',
+			name_hu: 'Új-Kaledónia',
+			code 'nc'
+},
+		{
+			name_ru: 'Новая Зеландия',
+			name_en: 'New Zealand',
+			name_hu: 'Új-Zéland',
+			code 'nz'
+},
+		{
+			name_ru: 'Никарагуа',
+			name_en: 'Nicaragua',
+			name_hu: 'Nicaragua',
+			code 'ni'
+},
+		{
+			name_ru: 'Нигер',
+			name_en: 'Niger',
+			name_hu: 'Niger',
+			code 'ne'
+},
+		{
+			name_ru: 'Нигерия',
+			name_en: 'Nigeria',
+			name_hu: 'Nigéria',
+			code 'ng'
+},
+		{
+			name_ru: 'Ниуэ',
+			name_en: 'Niue',
+			name_hu: 'Niue',
+			code 'nu'
+},
+		{
+			name_ru: 'Остров Норфолк ',
+			name_en: 'Norfolk Island',
+			name_hu: 'Norfolk-Szigetek',
+			code 'nf'
+},
+		{
+			name_ru: 'Северные Марианские Острова',
+			name_en: 'Northern Mariana Islands',
+			name_hu: 'Északi-Mariana-Szigetek',
+			code 'mp'
+},
+		{
+			name_ru: 'Норвегия',
+			name_en: 'Norway',
+			name_hu: 'Norvégia',
+			code 'no'
+},
+		{
+			name_ru: 'Оман',
+			name_en: 'Oman',
+			name_hu: 'Omán',
+			code 'om'
+},
+		{
+			name_ru: 'Пакистан',
+			name_en: 'Pakistan',
+			name_hu: 'Pakisztán',
+			code 'pk'
+},
+		{
+			name_ru: 'Палау',
+			name_en: 'Palau',
+			name_hu: 'Palau',
+			code 'pw'
+},
+		{
+			name_ru: 'Палестинской Территории, Оккупированной',
+			name_en: 'Palestinian Territory, Occupied',
+			name_hu: 'Elfoglalt Palesztin Terület',
+			code 'ps'
+},
+		{
+			name_ru: 'Панама',
+			name_en: 'Panama',
+			name_hu: 'Panama',
+			code 'pa'
+},
+		{
+			name_ru: 'Папуа Новая Гвинея',
+			name_en: 'Papua New Guinea',
+			name_hu: 'Pápua Új-Guinea',
+			code 'pg'
+},
+		{
+			name_ru: 'Парагвай',
+			name_en: 'Paraguay',
+			name_hu: 'Paraguay',
+			code 'py'
+},
+		{
+			name_ru: 'Перу',
+			name_en: 'Peru',
+			name_hu: 'Peru',
+			code 'pe'
+},
+		{
+			name_ru: 'Филиппины',
+			name_en: 'Philippines',
+			name_hu: 'Fülöp-szigetek',
+			code 'ph'
+},
+		{
+			name_ru: 'Питкэрн',
+			name_en: 'Pitcairn',
+			name_hu: 'Pitcairn',
+			code 'pn'
+},
+		{
+			name_ru: 'Польша',
+			name_en: 'Poland',
+			name_hu: 'Lengyelország',
+			code 'pl'
+},
+		{
+			name_ru: 'Португалия',
+			name_en: 'Portugal',
+			name_hu: 'Portugália',
+			code 'pt'
+},
+		{
+			name_ru: 'Пуэрто-Рико',
+			name_en: 'Puerto Rico',
+			name_hu: 'Puerto Rico',
+			code 'pr'
+},
+		{
+			name_ru: 'Катар',
+			name_en: 'Qatar',
+			name_hu: 'Katar',
+			code 'qa'
+},
+		{
+			name_ru: 'Реюньон',
+			name_en: 'Reunion',
+			name_hu: 'Találkozó',
+			code 're'
+},
+		{
+			name_ru: 'Румыния',
+			name_en: 'Romania',
+			name_hu: 'Románia',
+			code 'ro'
+},
+		{
+			name_ru: 'Российской Федерации',
+			name_en: 'Russian Federation',
+			name_hu: 'Orosz Föderáció',
+			code 'ru'
+},
+		{
+			name_ru: 'Руанда',
+			name_en: 'Rwanda',
+			name_hu: 'Ruanda',
+			code 'rw'
+},
+		{
+			name_ru: 'Святой Елены',
+			name_en: 'Saint Helena',
+			name_hu: 'Szent Ilona',
+			code 'sh'
+},
+		{
+			name_ru: 'Сент-Китс и Невис',
+			name_en: 'Saint Kitts and Nevis',
+			name_hu: 'Saint Kitts and Nevis',
+			code 'kn'
+},
+		{
+			name_ru: 'Сент-Люсия',
+			name_en: 'Saint Lucia',
+			name_hu: 'Saint Lucia',
+			code 'lc'
+},
+		{
+			name_ru: 'Сен-Пьер и Микелон',
+			name_en: 'Saint Pierre and Miquelon',
+			name_hu: 'Saint-Pierre-Miquelon',
+			code 'pm'
+},
+		{
+			name_ru: 'Сент-Винсент и Гренадины',
+			name_en: 'Saint Vincent and the Grenadines',
+			name_hu: 'Saint Vincent a grenadine-szigetek',
+			code 'vc'
+},
+		{
+			name_ru: 'Самоу',
+			name_en: 'Samoa',
+			name_hu: 'Szamoa',
+			code 'ws'
+},
+		{
+			name_ru: 'Сан-Марино',
+			name_en: 'San Marino',
+			name_hu: 'San Marino',
+			code 'sm'
+},
+		{
+			name_ru: 'Сан-Томе и Принсипи',
+			name_en: 'Sao Tome and Principe',
+			name_hu: 'Sao Tome, valamint Principe',
+			code 'st'
+},
+		{
+			name_ru: 'Саудовская Аравия',
+			name_en: 'Saudi Arabia',
+			name_hu: 'Szaúd-Arábia',
+			code 'sa'
+},
+		{
+			name_ru: 'Сенегал',
+			name_en: 'Senegal',
+			name_hu: 'Szenegál',
+			code 'sn'
+},
+		{
+			name_ru: 'Сербия',
+			name_en: 'Serbia',
+			name_hu: 'Szerbia',
+			code 'rs'
+},
+		{
+			name_ru: 'Сейшелы',
+			name_en: 'Seychelles',
+			name_hu: 'Seychelle-szigetek',
+			code 'sc'
+},
+		{
+			name_ru: 'Сьерра-Леоне',
+			name_en: 'Sierra Leone',
+			name_hu: 'Sierra Leone',
+			code 'sl'
+},
+		{
+			name_ru: 'Сингапур',
+			name_en: 'Singapore',
+			name_hu: 'Szingapúr',
+			code 'sg'
+},
+		{
+			name_ru: 'Словакия',
+			name_en: 'Slovakia',
+			name_hu: 'Szlovákia',
+			code 'sk'
+},
+		{
+			name_ru: 'Словения',
+			name_en: 'Slovenia',
+			name_hu: 'Szlovénia',
+			code 'si'
+},
+		{
+			name_ru: 'Соломоновы Острова',
+			name_en: 'Solomon Islands',
+			name_hu: 'Salamon-Szigetek',
+			code 'sb'
+},
+		{
+			name_ru: 'Сомали',
+			name_en: 'Somalia',
+			name_hu: 'Szomáliában',
+			code 'so'
+},
+		{
+			name_ru: 'Южная Африка',
+			name_en: 'South Africa',
+			name_hu: 'Dél-Afrika',
+			code 'za'
+},
+		{
+			name_ru: 'Южная Георгия и Южные Сандвичевы острова',
+			name_en: 'South Georgia and the South Sandwich Islands',
+			name_hu: 'Dél-Georgia, illetve a Déli-Sandwich-Szigetek',
+			code 'gs'
+},
+		{
+			name_ru: 'Испания',
+			name_en: 'Spain',
+			name_hu: 'Spanyolország',
+			code 'es'
+},
+		{
+			name_ru: 'Шри-Ланка',
+			name_en: 'Sri Lanka',
+			name_hu: 'Srí Lankán',
+			code 'lk'
+},
+		{
+			name_ru: 'Судан',
+			name_en: 'Sudan',
+			name_hu: 'Szudáni',
+			code 'sd'
+},
+		{
+			name_ru: 'Суринам',
+			name_en: 'Suriname',
+			name_hu: 'Suriname',
+			code 'sr'
+},
+		{
+			name_ru: 'Свальбард и Ян-Майен',
+			name_en: 'Svalbard and Jan Mayen',
+			name_hu: 'Svalbard Jan Mayen',
+			code 'sj'
+},
+		{
+			name_ru: 'Свазиленд',
+			name_en: 'Swaziland',
+			name_hu: 'Szváziföld',
+			code 'sz'
+},
+		{
+			name_ru: 'Швеция',
+			name_en: 'Sweden',
+			name_hu: 'Svédország',
+			code 'se'
+},
+		{
+			name_ru: 'Швейцария',
+			name_en: 'Switzerland',
+			name_hu: 'Svájc',
+			code 'ch'
+},
+		{
+			name_ru: 'Сирийская Арабская Республика',
+			name_en: 'Syrian Arab Republic',
+			name_hu: 'Szíriai Arab Köztársaság',
+			code 'sy'
+},
+		{
+			name_ru: 'Тайвань',
+			name_en: 'Taiwan',
+			name_hu: 'Tajvan',
+			code 'tw'
+},
+		{
+			name_ru: 'Таджикистан',
+			name_en: 'Tajikistan',
+			name_hu: 'Tádzsikisztán',
+			code 'tj'
+},
+		{
+			name_ru: 'Танзания, Объединенная Республика',
+			name_en: 'Tanzania, United Republic of',
+			name_hu: 'Tanzániai Egyesült Köztársaság',
+			code 'tz'
+},
+		{
+			name_ru: 'Таиланд',
+			name_en: 'Thailand',
+			name_hu: 'Thaiföld',
+			code 'th'
+},
+		{
+			name_ru: 'Тимор-Лешти',
+			name_en: 'Timor-Leste',
+			name_hu: 'Kelet-Timori',
+			code 'tl'
+},
+		{
+			name_ru: 'Того',
+			name_en: 'Togo',
+			name_hu: 'Togo',
+			code 'tg'
+},
+		{
+			name_ru: 'Токелау',
+			name_en: 'Tokelau',
+			name_hu: 'Tokelau',
+			code 'tk'
+},
+		{
+			name_ru: 'Тонга',
+			name_en: 'Tonga',
+			name_hu: 'Tonga',
+			code 'to'
+},
+		{
+			name_ru: 'Тринидад и Тобаго',
+			name_en: 'Trinidad and Tobago',
+			name_hu: 'Trinidad and Tobago',
+			code 'tt'
+},
+		{
+			name_ru: 'Тунис',
+			name_en: 'Tunisia',
+			name_hu: 'Tunézia',
+			code 'tn'
+},
+		{
+			name_ru: 'Турция',
+			name_en: 'Turkey',
+			name_hu: 'Törökország',
+			code 'tr'
+},
+		{
+			name_ru: 'Туркменистан',
+			name_en: 'Turkmenistan',
+			name_hu: 'Türkmenisztán',
+			code 'tm'
+},
+		{
+			name_ru: 'Теркс и Кайкос',
+			name_en: 'Turks and Caicos Islands',
+			name_hu: 'Turks and Caicos Szigetek',
+			code 'tc'
+},
+		{
+			name_ru: 'Тувалу',
+			name_en: 'Tuvalu',
+			name_hu: 'Tuvalu',
+			code 'tv'
+},
+		{
+			name_ru: 'Уганда',
+			name_en: 'Uganda',
+			name_hu: 'Uganda',
+			code 'ug'
+},
+		{
+			name_ru: 'Украина',
+			name_en: 'Ukraine',
+			name_hu: 'Ukrajna',
+			code 'ua'
+},
+		{
+			name_ru: 'Объединенные Арабские Эмираты',
+			name_en: 'United Arab Emirates',
+			name_hu: 'Egyesült Arab Emírségek',
+			code 'ae'
+},
+		{
+			name_ru: 'Соединенное Королевство',
+			name_en: 'United Kingdom',
+			name_hu: 'Egyesült Királyság',
+			code 'gb'
+},
+		{
+			name_ru: 'США',
+			name_en: 'United States',
+			name_hu: 'Egyesült Államok',
+			code 'us'
+},
+		{
+			name_ru: 'Внешние Малые Острова США',
+			name_en: 'United States Minor Outlying Islands',
+			name_hu: 'Új-Zélandi',
+			code 'um'
+},
+		{
+			name_ru: 'Уругвай',
+			name_en: 'Uruguay',
+			name_hu: 'Uruguay',
+			code 'uy'
+},
+		{
+			name_ru: 'Узбекистан',
+			name_en: 'Uzbekistan',
+			name_hu: 'Üzbegisztán',
+			code 'uz'
+},
+		{
+			name_ru: 'Вануату',
+			name_en: 'Vanuatu',
+			name_hu: 'Vanuatu',
+			code 'vu'
+},
+		{
+			name_ru: 'Венесуэла',
+			name_en: 'Venezuela',
+			name_hu: 'Venezuela',
+			code 've'
+},
+		{
+			name_ru: 'Вьетнам',
+			name_en: 'Viet Nam',
+			name_hu: 'Viet Nam',
+			code 'vn'
+},
+		{
+			name_ru: 'Виргинские Острова, Британские',
+			name_en: 'Virgin Islands, British',
+			name_hu: 'Brit Virgin-Szigetek',
+			code 'vg'
+},
+		{
+			name_ru: 'Виргинские острова, США',
+			name_en: 'Virgin Islands, U.S.',
+			name_hu: 'Virgin-Szigetek, AMERIKAI',
+			code 'vi'
+},
+		{
+			name_ru: 'Уоллис и Футуна',
+			name_en: 'Wallis and Futuna',
+			name_hu: 'Wallis Futuna',
+			code 'wf'
+},
+		{
+			name_ru: 'Западной Сахаре',
+			name_en: 'Western Sahara',
+			name_hu: 'Nyugat-Szahara',
+			code 'eh'
+},
+		{
+			name_ru: 'Йемен',
+			name_en: 'Yemen',
+			name_hu: 'Jemen',
+			code 'ye'
+},
+		{
+			name_ru: 'Замбия',
+			name_en: 'Zambia',
+			name_hu: 'Zambia',
+			code 'zm'
+},
+		{
+			name_ru: 'Зимбабве',
+			name_en: 'Zimbabwe',
+			name_hu: 'Zimbabwe',
+			code 'zw'
+}
+	]

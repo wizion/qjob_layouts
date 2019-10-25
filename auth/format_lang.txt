@@ -1,0 +1,1268 @@
+﻿languages = [
+	{
+		native_name: 'аҧсуа',
+		name_ru: 'Абхазская',
+		name_en: 'Abkhaz',
+		name_hu: 'Abház',
+		code: 'ab'
+	},
+	{
+		native_name: 'Afaraf',
+		name_ru: 'Афар',
+		name_en: 'Afar',
+		name_hu: 'Távolból',
+		code: 'aa'
+	},
+	{
+		native_name: 'Afrikaans',
+		name_ru: 'Африкаанс',
+		name_en: 'Afrikaans',
+		name_hu: 'Afrikaans',
+		code: 'af'
+	},
+	{
+		native_name: 'Akan',
+		name_ru: 'Акан',
+		name_en: 'Akan',
+		name_hu: 'Akan',
+		code: 'ak'
+	},
+	{
+		native_name: 'Shqip',
+		name_ru: 'Албанский',
+		name_en: 'Albanian',
+		name_hu: 'Albán',
+		code: 'sq'
+	},
+	{
+		native_name: 'አማርኛ',
+		name_ru: 'Амхарский',
+		name_en: 'Amharic',
+		name_hu: 'Amhara',
+		code: 'am'
+	},
+	{
+		native_name: 'العربية',
+		name_ru: 'Арабский язык',
+		name_en: 'Arabic',
+		name_hu: 'Arab',
+		code: 'ar'
+	},
+	{
+		native_name: 'Aragonés',
+		name_ru: 'Арагонский',
+		name_en: 'Aragonese',
+		name_hu: 'Aragóniai',
+		code: 'an'
+	},
+	{
+		native_name: 'Հայերեն',
+		name_ru: 'Армении',
+		name_en: 'Armenian',
+		name_hu: 'Örmény',
+		code: 'hy'
+	},
+	{
+		native_name: 'অসমীয়া',
+		name_ru: 'Ассамский',
+		name_en: 'Assamese',
+		name_hu: 'Assamese',
+		code: 'as'
+	},
+	{
+		native_name: 'авар мацӀ, магӀарул мацӀ',
+		name_ru: 'Аварский',
+		name_en: 'Avaric',
+		name_hu: 'Avaric',
+		code: 'av'
+	},
+	{
+		native_name: 'avesta',
+		name_ru: 'Авестийский',
+		name_en: 'Avestan',
+		name_hu: 'Avestan',
+		code: 'ae'
+	},
+	{
+		native_name: 'aymar aru',
+		name_ru: 'Аймара',
+		name_en: 'Aymara',
+		name_hu: 'Aymara',
+		code: 'ay'
+	},
+	{
+		native_name: 'azərbaycan dili',
+		name_ru: 'Азербайджана',
+		name_en: 'Azerbaijani',
+		name_hu: 'Azerbajdzsáni',
+		code: 'az'
+	},
+	{
+		native_name: 'bamanankan',
+		name_ru: 'Бамбара',
+		name_en: 'Bambara',
+		name_hu: 'Bambara',
+		code: 'bm'
+	},
+	{
+		native_name: 'башҡорт теле',
+		name_ru: 'Башкирский',
+		name_en: 'Bashkir',
+		name_hu: 'Bashkir',
+		code: 'ba'
+	},
+	{
+		native_name: 'euskara, euskera',
+		name_ru: 'Баскский',
+		name_en: 'Basque',
+		name_hu: 'Baszk',
+		code: 'eu'
+	},
+	{
+		native_name: 'Беларуская',
+		name_ru: 'Белорусская',
+		name_en: 'Belarusian',
+		name_hu: 'Fehérorosz',
+		code: 'be'
+	},
+	{
+		native_name: 'বাংলা',
+		name_ru: 'Бенгальский',
+		name_en: 'Bengali',
+		name_hu: 'Bengáli',
+		code: 'bn'
+	},
+	{
+		native_name: 'भोजपुरी',
+		name_ru: 'Бихари',
+		name_en: 'Bihari',
+		name_hu: 'Bihari',
+		code: 'bh'
+	},
+	{
+		native_name: 'Bislama',
+		name_ru: 'Бислама',
+		name_en: 'Bislama',
+		name_hu: 'Bislama',
+		code: 'bi'
+	},
+	{
+		native_name: 'bosanski jezik',
+		name_ru: 'Босниец',
+		name_en: 'Bosnian',
+		name_hu: 'Bosnyák',
+		code: 'bs'
+	},
+	{
+		native_name: 'brezhoneg',
+		name_ru: 'Бретон',
+		name_en: 'Breton',
+		name_hu: 'Breton',
+		code: 'br'
+	},
+	{
+		native_name: 'български език',
+		name_ru: 'Болгарский',
+		name_en: 'Bulgarian',
+		name_hu: 'Bolgár',
+		code: 'bg'
+	},
+	{
+		native_name: 'ဗမာစာ',
+		name_ru: 'Бурмы',
+		name_en: 'Burmese',
+		name_hu: 'Burmai',
+		code: 'my'
+	},
+	{
+		native_name: 'Català',
+		name_ru: 'Каталанский; Валенсийский',
+		name_en: 'Catalan; Valencian',
+		name_hu: 'Katalán; Valenciai',
+		code: 'ca'
+	},
+	{
+		native_name: 'Chamoru',
+		name_ru: 'Чаморро',
+		name_en: 'Chamorro',
+		name_hu: 'Mész a dutyiba. chamarro',
+		code: 'ch'
+	},
+	{
+		native_name: 'нохчийн мотт',
+		name_ru: 'Чеченец',
+		name_en: 'Chechen',
+		name_hu: 'Csecsen',
+		code: 'ce'
+	},
+	{
+		native_name: 'chiCheŵa, chinyanja',
+		name_ru: 'Чичев; Чева; Ньянджа',
+		name_en: 'Chichewa; Chewa; Nyanja',
+		name_hu: 'Chichewa; Chewa; Nyanja',
+		code: 'ny'
+	},
+	{
+		native_name: '中文 (Zhōngwén), 汉语, 漢語',
+		name_ru: 'Китайский',
+		name_en: 'Chinese',
+		name_hu: 'Kínai',
+		code: 'zh'
+	},
+	{
+		native_name: 'чӑваш чӗлхи',
+		name_ru: 'Чувашская',
+		name_en: 'Chuvash',
+		name_hu: 'Csuvas',
+		code: 'cv'
+	},
+	{
+		native_name: 'Kernewek',
+		name_ru: 'Корниш',
+		name_en: 'Cornish',
+		name_hu: 'Cornish',
+		code: 'kw'
+	},
+	{
+		native_name: 'corsu, lingua corsa',
+		name_ru: 'Корсиканец',
+		name_en: 'Corsican',
+		name_hu: 'Korzikai',
+		code: 'co'
+	},
+	{
+		native_name: 'ᓀᐦᐃᔭᐍᐏᐣ',
+		name_ru: 'Кри',
+		name_en: 'Cree',
+		name_hu: 'Cree',
+		code: 'cr'
+	},
+	{
+		native_name: 'hrvatski',
+		name_ru: 'Хорватский',
+		name_en: 'Croatian',
+		name_hu: 'Horvát',
+		code: 'hr'
+	},
+	{
+		native_name: 'česky, čeština',
+		name_ru: 'Чешская',
+		name_en: 'Czech',
+		name_hu: 'Cseh',
+		code: 'cs'
+	},
+	{
+		native_name: 'dansk',
+		name_ru: 'Датский',
+		name_en: 'Danish',
+		name_hu: 'Dán',
+		code: 'da'
+	},
+	{
+		native_name: 'ދިވެހި',
+		name_ru: 'Мальдивский; Дивехи; Мальдивских;',
+		name_en: 'Divehi; Dhivehi; Maldivian;',
+		name_hu: 'Divehi; Dhivehi; Maldív;',
+		code: 'dv'
+	},
+	{
+		native_name: 'Nederlands, Vlaams',
+		name_ru: 'Голландский',
+		name_en: 'Dutch',
+		name_hu: 'Holland',
+		code: 'nl'
+	},
+	{
+		native_name: 'Esperanto',
+		name_ru: 'Эсперанто',
+		name_en: 'Esperanto',
+		name_hu: 'Az eszperantó',
+		code: 'eo'
+	},
+	{
+		native_name: 'eesti, eesti keel',
+		name_ru: 'Эстонии',
+		name_en: 'Estonian',
+		name_hu: 'Észt',
+		code: 'et'
+	},
+	{
+		native_name: 'Eʋegbe',
+		name_ru: 'Эве',
+		name_en: 'Ewe',
+		name_hu: 'Anyajuh',
+		code: 'ee'
+	},
+	{
+		native_name: 'føroyskt',
+		name_ru: 'Фарерцы',
+		name_en: 'Faroese',
+		name_hu: 'Feröer-szigetek',
+		code: 'fo'
+	},
+	{
+		native_name: 'vosa Vakaviti',
+		name_ru: 'Фиджийские',
+		name_en: 'Fijian',
+		name_hu: 'Fidzsi',
+		code: 'fj'
+	},
+	{
+		native_name: 'suomi, suomen kieli',
+		name_ru: 'Финский',
+		name_en: 'Finnish',
+		name_hu: 'Finn',
+		code: 'fi'
+	},
+	{
+		native_name: 'français, langue française',
+		name_ru: 'Французский',
+		name_en: 'French',
+		name_hu: 'Francia',
+		code: 'fr'
+	},
+	{
+		native_name: 'Fulfulde, Pulaar, Pular',
+		name_ru: 'Фулан; Преобразованием Программ Перед Собственно Компиляцией; Пулаар; Пулар',
+		name_en: 'Fula; Fulah; Pulaar; Pular',
+		name_hu: 'Fula; Fulah; Pulaar; Pular',
+		code: 'ff'
+	},
+	{
+		native_name: 'Galego',
+		name_ru: 'Галичанин',
+		name_en: 'Galician',
+		name_hu: 'Galíciai',
+		code: 'gl'
+	},
+	{
+		native_name: 'ქართული',
+		name_ru: 'Грузии',
+		name_en: 'Georgian',
+		name_hu: 'Grúz',
+		code: 'ka'
+	},
+	{
+		native_name: 'Deutsch',
+		name_ru: 'Немецкий',
+		name_en: 'German',
+		name_hu: 'Német',
+		code: 'de'
+	},
+	{
+		native_name: 'Ελληνικά',
+		name_ru: 'Греческая, Современная',
+		name_en: 'Greek, Modern',
+		name_hu: 'Görög, Modern',
+		code: 'el'
+	},
+	{
+		native_name: 'Avañeẽ',
+		name_ru: 'Гуарани',
+		name_en: 'Guaraní',
+		name_hu: 'Guaraní',
+		code: 'gn'
+	},
+	{
+		native_name: 'ગુજરાતી',
+		name_ru: 'Гуджарати',
+		name_en: 'Gujarati',
+		name_hu: 'Gudzsaráti',
+		code: 'gu'
+	},
+	{
+		native_name: 'Kreyòl ayisyen',
+		name_ru: 'Гаити; Гаитянский Креольский',
+		name_en: 'Haitian; Haitian Creole',
+		name_hu: 'Haiti; Haiti Kreol',
+		code: 'ht'
+	},
+	{
+		native_name: 'Hausa, هَوُسَ',
+		name_ru: 'Хауса',
+		name_en: 'Hausa',
+		name_hu: 'Hausza',
+		code: 'ha'
+	},
+	{
+		native_name: 'עברית',
+		name_ru: 'Иврит (современный)',
+		name_en: 'Hebrew (modern)',
+		name_hu: 'Héber (modern)',
+		code: 'he'
+	},
+	{
+		native_name: 'Otjiherero',
+		name_ru: 'Гереро',
+		name_en: 'Herero',
+		name_hu: 'Herero',
+		code: 'hz'
+	},
+	{
+		native_name: 'हिन्दी, हिंदी',
+		name_ru: 'Хинди',
+		name_en: 'Hindi',
+		name_hu: 'Hindi',
+		code: 'hi'
+	},
+	{
+		native_name: 'Hiri Motu',
+		name_ru: 'Хиримоту',
+		name_en: 'Hiri Motu',
+		name_hu: 'Hiri Motu',
+		code: 'ho'
+	},
+	{
+		native_name: 'Magyar',
+		name_ru: 'Венгерский',
+		name_en: 'Hungarian',
+		name_hu: 'Magyar',
+		code: 'hu'
+	},
+	{
+		native_name: 'Interlingua',
+		name_ru: 'Интерлингва',
+		name_en: 'Interlingua',
+		name_hu: 'Interlingua',
+		code: 'ia'
+	},
+	{
+		native_name: 'Bahasa Indonesia',
+		name_ru: 'Индонезийский',
+		name_en: 'Indonesian',
+		name_hu: 'Indonéz',
+		code: 'id'
+	},
+	{
+		native_name: 'Originally called Occidental; then Interlingue after WWII',
+		name_ru: 'Интерлингве',
+		name_en: 'Interlingue',
+		name_hu: 'Interlingue',
+		code: 'ie'
+	},
+	{
+		native_name: 'Gaeilge',
+		name_ru: 'Ирландский',
+		name_en: 'Irish',
+		name_hu: 'Ír',
+		code: 'ga'
+	},
+	{
+		native_name: 'Asụsụ Igbo',
+		name_ru: 'Игбо',
+		name_en: 'Igbo',
+		name_hu: 'Igbo',
+		code: 'ig'
+	},
+	{
+		native_name: 'Iñupiaq, Iñupiatun',
+		name_ru: 'Инупиак',
+		name_en: 'Inupiaq',
+		name_hu: 'Inupiaq',
+		code: 'ik'
+	},
+	{
+		native_name: 'Ido',
+		name_ru: 'Идо',
+		name_en: 'Ido',
+		name_hu: 'Ido',
+		code: 'io'
+	},
+	{
+		native_name: 'Íslenska',
+		name_ru: 'Исландский',
+		name_en: 'Icelandic',
+		name_hu: 'Izlandi',
+		code: 'is'
+	},
+	{
+		native_name: 'Italiano',
+		name_ru: 'Итальянский',
+		name_en: 'Italian',
+		name_hu: 'Olasz',
+		code: 'it'
+	},
+	{
+		native_name: 'ᐃᓄᒃᑎᑐᑦ',
+		name_ru: 'Инуктитут',
+		name_en: 'Inuktitut',
+		name_hu: 'Inuktitut',
+		code: 'iu'
+	},
+	{
+		native_name: '日本語 (にほんご／にっぽんご)',
+		name_ru: 'Японский',
+		name_en: 'Japanese',
+		name_hu: 'Japán',
+		code: 'ja'
+	},
+	{
+		native_name: 'basa Jawa',
+		name_ru: 'Яванский',
+		name_en: 'Javanese',
+		name_hu: 'Jávai',
+		code: 'jv'
+	},
+	{
+		native_name: 'kalaallisut, kalaallit oqaasii',
+		name_ru: 'Гренландский, Гренландский',
+		name_en: 'Kalaallisut, Greenlandic',
+		name_hu: 'Kalaallisut, Grönlandi',
+		code: 'kl'
+	},
+	{
+		native_name: 'ಕನ್ನಡ',
+		name_ru: 'Каннада',
+		name_en: 'Kannada',
+		name_hu: 'Kannada',
+		code: 'kn'
+	},
+	{
+		native_name: 'Kanuri',
+		name_ru: 'Канури',
+		name_en: 'Kanuri',
+		name_hu: 'Kanuri',
+		code: 'kr'
+	},
+	{
+		native_name: 'कश्मीरी, كشميري‎',
+		name_ru: 'Кашмири',
+		name_en: 'Kashmiri',
+		name_hu: 'Kasmíri',
+		code: 'ks'
+	},
+	{
+		native_name: 'Қазақ тілі',
+		name_ru: 'Казахский',
+		name_en: 'Kazakh',
+		name_hu: 'Kazah',
+		code: 'kk'
+	},
+	{
+		native_name: 'ភាសាខ្មែរ',
+		name_ru: 'Кхмерский',
+		name_en: 'Khmer',
+		name_hu: 'Khmer',
+		code: 'km'
+	},
+	{
+		native_name: 'Gĩkũyũ',
+		name_ru: 'Кикуйю, Нашей',
+		name_en: 'Kikuyu, Gikuyu',
+		name_hu: 'Kikuyu, Gikuyu',
+		code: 'ki'
+	},
+	{
+		native_name: 'Ikinyarwanda',
+		name_ru: 'Киньяруанда',
+		name_en: 'Kinyarwanda',
+		name_hu: 'Kinyarwanda',
+		code: 'rw'
+	},
+	{
+		native_name: 'кыргыз тили',
+		name_ru: 'Киргиз, Киргиз',
+		name_en: 'Kirghiz, Kyrgyz',
+		name_hu: 'Kirgiz, Kirgiz',
+		code: 'ky'
+	},
+	{
+		native_name: 'коми кыв',
+		name_ru: 'Коми',
+		name_en: 'Komi',
+		name_hu: 'Komi',
+		code: 'kv'
+	},
+	{
+		native_name: 'KiKongo',
+		name_ru: 'Конго',
+		name_en: 'Kongo',
+		name_hu: 'Kongo',
+		code: 'kg'
+	},
+	{
+		native_name: '한국어 (韓國語), 조선말 (朝鮮語)',
+		name_ru: 'Корейский',
+		name_en: 'Korean',
+		name_hu: 'Koreai',
+		code: 'ko'
+	},
+	{
+		native_name: 'Kurdî, كوردی‎',
+		name_ru: 'Курдский',
+		name_en: 'Kurdish',
+		name_hu: 'Kurd',
+		code: 'ku'
+	},
+	{
+		native_name: 'Kuanyama',
+		name_ru: 'Kwanyama, Кунама',
+		name_en: 'Kwanyama, Kuanyama',
+		name_hu: 'Kwanyama, Kuanyama',
+		code: 'kj'
+	},
+	{
+		native_name: 'latine, lingua latina',
+		name_ru: 'Латинский',
+		name_en: 'Latin',
+		name_hu: 'Latin',
+		code: 'la'
+	},
+	{
+		native_name: 'Lëtzebuergesch',
+		name_ru: 'Люксембургский, Содержит',
+		name_en: 'Luxembourgish, Letzeburgesch',
+		name_hu: 'Luxemburgi, Letzeburgesch',
+		code: 'lb'
+	},
+	{
+		native_name: 'Luganda',
+		name_ru: 'Луганда',
+		name_en: 'Luganda',
+		name_hu: 'Luganda',
+		code: 'lg'
+	},
+	{
+		native_name: 'Limburgs',
+		name_ru: 'Лимбургский, Переходный, Лимбургер',
+		name_en: 'Limburgish, Limburgan, Limburger',
+		name_hu: 'Limburgi, Limburgan, Limburger',
+		code: 'li'
+	},
+	{
+		native_name: 'Lingála',
+		name_ru: 'Английский',
+		name_en: 'Lingala',
+		name_hu: 'Lingala',
+		code: 'ln'
+	},
+	{
+		native_name: 'ພາສາລາວ',
+		name_ru: 'Лао',
+		name_en: 'Lao',
+		name_hu: 'Lao',
+		code: 'lo'
+	},
+	{
+		native_name: 'lietuvių kalba',
+		name_ru: 'Литовский',
+		name_en: 'Lithuanian',
+		name_hu: 'Litván',
+		code: 'lt'
+	},
+	{
+		native_name: '',
+		name_ru: 'Луба-Катанга',
+		name_en: 'Luba-Katanga',
+		name_hu: 'Luba-Katanga',
+		code: 'lu'
+	},
+	{
+		native_name: 'latviešu valoda',
+		name_ru: 'Латвии',
+		name_en: 'Latvian',
+		name_hu: 'Lett',
+		code: 'lv'
+	},
+	{
+		native_name: 'Gaelg, Gailck',
+		name_ru: 'Мэнский',
+		name_en: 'Manx',
+		name_hu: 'Manx',
+		code: 'gv'
+	},
+	{
+		native_name: 'македонски јазик',
+		name_ru: 'Македонский',
+		name_en: 'Macedonian',
+		name_hu: 'Macedón',
+		code: 'mk'
+	},
+	{
+		native_name: 'Malagasy fiteny',
+		name_ru: 'Малагасийский',
+		name_en: 'Malagasy',
+		name_hu: 'Madagaszkári',
+		code: 'mg'
+	},
+	{
+		native_name: 'bahasa Melayu, بهاس ملايو‎',
+		name_ru: 'Малай',
+		name_en: 'Malay',
+		name_hu: 'Maláj',
+		code: 'ms'
+	},
+	{
+		native_name: 'മലയാളം',
+		name_ru: 'Малаялам',
+		name_en: 'Malayalam',
+		name_hu: 'Malayalam',
+		code: 'ml'
+	},
+	{
+		native_name: 'Malti',
+		name_ru: 'Мальтезе',
+		name_en: 'Maltese',
+		name_hu: 'Máltai',
+		code: 'mt'
+	},
+	{
+		native_name: 'te reo Māori',
+		name_ru: 'Маори',
+		name_en: 'Māori',
+		name_hu: 'Maori',
+		code: 'mi'
+	},
+	{
+		native_name: 'मराठी',
+		name_ru: 'Маратхи (Marāṭhī)',
+		name_en: 'Marathi (Marāṭhī)',
+		name_hu: 'Marathi (Marāṭhī)',
+		code: 'mr'
+	},
+	{
+		native_name: 'Kajin M̧ajeļ',
+		name_ru: 'Маршалльский',
+		name_en: 'Marshallese',
+		name_hu: 'Marshallese',
+		code: 'mh'
+	},
+	{
+		native_name: 'монгол',
+		name_ru: 'Монгольский',
+		name_en: 'Mongolian',
+		name_hu: 'Mongol',
+		code: 'mn'
+	},
+	{
+		native_name: 'Ekakairũ Naoero',
+		name_ru: 'Науру',
+		name_en: 'Nauru',
+		name_hu: 'Nauru',
+		code: 'na'
+	},
+	{
+		native_name: 'Diné bizaad, Dinékʼehǰí',
+		name_ru: 'Навахо, Навахо',
+		name_en: 'Navajo, Navaho',
+		name_hu: 'Navajo, Navahó',
+		code: 'nv'
+	},
+	{
+		native_name: 'Norsk bokmål',
+		name_ru: 'Норвежский Букмол',
+		name_en: 'Norwegian Bokmål',
+		name_hu: 'Norvég Bokmål',
+		code: 'nb'
+	},
+	{
+		native_name: 'isiNdebele',
+		name_ru: 'Северный Ндебели',
+		name_en: 'North Ndebele',
+		name_hu: 'Északi Ndebele',
+		code: 'nd'
+	},
+	{
+		native_name: 'नेपाली',
+		name_ru: 'Непальский',
+		name_en: 'Nepali',
+		name_hu: 'Nepáli',
+		code: 'ne'
+	},
+	{
+		native_name: 'Owambo',
+		name_ru: 'Ndonga',
+		name_en: 'Ndonga',
+		name_hu: 'Ndonga',
+		code: 'ng'
+	},
+	{
+		native_name: 'Norsk nynorsk',
+		name_ru: 'Норвежский Нюнорск',
+		name_en: 'Norwegian Nynorsk',
+		name_hu: 'Norvég Nynorsk',
+		code: 'nn'
+	},
+	{
+		native_name: 'Norsk',
+		name_ru: 'Норвежский',
+		name_en: 'Norwegian',
+		name_hu: 'Norvég',
+		code: 'no'
+	},
+	{
+		native_name: 'ꆈꌠ꒿ Nuosuhxop',
+		name_ru: 'Nuosu',
+		name_en: 'Nuosu',
+		name_hu: 'Nuosu',
+		code: 'ii'
+	},
+	{
+		native_name: 'isiNdebele',
+		name_ru: 'Южный Ндебеле',
+		name_en: 'South Ndebele',
+		name_hu: 'Déli Ndebele',
+		code: 'nr'
+	},
+	{
+		native_name: 'Occitan',
+		name_ru: 'Окситанский',
+		name_en: 'Occitan',
+		name_hu: 'Occitan',
+		code: 'oc'
+	},
+	{
+		native_name: 'ᐊᓂᔑᓈᐯᒧᐎᓐ',
+		name_ru: 'Оджибве Оджибве',
+		name_en: 'Ojibwe, Ojibwa',
+		name_hu: 'Szerinted Ez Lehetséges, Ojibwa',
+		code: 'oj'
+	},
+	{
+		native_name: 'ѩзыкъ словѣньскъ',
+		name_ru: 'Старославянский, Церковнославянский, Церковнославянская, Старый Болгарский, Старославянский',
+		name_en: 'Old Church Slavonic, Church Slavic, Church Slavonic, Old Bulgarian, Old Slavonic',
+		name_hu: 'Régi Egyházi Szláv Egyházi Szláv, Egyházi Szláv, A Régi Bolgár, Régi Szláv',
+		code: 'cu'
+	},
+	{
+		native_name: 'Afaan Oromoo',
+		name_ru: 'Оромо',
+		name_en: 'Oromo',
+		name_hu: 'Oromo',
+		code: 'om'
+	},
+	{
+		native_name: 'ଓଡ଼ିଆ',
+		name_ru: 'Ория',
+		name_en: 'Oriya',
+		name_hu: 'Oriya',
+		code: 'or'
+	},
+	{
+		native_name: 'ирон æвзаг',
+		name_ru: 'Осетинский, Осетинский',
+		name_en: 'Ossetian, Ossetic',
+		name_hu: 'Oszét, Ossetic',
+		code: 'os'
+	},
+	{
+		native_name: 'ਪੰਜਾਬੀ, پنجابی‎',
+		name_ru: 'Панджаби, Панджаби',
+		name_en: 'Panjabi, Punjabi',
+		name_hu: 'Panjabi, A Pandzsábi',
+		code: 'pa'
+	},
+	{
+		native_name: 'पाऴि',
+		name_ru: 'Пали',
+		name_en: 'Pāli',
+		name_hu: 'Pāli',
+		code: 'pi'
+	},
+	{
+		native_name: 'فارسی',
+		name_ru: 'Персидский',
+		name_en: 'Persian',
+		name_hu: 'Perzsa',
+		code: 'fa'
+	},
+	{
+		native_name: 'polski',
+		name_ru: 'Польский',
+		name_en: 'Polish',
+		name_hu: 'Lengyel',
+		code: 'pl'
+	},
+	{
+		native_name: 'پښتو',
+		name_ru: 'Пашто, Пушту',
+		name_en: 'Pashto, Pushto',
+		name_hu: 'Pastu, Pushto',
+		code: 'ps'
+	},
+	{
+		native_name: 'Português',
+		name_ru: 'Португальский',
+		name_en: 'Portuguese',
+		name_hu: 'Portugál',
+		code: 'pt'
+	},
+	{
+		native_name: 'Runa Simi, Kichwa',
+		name_ru: 'Кечуа',
+		name_en: 'Quechua',
+		name_hu: 'Kecsua',
+		code: 'qu'
+	},
+	{
+		native_name: 'rumantsch grischun',
+		name_ru: 'Ретороманский',
+		name_en: 'Romansh',
+		name_hu: 'Romansh',
+		code: 'rm'
+	},
+	{
+		native_name: 'kiRundi',
+		name_ru: 'Кирунди',
+		name_en: 'Kirundi',
+		name_hu: 'Kirundi',
+		code: 'rn'
+	},
+	{
+		native_name: 'română',
+		name_ru: 'Румынский, Молдавский, Молдавский',
+		name_en: 'Romanian, Moldavian, Moldovan',
+		name_hu: 'Román, Moldáv, Moldovai',
+		code: 'ro'
+	},
+	{
+		native_name: 'русский язык',
+		name_ru: 'Русский',
+		name_en: 'Russian',
+		name_hu: 'Orosz',
+		code: 'ru'
+	},
+	{
+		native_name: 'संस्कृतम्',
+		name_ru: 'Санскрит (Санскрите)',
+		name_en: 'Sanskrit (Saṁskṛta)',
+		name_hu: 'Szanszkrit (Saṁskṛta)',
+		code: 'sa'
+	},
+	{
+		native_name: 'sardu',
+		name_ru: 'Сардинец',
+		name_en: 'Sardinian',
+		name_hu: 'Szardíniai',
+		code: 'sc'
+	},
+	{
+		native_name: 'सिन्धी, سنڌي، سندھی‎',
+		name_ru: 'Синдхи',
+		name_en: 'Sindhi',
+		name_hu: 'Szindi',
+		code: 'sd'
+	},
+	{
+		native_name: 'Davvisámegiella',
+		name_ru: 'Северносаамский',
+		name_en: 'Northern Sami',
+		name_hu: 'Északi Számi',
+		code: 'se'
+	},
+	{
+		native_name: 'gagana faa Samoa',
+		name_ru: 'Самоанский',
+		name_en: 'Samoan',
+		name_hu: 'Szamoai',
+		code: 'sm'
+	},
+	{
+		native_name: 'yângâ tî sängö',
+		name_ru: 'Санго',
+		name_en: 'Sango',
+		name_hu: 'Sango',
+		code: 'sg'
+	},
+	{
+		native_name: 'српски језик',
+		name_ru: 'Сербский',
+		name_en: 'Serbian',
+		name_hu: 'Szerb',
+		code: 'sr'
+	},
+	{
+		native_name: 'Gàidhlig',
+		name_ru: 'Гэльский; Гэльский',
+		name_en: 'Scottish Gaelic; Gaelic',
+		name_hu: 'Skót Gael; Kelta',
+		code: 'gd'
+	},
+	{
+		native_name: 'chiShona',
+		name_ru: 'Шона',
+		name_en: 'Shona',
+		name_hu: 'Shona',
+		code: 'sn'
+	},
+	{
+		native_name: 'සිංහල',
+		name_ru: 'Сингальский, Сингальский',
+		name_en: 'Sinhala, Sinhalese',
+		name_hu: 'Szingaléz, Sinhalese',
+		code: 'si'
+	},
+	{
+		native_name: 'slovenčina',
+		name_ru: 'Словацкий',
+		name_en: 'Slovak',
+		name_hu: 'Szlovák',
+		code: 'sk'
+	},
+	{
+		native_name: 'slovenščina',
+		name_ru: 'Словенский',
+		name_en: 'Slovene',
+		name_hu: 'Szlovén',
+		code: 'sl'
+	},
+	{
+		native_name: 'Soomaaliga, af Soomaali',
+		name_ru: 'Сомали',
+		name_en: 'Somali',
+		name_hu: 'Szomáliai',
+		code: 'so'
+	},
+	{
+		native_name: 'Sesotho',
+		name_ru: 'Сото Южный',
+		name_en: 'Southern Sotho',
+		name_hu: 'Dél-Sotho',
+		code: 'st'
+	},
+	{
+		native_name: 'español, castellano',
+		name_ru: 'Испанский; Кастильский',
+		name_en: 'Spanish; Castilian',
+		name_hu: 'Spanyol; Kasztíliai',
+		code: 'es'
+	},
+	{
+		native_name: 'Basa Sunda',
+		name_ru: 'Сунданский',
+		name_en: 'Sundanese',
+		name_hu: 'Sundanese',
+		code: 'su'
+	},
+	{
+		native_name: 'Kiswahili',
+		name_ru: 'Суахили',
+		name_en: 'Swahili',
+		name_hu: 'Szuahéli',
+		code: 'sw'
+	},
+	{
+		native_name: 'SiSwati',
+		name_ru: 'Свати',
+		name_en: 'Swati',
+		name_hu: 'Swati',
+		code: 'ss'
+	},
+	{
+		native_name: 'svenska',
+		name_ru: 'Шведский',
+		name_en: 'Swedish',
+		name_hu: 'Svéd',
+		code: 'sv'
+	},
+	{
+		native_name: 'தமிழ்',
+		name_ru: 'Тамила',
+		name_en: 'Tamil',
+		name_hu: 'Tamil',
+		code: 'ta'
+	},
+	{
+		native_name: 'తెలుగు',
+		name_ru: 'Телугу',
+		name_en: 'Telugu',
+		name_hu: 'Telugu',
+		code: 'te'
+	},
+	{
+		native_name: 'тоҷикӣ, toğikī, تاجیکی‎',
+		name_ru: 'Таджик',
+		name_en: 'Tajik',
+		name_hu: 'Tádzsik',
+		code: 'tg'
+	},
+	{
+		native_name: 'ไทย',
+		name_ru: 'Тайский',
+		name_en: 'Thai',
+		name_hu: 'Thai',
+		code: 'th'
+	},
+	{
+		native_name: 'ትግርኛ',
+		name_ru: 'Тигринья',
+		name_en: 'Tigrinya',
+		name_hu: 'Tigrinya',
+		code: 'ti'
+	},
+	{
+		native_name: 'བོད་ཡིག',
+		name_ru: 'Стандарт Тибетского, Тибетский, Центральный',
+		name_en: 'Tibetan Standard, Tibetan, Central',
+		name_hu: 'Tibeti Normál, Tibeti, Központi',
+		code: 'bo'
+	},
+	{
+		native_name: 'Türkmen, Түркмен',
+		name_ru: 'Туркменский',
+		name_en: 'Turkmen',
+		name_hu: 'Türkmén',
+		code: 'tk'
+	},
+	{
+		native_name: 'Wikang Tagalog, ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔',
+		name_ru: 'Тагальский',
+		name_en: 'Tagalog',
+		name_hu: 'Tagalog',
+		code: 'tl'
+	},
+	{
+		native_name: 'Setswana',
+		name_ru: 'Тсвана',
+		name_en: 'Tswana',
+		name_hu: 'Hagyomány',
+		code: 'tn'
+	},
+	{
+		native_name: 'faka Tonga',
+		name_ru: 'Тонга (Острова Тонга)',
+		name_en: 'Tonga (Tonga Islands)',
+		name_hu: 'Tonga (Tonga-Szigetek)',
+		code: 'to'
+	},
+	{
+		native_name: 'Türkçe',
+		name_ru: 'Турецкий',
+		name_en: 'Turkish',
+		name_hu: 'Török',
+		code: 'tr'
+	},
+	{
+		native_name: 'Xitsonga',
+		name_ru: 'Тсонга',
+		name_en: 'Tsonga',
+		name_hu: 'Tsonga',
+		code: 'ts'
+	},
+	{
+		native_name: 'татарча, tatarça, تاتارچا‎',
+		name_ru: 'Татарин',
+		name_en: 'Tatar',
+		name_hu: 'Tatár',
+		code: 'tt'
+	},
+	{
+		native_name: 'Twi',
+		name_ru: 'Тви',
+		name_en: 'Twi',
+		name_hu: 'Hajni',
+		code: 'tw'
+	},
+	{
+		native_name: 'Reo Tahiti',
+		name_ru: 'Таитянский',
+		name_en: 'Tahitian',
+		name_hu: 'Tahiti',
+		code: 'ty'
+	},
+	{
+		native_name: 'Uyƣurqə, ئۇيغۇرچە‎',
+		name_ru: 'Уйгурский, Уйгурский',
+		name_en: 'Uighur, Uyghur',
+		name_hu: 'Ujgur, Ujgur',
+		code: 'ug'
+	},
+	{
+		native_name: 'українська',
+		name_ru: 'Украинский',
+		name_en: 'Ukrainian',
+		name_hu: 'Ukrán',
+		code: 'uk'
+	},
+	{
+		native_name: 'اردو',
+		name_ru: 'Урду',
+		name_en: 'Urdu',
+		name_hu: 'Urdu',
+		code: 'ur'
+	},
+	{
+		native_name: 'zbek, Ўзбек, أۇزبېك‎',
+		name_ru: 'Узбек',
+		name_en: 'Uzbek',
+		name_hu: 'Üzbég',
+		code: 'uz'
+	},
+	{
+		native_name: 'Tshivenḓa',
+		name_ru: 'Венда',
+		name_en: 'Venda',
+		name_hu: 'Venda',
+		code: 've'
+	},
+	{
+		native_name: 'Tiếng Việt',
+		name_ru: 'Вьетнамский',
+		name_en: 'Vietnamese',
+		name_hu: 'Vietnámi',
+		code: 'vi'
+	},
+	{
+		native_name: 'Volapük',
+		name_ru: 'Волапюк',
+		name_en: 'Volapük',
+		name_hu: 'Volapük',
+		code: 'vo'
+	},
+	{
+		native_name: 'Walon',
+		name_ru: 'Валлония',
+		name_en: 'Walloon',
+		name_hu: 'Vallon',
+		code: 'wa'
+	},
+	{
+		native_name: 'Cymraeg',
+		name_ru: 'Валлийский',
+		name_en: 'Welsh',
+		name_hu: 'Welsh',
+		code: 'cy'
+	},
+	{
+		native_name: 'Wollof',
+		name_ru: 'Волоф',
+		name_en: 'Wolof',
+		name_hu: 'Volof',
+		code: 'wo'
+	},
+	{
+		native_name: 'Frysk',
+		name_ru: 'Западно-Фризский',
+		name_en: 'Western Frisian',
+		name_hu: 'Nyugat-Fríz',
+		code: 'fy'
+	},
+	{
+		native_name: 'isiXhosa',
+		name_ru: 'Коса',
+		name_en: 'Xhosa',
+		name_hu: 'Xhosa',
+		code: 'xh'
+	},
+	{
+		native_name: 'ייִדיש',
+		name_ru: 'Идиш',
+		name_en: 'Yiddish',
+		name_hu: 'Jiddis',
+		code: 'yi'
+	},
+	{
+		native_name: 'Yorùbá',
+		name_ru: 'Йоруба',
+		name_en: 'Yoruba',
+		name_hu: 'Joruba',
+		code: 'yo'
+	},
+	{
+		native_name: 'Saɯ cueŋƅ, Saw cuengh',
+		name_ru: 'Чжуан, Чжуан',
+		name_en: 'Zhuang, Chuang',
+		name_hu: 'Zhuang, Chuang',
+		code: 'za'
+	},]

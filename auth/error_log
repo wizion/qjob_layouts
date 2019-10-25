@@ -1,0 +1,4 @@
+[24-Oct-2019 13:01:30 Europe/Budapest] PHP Notice:  Undefined variable: urlencode in /home/fxywytkj/blog.qjob.hu/auth/index.php on line 8
+[24-Oct-2019 13:01:31 Europe/Budapest] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20191024T102254Z.8f39126293a3f0f9.32a267b8e4d54201dcb6bb7bd8b3f556b0c018f4&amp;text=&amp;lang=en-ru&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/fxywytkj/blog.qjob.hu/auth/index.php on line 8
+[24-Oct-2019 13:01:31 Europe/Budapest] PHP Notice:  Trying to get property of non-object in /home/fxywytkj/blog.qjob.hu/auth/index.php on line 12

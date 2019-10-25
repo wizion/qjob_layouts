@@ -903,10 +903,11 @@ body{
           margin: 0;
         }
         & + .image_description{
-          margin: 20px 0;
-          display: block;
           font-size: 14px;
           line-height: 28px;
+          margin: 28px auto;
+          display: block;
+          width: 80%;
         }
         & + p,h2,blockquote,.fotorama,iframe,img,.advice{
           margin-top: 48px;
@@ -1252,6 +1253,71 @@ section.pagination{
     }
   }
 }
+div.you-wants-to {
+    margin: 30px 0 0;
+    padding: 8px 30px 9px 10px;
+    font-weight: 600;
+    font-family: 'LetoSans', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1D1539;
+  span{
+    a{
+      color: #2E09B6;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}
+.prices-from-masters {
+    margin: 30px -20px;
+    .title {
+      margin: 0;
+      clear: both;
+      padding-top: 15px;
+      padding-bottom: 8px;
+      font-weight: 600;
+      display: block;
+      font-family: "LetoSans", sans-serif;
+      font-size: 22px;
+      line-height: 32px;
+      color: #1D1539;
+      letter-spacing: -.1rem;
+    }
+  .prices-from-masters__list {
+    .prices-from-masters__link {
+      margin: 30px 0 20px;
+      vertical-align: top;
+      padding: 10px 10px 10px 0px;
+      &:before{
+        content: " ";
+        width: 30px;
+        white-space: pre;
+        background: url(../img/blog_done_icon.png) no-repeat;
+        margin: 10px 20px 10px 0px;
+        display: inline-block;
+        color: #0c4cb6;
+        vertical-align: middle;
+        font-weight: 900;
+        line-height: 30px;
+      }
+      p{
+        line-height: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        width: 80%;
+        font-size: 16px;
+        padding: 0;
+      }
+    }
+    .column_6 {
+      width: 48%;
+      display: inline-block;
+    }
+  }
+}
+
 div.stores-block {
   display: grid;
   text-align: center;
@@ -1292,6 +1358,7 @@ div.stores-block {
       color: #9B99AA;
       font-size: 18px;
       line-height: 21px;
+      width: 90%;
   }
   .subscribe-on-post__form {
     .row {
