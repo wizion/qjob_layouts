@@ -126,7 +126,46 @@ $(document).ready(()=>{
         delay: 300
     });
 
+        $('.unvoted>.block').on('click', function(){
+            let index_number = $('.block').index( this );
+            if (jQuery('.smiles').hasClass("unvoted")){
+                 $.post( "http://blog.qjob.hu/ajax_test.php", { smiles: true, object: index_number })
+                .done(function( data ) {
+                    var obj = $.parseJSON(data);
+            
+                    $('.smiles').removeClass('unvoted');
+                    $('.smiles').addClass('voted');
+
+                    $('.voted .block:eq('+obj.index+')').addClass('selected');
+
+                    if(obj.index==="1"){
+                        $('.voted>.block:eq('+0+')>.votes').text(obj.greate);
+                        $('.voted>.block:eq('+obj.index+')>.votes').text(obj.normal);
+                        $('.voted>.block:eq('+2+')>.votes').text(obj.bad);
+                    }
+                    if(obj.index==="2"){
+                        $('.voted>.block:eq('+0+')>.votes').text(obj.greate);
+                        $('.voted>.block:eq('+1+')>.votes').text(obj.normal);
+                        $('.voted>.block:eq('+obj.index+')>.votes').text(obj.bad);
+                    }
+                    if(obj.index==="0"){
+                        $('.voted>.block:eq('+0+')>.votes').text(obj.greate);
+                        $('.voted>.block:eq('+1+')>.votes').text(obj.normal);
+                        $('.voted>.block:eq('+2+')>.votes').text(obj.bad);
+                    }
+                });
+            }
+               
+        });
+
+
 });
+
+
+
+
+
+
 
 function fixes(){
     if($('#sidebar-blog').height()<screen.height && !window.matchMedia('(min-width:640px)').matches){
