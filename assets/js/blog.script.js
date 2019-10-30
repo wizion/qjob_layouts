@@ -126,10 +126,44 @@ $(document).ready(()=>{
         delay: 300
     });
 
+
+
+    $('.post-votes-section_button>button').on('click', function(){
+        let value = $(".post-votes-section_item input:checked").val();
+        let post_id = $("#post-votes-section_post_id").val();
+        if(typeof value != 'undefined'){
+            $.post( "http://blog.qjob.hu/ajax_test.php", { votes: true, object: value,post_id: post_id })
+            .done(function( data ) {
+                    $('.post-votes-section>.post-votes-section_list').addClass('voted');
+                    $('.alert').removeClass('visible');
+                    $('.alert').addClass('unvisible');
+                    let obj = $.parseJSON(data);
+
+
+                    for(let i=1;i<=count(obj);i++){
+                        $('.post-votes-section_item:eq('+(i-1)+')>.post-votes-section-progressbar').css("width", obj[i].procent+"%");
+                        $('.post-votes-section_item:eq('+(i-1)+')>.post-votes-section-descript>span:eq(0)').text(obj[i].votes);
+                        $('.post-votes-section_item:eq('+(i-1)+')>.post-votes-section-descript>span:eq(1)').text(obj[i].procent+'%');
+                    }
+            });
+        }else{
+            $('.alert').removeClass('unvisible');
+            $('.alert').addClass('visible');
+        }
+       
+
+    });
+
+
+ 
+
+
+
         $('.unvoted>.block').on('click', function(){
             let index_number = $('.block').index( this );
+            let post_id = $('#liked-history').val();
             if (jQuery('.smiles').hasClass("unvoted")){
-                 $.post( "http://blog.qjob.hu/ajax_test.php", { smiles: true, object: index_number })
+                 $.post( "http://blog.qjob.hu/ajax_test.php", { smiles: true, object: index_number,post_id: post_id })
                 .done(function( data ) {
                     var obj = $.parseJSON(data);
             
@@ -153,6 +187,9 @@ $(document).ready(()=>{
                         $('.voted>.block:eq('+1+')>.votes').text(obj.normal);
                         $('.voted>.block:eq('+2+')>.votes').text(obj.bad);
                     }
+
+                    $('.voted>.block:eq('+obj.index+')').addClass('selected');
+
                 });
             }
                
@@ -175,3 +212,16 @@ function fixes(){
         });
     }
 }
+function count(array)
+    {
+    var cnt=0;
+    for (var i in array)
+        {
+        if (i)
+            {
+            cnt++
+            }
+        }
+    return cnt
+    }
+
