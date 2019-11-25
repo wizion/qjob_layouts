@@ -1,0 +1,392 @@
+@media screen and (max-width: 1200px) {
+  body {
+    /*blog*/ }
+    body section.blogImage .main-image-elements .meta {
+      padding: 0; }
+      body section.blogImage .main-image-elements .meta h1 {
+        letter-spacing: .5px;
+        font-size: 68px;
+        line-height: 1.17; }
+      body section.blogImage .main-image-elements .meta .description {
+        width: 95%; }
+    body section.blogText {
+      grid-template: "ca bt ." 1fr/160px 630px 180px;
+      max-width: 960px; }
+      body section.blogText .customerAvatar {
+        max-width: 150px; }
+      body section.blogText .blogTextItem {
+        max-width: 620px; }
+        body section.blogText .blogTextItem p {
+          font-size: 18px; }
+        body section.blogText .blogTextItem iframe {
+          width: 100%; }
+        body section.blogText .blogTextItem h2, body section.blogText .blogTextItem h3, body section.blogText .blogTextItem a, body section.blogText .blogTextItem p {
+          padding: 15px 0 15px 0px; }
+        body section.blogText .blogTextItem img {
+          padding: 0;
+          width: 100%; }
+    body section.taskPage .sidebarFilter {
+      margin: 0 40px 20px 10px; }
+      body section.taskPage .sidebarFilter .categoryFilter {
+        margin-bottom: 40px; }
+    body section.taskPage .advList .item {
+      margin: 0 20px 15px 50px;
+      grid-template: "desc" 1fr;
+      grid-template-columns: auto; }
+    body section.taskPage .advList .avatar {
+      display: none; }
+
+  /* blog end */ }
+@media screen and (max-width: 1024px) {
+  body section.blogImage {
+    background-attachment: scroll;
+    min-height: 450px; }
+    body section.blogImage .mainImageElements {
+      width: 79vw; }
+      body section.blogImage .mainImageElements .meta .description {
+        margin: 0 auto; } }
+@media screen and (max-width: 960px) {
+  /*blog*/
+  body {
+    grid-template: [row1-start] "bh" auto [row1-end] [row2-start] "bn" auto [row2-end] [row3-start] "tb" [row3-end] [row4-start] "sl" auto [row4-end] [row5-start] "rp" auto [row5-end] [row6-start] "ft" auto [row6-end]/100%; }
+    body section.blogImage {
+      grid-auto-rows: 1fr auto;
+      min-height: 445px; }
+      body section.blogImage .mainImageElements {
+        align-self: center;
+        margin: 16vh 10vw 5vh; }
+        body section.blogImage .mainImageElements .meta {
+          padding-bottom: 0; }
+          body section.blogImage .mainImageElements .meta h1 {
+            font-size: 62px;
+            line-height: 62px; }
+    body section.social_links {
+      width: 95%; }
+    body section.blogText {
+      padding: 0 15px 0;
+      grid-template: "ca" auto "bt" auto/100%;
+      max-width: 100%; }
+      body section.blogText .blogTextItem a.qjobPostLink {
+        padding: 45px 10px;
+        width: 100%; }
+      body section.blogText .blogTextItem p, body section.blogText .blogTextItem img, body section.blogText .blogTextItem h2, body section.blogText .blogTextItem h3, body section.blogText .blogTextItem .citation {
+        padding: 10px 10px;
+        max-width: 600px; }
+      body section.blogText .blogTextItem iframe {
+        width: 100%; }
+      body section.blogText .blogTextItem .advice {
+        margin: 0 0;
+        width: 100%; }
+        body section.blogText .blogTextItem .advice .adviceBlock {
+          padding: 0; }
+      body section.blogText .blogTextItem .citation.cols_right, body section.blogText .blogTextItem .citation.cols_left {
+        margin: 30px 0 15px 0; }
+        body section.blogText .blogTextItem .citation.cols_right h3, body section.blogText .blogTextItem .citation.cols_left h3 {
+          width: 100%; }
+      body section.blogText .customerAvatar {
+        position: relative;
+        height: auto;
+        top: initial;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 80%;
+        padding: 10% 0; }
+        body section.blogText .customerAvatar .Paragraph {
+          margin: 0 auto;
+          display: block; }
+
+  /*end blog*/
+  header.blogBlock {
+    grid-template-areas: "logo enter nav lang mmenu";
+    grid-template-columns: auto 1fr 1fr auto auto; }
+
+  header {
+    grid-template-columns: auto auto 1fr 85px auto; }
+    header nav.jqob-hmenu {
+      padding: 0 5%; }
+      header nav.jqob-hmenu a {
+        margin: 0 auto;
+        font-size: 12px; }
+        header nav.jqob-hmenu a:first-child:before {
+          height: 12px;
+          width: 16px; }
+    header .enter a {
+      display: none; }
+
+  section.taskPage .sidebarFilter {
+    margin: 0 10px 20px 10px; }
+    section.taskPage .sidebarFilter input {
+      height: 18px; }
+    section.taskPage .sidebarFilter .filterBlock .cityField, section.taskPage .sidebarFilter .filterBlock .radiusOfSearch, section.taskPage .sidebarFilter .filterBlock .priceValue, section.taskPage .sidebarFilter .filterBlock .searchField {
+      padding: 5px 10px; }
+    section.taskPage .sidebarFilter .filterBlock .taskFilter label {
+      font-size: 10px;
+      line-height: 20px; }
+    section.taskPage .sidebarFilter .categoryFilter {
+      margin-bottom: 40px; }
+  section.taskPage .advList .item {
+    margin: 0 10px 15px 10px; } }
+@media screen and (max-width: 767px) {
+  body section.blogImage {
+    min-height: 600px; }
+    body section.blogImage .mainImageElements {
+      align-self: center;
+      margin: 16% 10vw 5vh; }
+      body section.blogImage .mainImageElements .meta h1 {
+        font-size: 61px;
+        line-height: 61px; } }
+@media screen and (max-width: 640px) {
+  header.tasks {
+    grid-template-areas: "logo lang mmenu";
+    grid-template-columns: 25% 1fr 10%; }
+  header .logo .logo-img {
+    background: url("../img/logomobile.png") no-repeat;
+    background-size: 55px 22px;
+    width: 55px;
+    height: 22px; }
+  header .languages {
+    justify-content: flex-end;
+    margin-right: 20px; }
+  header nav.jqob-hmenu {
+    display: none; }
+  header .enter {
+    display: none; }
+
+  section.taskPage {
+    grid-template-areas: "TabBlock TabBlock" "MapBlock MapBlock" "sideFilter sideFilter" "AdvList AdvList";
+    grid-template-columns: 1fr 30%; }
+    section.taskPage .titleAndMapButton {
+      margin: 20px 15px 0; }
+      section.taskPage .titleAndMapButton h1 {
+        font-size: 18px;
+        line-height: 21px; }
+      section.taskPage .titleAndMapButton div {
+        display: none; }
+    section.taskPage .advList .item {
+      border: 1px solid #EDE8F7;
+      box-sizing: border-box;
+      box-shadow: 0 4px 10px rgba(32, 32, 32, 0.1);
+      border-radius: 8px;
+      margin: 15px 15px 15px;
+      display: grid;
+      grid-template: "desc" 1fr;
+      padding: 20px 15px;
+      grid-template-columns: auto; }
+      section.taskPage .advList .item .allDesc {
+        grid-template: "itemStatus itemStatus itemStatus" auto "itemTitle itemTitle itemTitle" 1fr "itemPrice itemRisk itemRisk" auto "itemAddress itemAddress itemAddress" auto "itemDate itemDate itemDate" auto "itemAuthName itemLikes itemFavButtons" auto;
+        grid-template-columns: 100px 1fr 1fr; }
+        section.taskPage .advList .item .allDesc .status {
+          font-size: 10px;
+          line-height: 12px;
+          color: #9B99AA; }
+        section.taskPage .advList .item .allDesc h4.title {
+          font-size: 14px;
+          line-height: 20px; }
+        section.taskPage .advList .item .allDesc .date span {
+          display: block;
+          text-align: center;
+          font-size: 12px;
+          line-height: 14px; }
+        section.taskPage .advList .item .allDesc .riskDeal {
+          align-items: center;
+          margin-left: 5px; }
+          section.taskPage .advList .item .allDesc .riskDeal span {
+            display: none; }
+        section.taskPage .advList .item .allDesc .price {
+          text-align: left; }
+          section.taskPage .advList .item .allDesc .price span {
+            font-size: 14px;
+            line-height: 16px;
+            width: 80%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-self: center; }
+        section.taskPage .advList .item .allDesc .address {
+          margin: 10px 0;
+          font-size: 12px;
+          line-height: 22px; }
+        section.taskPage .advList .item .allDesc .authorName {
+          text-align: center;
+          align-self: center; }
+        section.taskPage .advList .item .allDesc .likes {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-self: center; }
+        section.taskPage .advList .item .allDesc .buttons {
+          align-self: center; }
+      section.taskPage .advList .item .avatar {
+        display: none; }
+    section.taskPage .sidebarFilter .searchFieldMobile {
+      display: flex; }
+      section.taskPage .sidebarFilter .searchFieldMobile input {
+        color: inherit;
+        font-size: inherit;
+        line-height: inherit; }
+    section.taskPage .sidebarFilter .filterBlock {
+      display: none; }
+    section.taskPage .sidebarFilter .categoryFilter {
+      display: none; }
+    section.taskPage .sidebarFilter .categoryFilterMobile {
+      justify-items: center;
+      line-height: 24px;
+      display: -webkit-flex;
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      justify-content: flex-end;
+      margin: 15px auto; }
+      section.taskPage .sidebarFilter .categoryFilterMobile .catButton {
+        align-content: flex-start;
+        display: inherit;
+        margin-right: auto; }
+        section.taskPage .sidebarFilter .categoryFilterMobile .catButton:before {
+          content: "";
+          width: 18px;
+          height: 18px;
+          background-repeat: no-repeat;
+          margin: auto 5px auto 15px;
+          background-image: url("../img/buttons/list.png");
+          display: block; }
+      section.taskPage .sidebarFilter .categoryFilterMobile .filtrList {
+        align-content: flex-end;
+        display: inherit;
+        margin: 0 15px; }
+        section.taskPage .sidebarFilter .categoryFilterMobile .filtrList:before {
+          display: block;
+          content: "";
+          width: 24px;
+          height: 24px;
+          background-repeat: no-repeat;
+          margin: auto 5px auto 10px;
+          background-image: url("../img/buttons/flterList.png"); }
+
+  footer {
+    border-top: 1px solid #EDE8F7;
+    display: grid;
+    grid-template-areas: "lc";
+    grid-template-columns: 1fr;
+    margin: 40px 0 0 0; }
+    footer .footer_menu {
+      display: none; }
+
+  /*blog*/
+  body section.blogImage {
+    background-attachment: scroll;
+    grid-template-areas: "metaText" "imageNavBar";
+    justify-content: space-between;
+    height: 73vh; }
+    body section.blogImage .mainImageElements {
+      align-self: center;
+      margin: 20vh 5vw 5vh;
+      width: 90%; }
+      body section.blogImage .mainImageElements .meta h1 {
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 40px; }
+      body section.blogImage .mainImageElements .meta .description {
+        font-size: 14px;
+        line-height: 20px; }
+    body section.blogImage .mainImageBar {
+      margin: 0 5vw 15px;
+      align-self: center; }
+      body section.blogImage .mainImageBar .shares .qjobShareButton .shareWindow {
+        width: 95%;
+        top: initial;
+        position: fixed;
+        bottom: 30px;
+        left: 2.5%; }
+        body section.blogImage .mainImageBar .shares .qjobShareButton .shareWindow::after {
+          display: none; }
+      body section.blogImage .mainImageBar .arrow svg {
+        width: 26px; }
+  body section.blogText {
+    padding: 0;
+    margin: initial;
+    grid-template: "ca" auto "bt" auto/100%;
+    max-width: 640px; }
+    body section.blogText .blogTextItem a.qjobPostLink {
+      padding: 10px 2%;
+      width: 96%; }
+    body section.blogText .blogTextItem p, body section.blogText .blogTextItem h2, body section.blogText .blogTextItem h3, body section.blogText .blogTextItem .citation {
+      padding: 10px 20px;
+      width: 90%; }
+    body section.blogText .blogTextItem p {
+      font-size: 16px; }
+    body section.blogText .blogTextItem img {
+      margin: 30px auto;
+      padding: 0;
+      width: 100%; }
+    body section.blogText .blogTextItem .fotorama {
+      width: 100%; }
+    body section.blogText .blogTextItem .citation {
+      margin: 30px 0; }
+      body section.blogText .blogTextItem .citation.cols_left {
+        width: 96%;
+        float: initial;
+        padding: 30px 2%; }
+      body section.blogText .blogTextItem .citation.cols_right {
+        width: 96%;
+        float: initial;
+        padding: 30px 2%; }
+      body section.blogText .blogTextItem .citation.full_width {
+        padding: 10px 20px;
+        width: 90%;
+        float: none; }
+      body section.blogText .blogTextItem .citation h2, body section.blogText .blogTextItem .citation h3, body section.blogText .blogTextItem .citation h4, body section.blogText .blogTextItem .citation p {
+        margin: -10px 0 5px;
+        width: 95%; }
+  body section.relatedPosts {
+    padding: 40px 15px; }
+    body section.relatedPosts .relatedPostsList {
+      flex-flow: initial;
+      justify-content: initial;
+      overflow: auto; }
+      body section.relatedPosts .relatedPostsList .item {
+        width: 278px;
+        margin: 10px 8px; }
+        body section.relatedPosts .relatedPostsList .item .image img {
+          max-width: 272px;
+          width: initial; }
+
+  /*end blog*/ }
+@media screen and (max-width: 480px) {
+  body section.blogImage {
+    height: 85vh; }
+  body section.blogText {
+    padding: 0 0px 0;
+    grid-template: "ca" auto "bt" auto/100%;
+    max-width: 100%; }
+    body section.blogText .blogTextItem {
+      padding: 0 0%;
+      width: 100%; }
+      body section.blogText .blogTextItem a.qjobPostLink {
+        padding: 45px 20px 45px;
+        width: 86%; }
+      body section.blogText .blogTextItem p {
+        padding: 10px 20px 15px;
+        width: 86%; }
+      body section.blogText .blogTextItem h2 {
+        padding: 30px 20px 0;
+        width: 86%;
+        font-weight: 700; }
+      body section.blogText .blogTextItem h3 {
+        padding: 30px 20px 0;
+        width: 86%;
+        font-weight: 700; }
+      body section.blogText .blogTextItem .citation {
+        padding: 30px 20px 0;
+        width: 86%; }
+        body section.blogText .blogTextItem .citation.full_width, body section.blogText .blogTextItem .citation.cols_right, body section.blogText .blogTextItem .citation.cols_left {
+          padding: 30px 20px 0;
+          width: 86%; } }
+@media screen and (max-width: 320px) {
+  body section.blogImage {
+    height: 624px; }
+  body section.blogText {
+    padding: 0 0px 0;
+    grid-template: "ca" auto "bt" auto/100%;
+    max-width: 100%; } }
+
+/*# sourceMappingURL=responsive.css.map */

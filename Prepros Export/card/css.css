@@ -1,0 +1,189 @@
+body {
+  font-family: "LetoSans",sans-serif; }
+  body .site-block {
+    width: 747px;
+    margin: 0 auto; }
+  body p.task-is-done {
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D1539;
+    margin: 0 15px 30px 15px; }
+  body .offer {
+    border: 1px solid #EDE8F7;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 18px 16px;
+    margin: 5px 15px; }
+    body .offer .first-info {
+      height: 75px; }
+      body .offer .first-info .avatar {
+        border: 2px solid #3adb76;
+        display: block;
+        float: left;
+        border-radius: 50%;
+        vertical-align: top;
+        margin: 0 5px 5px 0; }
+        body .offer .first-info .avatar img {
+          border-radius: 50%;
+          border: 2px solid #FFFFFF;
+          width: 62px;
+          height: 62px; }
+      body .offer .first-info .name-block {
+        width: 50%;
+        float: left;
+        display: block; }
+        body .offer .first-info .name-block .name {
+          font-family: "LetoSans",sans-serif;
+          font-size: 16px;
+          line-height: 22px;
+          color: #2E09B6;
+          vertical-align: middle;
+          margin: 5px 0 3px 6px; }
+          body .offer .first-info .name-block .name img {
+            display: inline-block;
+            vertical-align: sub; }
+        body .offer .first-info .name-block .likes {
+          font-family: 'LetoSans',sans-serif;
+          font-size: 12px;
+          line-height: 14px;
+          margin: 0px 0 2px 7px;
+          color: #6A6976; }
+          body .offer .first-info .name-block .likes span {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 17px;
+            margin-right: 3px; }
+            body .offer .first-info .name-block .likes span img {
+              width: 13px;
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: 4px; }
+        body .offer .first-info .name-block .place-in-rate {
+          font-family: "LetoSans",sans-serif;
+          font-size: 12px;
+          line-height: 14px;
+          color: #9B99AA;
+          margin: 0 0 0 5px; }
+      body .offer .first-info .date-block {
+        font-size: 12px;
+        line-height: 20px;
+        color: #9B99AA;
+        margin-top: 2px;
+        float: right; }
+    body .offer .reserv-and-price {
+      margin-bottom: 3px;
+      margin-top: 6px;
+      display: block;
+      clear: both; }
+      body .offer .reserv-and-price span {
+        display: inline-block; }
+        body .offer .reserv-and-price span.price {
+          background: #FFDA58;
+          border-radius: 4px;
+          font-family: 'LetoSans-Bold', sans-serif;
+          font-size: 16px;
+          line-height: 25px;
+          color: #1D1539;
+          padding: 0 4px;
+          margin: 0 2px 0 5px; }
+        body .offer .reserv-and-price span.no-risk {
+          display: inline-block;
+          vertical-align: middle; }
+    body .offer .pay-via-card {
+      margin-left: 4px; }
+      body .offer .pay-via-card p {
+        font-family: 'LetoSans', sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+        color: #9B99AA;
+        letter-spacing: 0px;
+        display: inline-block;
+        margin: 1px 1px 1px 2px; }
+        body .offer .pay-via-card p img.no-risk-question {
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 0 0 5px; }
+    body .offer .self-description {
+      margin-left: 5px;
+      margin-bottom: 43px; }
+      body .offer .self-description p {
+        font-family: "LetoSans",sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        color: #1D1539; }
+    body .offer .hr hr {
+      margin: 10px 0 !important; }
+    body .offer .disput-block a {
+      font-size: 14px;
+      line-height: 22px;
+      color: #9B99AA;
+      display: inline-block;
+      vertical-align: middle;
+      text-decoration: none;
+      margin: 0 8px 0 5px; }
+      body .offer .disput-block a img {
+        vertical-align: middle;
+        display: inline-block; }
+    body .offer .contacts {
+      margin: 10px 0; }
+      body .offer .contacts span {
+        font-family: 'LetoSans-Bold',sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        color: #1D1539;
+        display: block;
+        margin-bottom: 4px; }
+  body .paragraph {
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D1539; }
+  body hr {
+    border: 0;
+    border-top: 1px solid #dadada;
+    display: block;
+    height: 1px;
+    margin: 1em 10px;
+    padding: 0; }
+  body .buttons {
+    text-align: center;
+    text-decoration: none; }
+    body .buttons.margin30 {
+      margin: 20px 0 30px;
+      display: block; }
+    body .buttons.nocenter {
+      text-align: initial; }
+    body .buttons .button {
+      background: #13C98A;
+      border-radius: 44px;
+      font-family: "LetoSans-Bold",sans-serif;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      text-decoration: none;
+      color: #FFFFFF;
+      display: block;
+      margin: 4px 5px;
+      padding: 8px 0 10px; }
+      body .buttons .button img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px; }
+      body .buttons .button.white {
+        background: #FFFFFF;
+        color: #1D1539;
+        border: 1px solid #9B99AA;
+        box-sizing: border-box;
+        border-radius: 44px;
+        padding: 8px 12px 8px 12px !important; }
+      body .buttons .button.inline {
+        display: inline-block;
+        padding: 8px 12px 10px 12px; }
+      body .buttons .button.not-100-percent {
+        display: initial;
+        padding: 8px 30px 10px;
+        margin: 10px 0 30px; }
+      body .buttons .button.marginRight12px {
+        padding: 15px 12px 0 0; }
+
+/*# sourceMappingURL=css.css.map */
