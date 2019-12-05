@@ -56,25 +56,51 @@ $grey3: #EDE8F7;
                     font-size: 18px;
                 }
 
-                iframe {
-                    width: 100%;
+                .video {
+                    iframe {
+                        width: 100%;
 
-                    &+.image_description {
-                        margin: 15px 0;
-                        display: block;
+                        &+.image_description {
+                            margin: 15px 0;
+                            display: block;
+                        }
                     }
                 }
 
+
+                ul,
+                ol {
+                    padding: 15px 0 15px 0;
+                }
+
                 h2,
-                h3,
+                h3 {
+                    padding: 15px 0 5px 0;
+                }
+
                 a,
                 p {
                     padding: 15px 0 15px 0;
                 }
 
+                .fotorama {
+                    padding: 0;
+                    width: 100%;
+                    border-radius: 20px;
+                    margin: 0 0 30px;
+
+                    img {
+                        margin: 25px 0 15px !important;
+                    }
+
+                    .fotorama__stage__shaft {
+                        width: initial !important;
+                    }
+                }
+
                 img {
                     padding: 0;
-                    margin: 53px 0 5px 0;
+                    margin: 25px 0 5px 0;
                     width: 100%;
 
                     &+.image_description {
@@ -187,20 +213,23 @@ $grey3: #EDE8F7;
             max-width: 100%;
 
             .blog-text-item {
-                a.qjob-post-link {
-                    padding: 45px 0;
-                    width: 100%;
+                p {
+                    a.qjob-post-link {
+                        padding: 10px 0;
+                        width: 100%;
+                    }
                 }
+
 
                 p {}
 
                 img,
                 h2,
                 h3,
+                h4,
                 blockquote {
-                    padding: 10px 0;
+                    padding: 15px 0 5px 0;
                     max-width: 600px;
-                    margin: 53px 0 0;
                     border-radius: 20px;
                 }
 
@@ -272,7 +301,7 @@ $grey3: #EDE8F7;
 
                     &.cols_right,
                     &.cols_left {
-                        margin: 30px 0 15px 0;
+                        padding: 30px 5% 15px;
 
                         h3 {
                             width: 100%;
@@ -295,26 +324,6 @@ $grey3: #EDE8F7;
                 .paragraph {
                     margin: 0 auto;
                     display: block;
-                }
-            }
-        }
-
-        .prices-from-masters {
-            margin: 30px 0;
-
-            .title {}
-
-            .prices-from-masters__list {
-                .prices-from-masters__link {
-                    margin: 10px 0 10px;
-
-                    &:before {}
-
-                    p {
-
-                        width: 80%;
-
-                    }
                 }
             }
         }
@@ -470,173 +479,7 @@ section.task-page {
         }
     }
 
-    section.task-page {
-        grid-template-areas: "TabBlock TabBlock""MapBlock MapBlock""sideFilter sideFilter""AdvList AdvList";
-        grid-template-columns: 1fr 30%;
 
-        .title-and-map-button {
-            margin: 20px 15px 0;
-
-            h1 {
-                font-size: 18px;
-                line-height: 21px;
-            }
-
-            div {
-                display: none;
-            }
-        }
-
-        .adv-list {
-            .item {
-                border: 1px solid #EDE8F7;
-                box-sizing: border-box;
-                box-shadow: 0 4px 10px rgba(32, 32, 32, 0.1);
-                border-radius: 8px;
-                margin: 15px 15px 15px;
-                display: grid;
-                grid-template: "desc"1fr;
-                padding: 20px 15px;
-                grid-template-columns: auto;
-
-                .all-desc {
-                    grid-template: "itemStatus itemStatus itemStatus"auto "itemTitle itemTitle itemTitle"1fr "itemPrice itemRisk itemRisk"auto "itemAddress itemAddress itemAddress"auto "itemDate itemDate itemDate"auto "itemAuthName itemLikes itemFavButtons"auto;
-                    grid-template-columns: 100px 1fr 1fr;
-
-                    .status {
-                        font-size: 10px;
-                        line-height: 12px;
-                        color: $grey1;
-                    }
-
-                    h4.title {
-                        font-size: 14px;
-                        line-height: 20px;
-                    }
-
-                    .date {
-                        span {
-                            display: block;
-                            text-align: center;
-                            font-size: 12px;
-                            line-height: 14px;
-                        }
-                    }
-
-                    .risk-deal {
-                        align-items: center;
-                        margin-left: 5px;
-
-                        span {
-                            display: none;
-                        }
-                    }
-
-                    .price {
-                        text-align: left;
-
-                        span {
-                            font-size: 14px;
-                            line-height: 16px;
-                            width: 80%;
-                            display: flex;
-                            text-align: center;
-                            justify-content: center;
-                            align-self: center;
-                        }
-                    }
-
-                    .address {
-                        margin: 10px 0;
-                        font-size: 12px;
-                        line-height: 22px;
-                    }
-
-                    .author-name {
-                        text-align: center;
-                        align-self: center;
-                    }
-
-                    .likes {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: flex-start;
-                        align-self: center;
-                    }
-
-                    .buttons {
-                        align-self: center;
-                    }
-                }
-
-                .avatar {
-                    display: none;
-                }
-            }
-        }
-
-        .sidebar-filter {
-            .search-field-mobile {
-                display: flex;
-
-                input {
-                    color: inherit;
-                    font-size: inherit;
-                    line-height: inherit;
-                }
-            }
-
-            .filter-block {
-                display: none;
-            }
-
-            .category-filter {
-                display: none;
-            }
-
-            .category-filter-mobile {
-                line-height: 24px;
-                display: -webkit-flex;
-                display: flex;
-                list-style-type: none;
-                padding: 0;
-                justify-content: flex-end;
-                margin: 15px auto;
-
-                .cat-button {
-                    align-content: flex-start;
-                    display: inherit;
-                    margin-right: auto;
-
-                    &:before {
-                        content: "";
-                        width: 18px;
-                        height: 18px;
-                        background-repeat: no-repeat;
-                        margin: auto 5px auto 15px;
-                        background-image: url('../img/buttons/list.png');
-                        display: block;
-                    }
-                }
-
-                .filtr-list {
-                    align-content: flex-end;
-                    display: inherit;
-                    margin: 0 15px;
-
-                    &:before {
-                        display: block;
-                        content: "";
-                        width: 24px;
-                        height: 24px;
-                        background-repeat: no-repeat;
-                        margin: auto 5px auto 10px;
-                        background-image: url('../img/buttons/flterList.png');
-                    }
-                }
-            }
-        }
-    }
 
     div.you-wants-to {
         padding: 10px 5% 9px;
@@ -651,11 +494,6 @@ section.task-page {
             }
         }
     }
-
-
-
-
-
 
     div.stores-block {
         .stores-block_title {
@@ -791,30 +629,43 @@ section.task-page {
             max-width: 640px;
 
             .blog-text-item {
-                a.qjob-post-link {
-                    padding: 10px 2%;
-                    width: 96%;
+                p {
+                    a.qjob-post-link {
+                        padding: 10px 0;
+                        width: 90%;
 
-                    &:before {
-                        width: 50px;
+                        &:before {
+                            width: 50px;
+                        }
                     }
                 }
+
 
                 p,
                 h2,
                 h3,
+                h4,
                 blockquote {
-                    padding: 10px 5%;
+                    padding: 10px 5% 5px;
                     width: 90%;
-                    margin: 30px 0 0;
+                    margin: 0px 0 0;
+                }
+
+                ul,
+                ol {
+                    padding: 10px 5%;
+
+                    li {
+                        font-size: 16px;
+                    }
                 }
 
                 h2,
-                h3 {
-                    margin: 5px 0 0;
+                h3,
+                h4 {
 
                     &+p {
-                        padding-top: 25px;
+                        padding-top: 9px;
                     }
                 }
 
@@ -823,14 +674,32 @@ section.task-page {
                     margin: 0;
                 }
 
-                iframe {
+                .prices-from-masters {
+                    margin: 30px 5%;
 
+                    p {
+                        flex-basis: 100%;
+
+                        &:last-child {
+                            margin: 0 0 0px 0;
+                        }
+                    }
+                }
+
+
+
+                .video {
                     width: 110%;
                     margin: 10px -5% 10px;
 
-                    &+.image_description {
-                        margin: 10px 0;
-                        display: block;
+                    iframe {
+                        padding: 0;
+                        width: 100%;
+
+                        &+.image_description {
+                            margin: 10px 0;
+                            display: block;
+                        }
                     }
                 }
 
@@ -882,7 +751,7 @@ section.task-page {
                 }
 
                 blockquote {
-                    margin: 30px 0;
+                    margin: 0px 0;
 
                     &.cols_left {
                         width: 90%;
@@ -908,31 +777,6 @@ section.task-page {
                     p {
                         margin: -10px 0 5px;
                         width: 95%;
-                    }
-                }
-            }
-        }
-
-
-
-
-
-        .prices-from-masters {
-            margin: 30px 5%;
-
-            .title {}
-
-            .prices-from-masters__list {
-                .prices-from-masters__link {
-                    margin: 10px 0 10px;
-                    max-width: 100%;
-
-                    &:before {}
-
-                    p {
-
-                        width: 80%;
-
                     }
                 }
             }
@@ -972,7 +816,7 @@ section.task-page {
 
                 img {
                     &+.image_description {
-                        margin: 10px 0;
+                        margin: 10px 0 0;
                         display: block;
                     }
 
@@ -989,7 +833,7 @@ section.task-page {
 
                 iframe {
                     &+.image_description {
-                        margin: 10px 0;
+                        margin: 10px 0 0;
                         display: block;
                     }
 
@@ -1004,29 +848,28 @@ section.task-page {
                     }
                 }
 
-                h2 {
-                    padding: 30px 5% 0;
+                h2,
+                h3,
+                h4 {
+                    padding: 20px 5% 0;
                     width: 90%;
                     font-weight: 700;
                 }
 
-                h3 {
-                    padding: 30px 5% 0;
-                    width: 90%;
-                    font-weight: 700;
-                }
 
                 .advice {}
 
                 blockquote {
-                    padding: 30px 5% 0;
+                    padding: 20px 5% 20px;
                     width: 90%;
+                    margin: 0px 0 0 0;
 
                     &.full_width,
                     &.cols_right,
                     &.cols_left {
-                        padding: 30px 5% 0;
+                        padding: 20px 5% 20px;
                         width: 90%;
+                        margin: 10px 0 0 0;
                     }
                 }
             }
